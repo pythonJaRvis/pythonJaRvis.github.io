@@ -1,0 +1,11 @@
+**/venv
+**/.vscode
+**/.idea
+**/.history
+**/__pycache__
+**/backup
+**/olddata
+/.history
+_site
+.sass-cache
+.jekyll-metadata

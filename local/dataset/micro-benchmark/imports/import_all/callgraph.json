@@ -1,0 +1,5 @@
+{
+  "main": ["from_module2.func1", "from_module2.func2"],
+  "from_module.func1": [],
+  "from_module.func2": []
+}

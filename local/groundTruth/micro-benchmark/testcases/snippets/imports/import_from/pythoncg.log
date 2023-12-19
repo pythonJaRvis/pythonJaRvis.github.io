@@ -1,0 +1,24 @@
+/Users/yixuanyan/yyx/github/supplychain/YanYiXuan/pythonCG/micro-benchmark/snippets/imports/import_from/main.py
+/Users/yixuanyan/yyx/github/supplychain/YanYiXuan/pythonCG/micro-benchmark/snippets/imports/import_from/from_module.py
+0.0006358623504638672
+pass
+real 0.09
+user 0.07
+sys 0.01
+            23953408  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1867  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  25  involuntary context switches
+          1002284904  instructions retired
+           291413321  cycles elapsed
+            19514240  peak memory footprint

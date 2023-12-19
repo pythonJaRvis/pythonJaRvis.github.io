@@ -1,0 +1,21 @@
+{"main": ["main.func1", "main.local_change", "main.cls.__init__", "main.func2"], "main.func1": [], "main.func2": [], "main.cls.__init__": [], "main.local_change": ["from_module.ext_change"], "from_module.ext_change": [], "from_module": []}
+real 0.09
+user 0.08
+sys 0.01
+            23363584  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1831  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                  18  involuntary context switches
+          1060114868  instructions retired
+           300941117  cycles elapsed
+            18907904  peak memory footprint

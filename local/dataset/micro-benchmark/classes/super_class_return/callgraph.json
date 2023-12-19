@@ -1,0 +1,8 @@
+{
+  "main": ["main.A.func1", "main.B.func2", "main.B.__init__"],
+  "main.A.__init__": [],
+  "main.A.func1": [],
+  "main.B.__init__": ["<builtin>.super"],
+  "<builtin>.super": [],
+  "main.B.func2": []
+}

@@ -1,0 +1,8 @@
+{
+    "main": [
+        "main.cls.foo",
+        "main.cls.__enter__",
+        "main.cls.__exit__",
+        "main.cls.__init__"
+    ]
+}

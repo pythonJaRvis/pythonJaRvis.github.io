@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: textrank4zh
+Version: 0.3
+Summary: Extract keywords and abstract Chinese article
+Home-page: https://github.com/someus/TextRank4ZH
+Author: Letian Sun
+Author-email: sunlt1699@gmail.com
+License: MIT
+Keywords: NLP,Chinese,Keywords extraction,Abstract extraction
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE
+Requires-Dist: jieba>=0.35
+Requires-Dist: numpy>=1.7.1
+Requires-Dist: networkx>=1.9.1
+
+
+Please go to https://github.com/someus/TextRank4ZH for more info.

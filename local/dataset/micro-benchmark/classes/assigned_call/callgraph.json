@@ -1,0 +1,5 @@
+{
+  "main": ["main.MyClass.func", "main.MyClass.__init__"],
+  "main.MyClass.__init__": [],
+  "main.MyClass.func": []
+}

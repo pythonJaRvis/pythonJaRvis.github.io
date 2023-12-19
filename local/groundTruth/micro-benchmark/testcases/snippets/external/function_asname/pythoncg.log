@@ -1,0 +1,23 @@
+/Users/yixuanyan/yyx/github/supplychain/YanYiXuan/pythonCG/micro-benchmark/snippets/external/function_asname/main.py
+0.001107931137084961
+pass
+real 0.09
+user 0.07
+sys 0.01
+            23330816  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1827  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  20  involuntary context switches
+          1009103303  instructions retired
+           289251012  cycles elapsed
+            18875200  peak memory footprint

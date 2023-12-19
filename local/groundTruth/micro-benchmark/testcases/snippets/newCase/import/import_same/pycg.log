@@ -1,0 +1,21 @@
+{"main": ["from_module_2.func"], "from_module_2.func": [], "from_module_1": [], "from_module_2": []}
+real 0.09
+user 0.08
+sys 0.01
+            23560192  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1834  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                  18  involuntary context switches
+          1048171204  instructions retired
+           296628749  cycles elapsed
+            19153856  peak memory footprint

@@ -1,0 +1,7 @@
+{
+  "main": ["nested.nested.Smth.func"],
+  "nested.nested.Smth.func": [],
+  "nested.nested": ["nested.nested.Smth.__init__"],
+  "nested": [],
+  "nested.nested.Smth.__init__": []
+}

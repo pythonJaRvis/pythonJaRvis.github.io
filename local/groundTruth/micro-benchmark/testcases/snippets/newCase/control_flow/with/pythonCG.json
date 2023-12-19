@@ -1,0 +1,13 @@
+{
+    "main": [
+        "main.cls.__init__",
+        "main.cls.__exit__",
+        "main.cls.foo",
+        "main.cls.__enter__"
+    ],
+    "main.cls": [],
+    "main.cls.__init__": [],
+    "main.cls.__enter__": [],
+    "main.cls.__exit__": [],
+    "main.cls.foo": []
+}

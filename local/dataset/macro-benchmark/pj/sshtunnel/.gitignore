@@ -1,0 +1,29 @@
+# sshtunnel
+.python-version
+.venv
+.idea
+.env
+
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg*/
+*.py[cod]
+__pycache__/
+*.so
+.*cache*/
+#*~
+
+# due to using tox and pytest
+.tox
+.cache
+.coverage*
+*cov*
+pytestdebug.log
+
+# due to sphinx
+docs/_build/
+
+# Pipfile
+Pipfile*

@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+textrank4zh/Segmentation.py
+textrank4zh/TextRank4Keyword.py
+textrank4zh/TextRank4Sentence.py
+textrank4zh/__init__.py
+textrank4zh/stopwords.txt
+textrank4zh/util.py
+textrank4zh.egg-info/PKG-INFO
+textrank4zh.egg-info/SOURCES.txt
+textrank4zh.egg-info/dependency_links.txt
+textrank4zh.egg-info/requires.txt
+textrank4zh.egg-info/top_level.txt

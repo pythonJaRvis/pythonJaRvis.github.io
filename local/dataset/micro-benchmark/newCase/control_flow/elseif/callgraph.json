@@ -1,0 +1,14 @@
+{
+  "insider.C": [],
+  "insider.D": [],
+  "insider.A.__init__": [],
+  "insider": [],
+  "insider.B": [],
+  "main": ["insider.D.__init__", "insider.C.__init__", "insider.A.__init__"],
+  "insider.C.__init__": [],
+  "insider.D.__init__": [],
+  "insider.E": [],
+  "insider.B.__init__": [],
+  "insider.A": [],
+  "insider.E.__init__": []
+}

@@ -1,0 +1,8 @@
+{
+  "main.func2": [],
+  "main.cls": [],
+  "main.func1": [],
+  "main.change": [],
+  "main": ["main.func2", "main.cls.__init__", "main.change"],
+  "main.cls.__init__": []
+}

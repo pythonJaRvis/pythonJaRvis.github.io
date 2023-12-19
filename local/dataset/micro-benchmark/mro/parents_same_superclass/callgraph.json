@@ -1,0 +1,6 @@
+{
+  "main": ["main.D.__init__", "main.C.func"],
+  "main.A.__init__": [],
+  "main.A.func": [],
+  "main.C.func": []
+}

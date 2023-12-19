@@ -1,0 +1,1 @@
+{"main": ["main.func2", "main.cls.__init__", "from_module.ext_change", "<builtin>.print", "main.func1"], "main.func1": [], "main.func2": [], "main.cls.__init__": [], "from_module.ext_change": ["from_module.ext_change.change"], "<builtin>.print": [], "from_module": [], "from_module.ext_change.change": []}

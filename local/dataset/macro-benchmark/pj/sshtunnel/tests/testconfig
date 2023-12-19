@@ -1,0 +1,9 @@
+Host *
+  User test
+  Compression yes
+  IdentityFile testrsa.key
+Host test
+  ProxyCommand ssh -q -W %h:%p sshproxy
+Host other
+  Port 222
+  Hostname 10.0.0.1

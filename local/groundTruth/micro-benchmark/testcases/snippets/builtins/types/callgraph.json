@@ -1,0 +1,10 @@
+{
+    "main": [
+        "<str>.split",
+        "<str>.join",
+        "<map>.items"
+    ],
+    "<str>.join": [],
+    "<str>.split": [],
+    "<map>.items": []
+}

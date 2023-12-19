@@ -1,0 +1,6 @@
+{
+  "main.local": [],
+  "from_module.func": [],
+  "main": ["from_module.func"],
+  "from_module": []
+}

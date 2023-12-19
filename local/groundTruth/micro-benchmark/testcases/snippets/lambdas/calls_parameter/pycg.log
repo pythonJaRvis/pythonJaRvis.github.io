@@ -1,0 +1,21 @@
+{"main": ["main.<lambda1>"], "main.func1": [], "main.func2": [], "main.<lambda1>": ["main.func1", "main.func2"]}
+real 0.09
+user 0.08
+sys 0.01
+            23560192  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1845  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                  16  involuntary context switches
+          1044870966  instructions retired
+           296331947  cycles elapsed
+            19137408  peak memory footprint

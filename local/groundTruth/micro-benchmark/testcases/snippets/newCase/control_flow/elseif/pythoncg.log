@@ -1,0 +1,24 @@
+/Users/yixuanyan/yyx/github/supplychain/YanYiXuan/pythonCG/micro-benchmark/snippets/newCase/control_flow/elseif/main.py
+/Users/yixuanyan/yyx/github/supplychain/YanYiXuan/pythonCG/micro-benchmark/snippets/newCase/control_flow/elseif/insider.py
+0.001661062240600586
+pass
+real 0.09
+user 0.07
+sys 0.01
+            23363584  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1832  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  16  involuntary context switches
+          1017604617  instructions retired
+           290921581  cycles elapsed
+            18891520  peak memory footprint

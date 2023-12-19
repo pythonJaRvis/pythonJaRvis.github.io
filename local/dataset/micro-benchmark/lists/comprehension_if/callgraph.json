@@ -1,0 +1,5 @@
+{
+  "main": ["<builtin>.range", "main.func"],
+  "main.func": [],
+  "<builtin>.range": []
+}

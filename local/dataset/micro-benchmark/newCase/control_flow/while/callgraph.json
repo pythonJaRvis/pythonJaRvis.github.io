@@ -1,0 +1,20 @@
+{
+  "main.func2": [],
+  "main.Cls_a.__init__": [],
+  "main.Cls_b.__init__": [],
+  "main.func3": [],
+  "main": [
+    "main.func2",
+    "main.Cls_a.__init__",
+    "main.Cls_b.__init__",
+    "<builtin>.id",
+    "main.func3",
+    "main.Cls_c.__init__"
+  ],
+  "<builtin>.id": [],
+  "main.Cls_c.__init__": [],
+  "main.func1": [],
+  "main.Cls_a": [],
+  "main.Cls_c": [],
+  "main.Cls_b": []
+}

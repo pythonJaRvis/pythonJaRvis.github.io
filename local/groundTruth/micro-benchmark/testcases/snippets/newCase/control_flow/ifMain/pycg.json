@@ -1,0 +1,1 @@
+{"main": ["main.foo2", "ext"], "ext": ["ext.foo1"], "main.foo2": [], "ext.foo1": []}

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jarvis"
+version = "0.1.0"
+description = "A callgraph generator for Python"
+authors = ["Mark Bekooy <mark.bekooy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

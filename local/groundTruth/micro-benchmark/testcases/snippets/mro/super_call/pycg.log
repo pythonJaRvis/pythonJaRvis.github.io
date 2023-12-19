@@ -1,0 +1,21 @@
+{"main": ["main.C.__init__"], "main.A.__init__": ["main.A.__init__.f"], "main.A.__init__.f": [], "main.B.__init__": ["<builtin>.super"], "<builtin>.super": [], "main.C.__init__": ["<builtin>.super"]}
+real 0.09
+user 0.07
+sys 0.01
+            23166976  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1820  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                  17  involuntary context switches
+          1053136619  instructions retired
+           298789642  cycles elapsed
+            18727744  peak memory footprint

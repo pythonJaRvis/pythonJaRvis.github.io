@@ -1,0 +1,21 @@
+{"main": ["main.func1", "main.func3", "main.func2"], "main.func1": [], "main.func2": [], "main.func3": []}
+real 0.09
+user 0.07
+sys 0.01
+            23953408  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1865  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                  20  involuntary context switches
+          1047617345  instructions retired
+           299807341  cycles elapsed
+            19579968  peak memory footprint

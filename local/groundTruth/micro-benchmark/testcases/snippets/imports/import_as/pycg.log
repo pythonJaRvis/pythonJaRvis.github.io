@@ -1,0 +1,21 @@
+{"main": ["to_import.func"], "to_import.func": [], "to_import": []}
+real 0.09
+user 0.07
+sys 0.01
+            23199744  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1822  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                  18  involuntary context switches
+          1043332210  instructions retired
+           295200686  cycles elapsed
+            18744064  peak memory footprint

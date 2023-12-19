@@ -1,0 +1,23 @@
+/Users/yixuanyan/yyx/github/supplychain/YanYiXuan/pythonCG/micro-benchmark/snippets/generators/iter_return/main.py
+0.0008141994476318359
+pass
+real 0.09
+user 0.07
+sys 0.01
+            24002560  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1873  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                  18  involuntary context switches
+          1007863084  instructions retired
+           291183245  cycles elapsed
+            19563456  peak memory footprint
