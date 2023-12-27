@@ -1,0 +1,912 @@
+{
+    "bpytop": [
+        "bpytop.Mv",
+        "bpytop.MemCollector",
+        "bpytop.Config.__init__",
+        "bpytop.Colors",
+        "bpytop.Banner",
+        "bpytop.Menu",
+        "bpytop.get_cpu_core_mapping",
+        "bpytop.Raw",
+        "bpytop.CpuCollector",
+        "bpytop.TimeIt",
+        "bpytop.ProcCollector",
+        "bpytop.Symbol",
+        "<builtin>.SystemExit",
+        "bpytop.Graph",
+        "bpytop.UpdateChecker",
+        "bpytop.get_cpu_name",
+        "bpytop.Draw",
+        "bpytop.SubBox",
+        "<builtin>.print",
+        "<builtin>.getattr",
+        "bpytop.Box",
+        "<builtin>.str",
+        "<str>.join",
+        "bpytop.Color",
+        "bpytop.Nonblocking",
+        "bpytop.Meter",
+        "bpytop.Fx",
+        "bpytop.NetBox",
+        "bpytop.MemBox",
+        "bpytop.NetCollector",
+        "bpytop.Theme",
+        "bpytop.Collector",
+        "bpytop.ProcBox",
+        "bpytop.CpuBox",
+        "bpytop.Key",
+        "bpytop.Term",
+        "bpytop.main",
+        "bpytop.Meters",
+        "bpytop.Init",
+        "bpytop.Timer",
+        "bpytop.Graphs",
+        "bpytop.Config"
+    ],
+    "<builtin>.print": [],
+    "<str>.join": [],
+    "<builtin>.SystemExit": [],
+    "<builtin>.str": [],
+    "bpytop.TimeIt": [
+        "<builtin>.classmethod"
+    ],
+    "<builtin>.classmethod": [],
+    "bpytop.Config": [
+        "<builtin>.enumerate",
+        "<builtin>.hasattr",
+        "<builtin>.getattr"
+    ],
+    "<builtin>.getattr": [],
+    "<builtin>.hasattr": [],
+    "<builtin>.enumerate": [],
+    "bpytop.Config.__init__": [
+        "<builtin>.getattr",
+        "<builtin>.setattr",
+        "bpytop.Config.load_config"
+    ],
+    "bpytop.Config.load_config": [
+        "<builtin>.type",
+        "<builtin>.str",
+        "<builtin>.open",
+        "<builtin>.bool",
+        "<builtin>.int",
+        "<builtin>.getattr",
+        "bpytop.strtobool"
+    ],
+    "<builtin>.open": [],
+    "<builtin>.type": [],
+    "<builtin>.int": [],
+    "bpytop.strtobool": [
+        "<builtin>.ValueError",
+        "<builtin>.type"
+    ],
+    "<builtin>.ValueError": [],
+    "<builtin>.bool": [],
+    "<builtin>.setattr": [],
+    "bpytop.Term": [
+        "<builtin>.classmethod",
+        "<builtin>.staticmethod"
+    ],
+    "<builtin>.staticmethod": [],
+    "bpytop.Fx": [
+        "<builtin>.classmethod",
+        "<builtin>.staticmethod"
+    ],
+    "bpytop.Raw": [],
+    "bpytop.Nonblocking": [],
+    "bpytop.Mv": [
+        "<builtin>.staticmethod"
+    ],
+    "bpytop.Key": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Draw": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Color": [
+        "<builtin>.classmethod",
+        "<builtin>.staticmethod"
+    ],
+    "bpytop.Colors": [
+        "bpytop.Color.__init__"
+    ],
+    "bpytop.Color.__init__": [
+        "<builtin>.ValueError",
+        "<builtin>.str",
+        "<builtin>.tuple",
+        "<str>.split",
+        "bpytop.Color.truecolor_to_256",
+        "<builtin>.len",
+        "<str>.startswith",
+        "<builtin>.all",
+        "<builtin>.map",
+        "<builtin>.hex",
+        "<builtin>.int"
+    ],
+    "<str>.startswith": [],
+    "<str>.split": [],
+    "<builtin>.map": [],
+    "<builtin>.tuple": [],
+    "<builtin>.len": [],
+    "<builtin>.all": [],
+    "<builtin>.hex": [],
+    "bpytop.Color.truecolor_to_256": [
+        "<builtin>.round"
+    ],
+    "<builtin>.round": [],
+    "bpytop.Theme": [
+        "<builtin>.classmethod",
+        "<builtin>.staticmethod"
+    ],
+    "bpytop.Banner": [
+        "bpytop.Color.fg",
+        "<builtin>.classmethod",
+        "bpytop.Mv.right",
+        "<builtin>.len",
+        "<builtin>.enumerate"
+    ],
+    "bpytop.Color.fg": [
+        "bpytop.Color.escape_color",
+        "<builtin>.len"
+    ],
+    "bpytop.Color.escape_color": [
+        "bpytop.Color.truecolor_to_256",
+        "<builtin>.len",
+        "<builtin>.int"
+    ],
+    "bpytop.Mv.right": [],
+    "bpytop.Symbol": [
+        "bpytop.Color.fg"
+    ],
+    "bpytop.Graph": [],
+    "bpytop.Graphs": [],
+    "bpytop.Meter": [],
+    "bpytop.Meters": [],
+    "bpytop.Box": [
+        "<builtin>.classmethod",
+        "<builtin>.sorted"
+    ],
+    "<builtin>.sorted": [],
+    "bpytop.SubBox": [],
+    "bpytop.CpuBox": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.MemBox": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.NetBox": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.ProcBox": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Collector": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.CpuCollector": [
+        "<builtin>.range",
+        "<builtin>.classmethod"
+    ],
+    "<builtin>.range": [],
+    "bpytop.MemCollector": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.NetCollector": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.ProcCollector": [
+        "<builtin>.classmethod",
+        "<builtin>.compile"
+    ],
+    "<builtin>.compile": [],
+    "bpytop.Menu": [
+        "<builtin>.range",
+        "bpytop.Mv.down",
+        "bpytop.Fx.trans",
+        "bpytop.Color.fg",
+        "<builtin>.classmethod",
+        "bpytop.Mv.left",
+        "<builtin>.len"
+    ],
+    "bpytop.Fx.trans": [
+        "<str>.replace"
+    ],
+    "<str>.replace": [],
+    "bpytop.Mv.down": [],
+    "bpytop.Mv.left": [],
+    "bpytop.Timer": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.UpdateChecker": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Init": [
+        "<builtin>.classmethod",
+        "<builtin>.staticmethod"
+    ],
+    "bpytop.get_cpu_name": [
+        "<str>.endswith",
+        "<str>.index",
+        "<str>.split",
+        "<str>.replace"
+    ],
+    "<str>.endswith": [],
+    "bpytop.get_cpu_core_mapping": [
+        "<builtin>.range",
+        "<list>.extend",
+        "<builtin>.open",
+        "<builtin>.int"
+    ],
+    "<list>.extend": [],
+    "bpytop.main": [
+        "bpytop.Draw.out",
+        "bpytop.Fx.trans",
+        "bpytop.Init.start",
+        "bpytop.Draw.buffer",
+        "bpytop.Collector.collect",
+        "bpytop.Theme.__init__",
+        "bpytop.Draw.now",
+        "bpytop.Box.calc_sizes",
+        "bpytop.UpdateChecker.run",
+        "bpytop.Collector.start",
+        "bpytop.TimeIt.stop",
+        "bpytop.Term.refresh",
+        "bpytop.CpuCollector.get_sensors",
+        "bpytop.Key.start",
+        "bpytop.Init.fail",
+        "bpytop.Term.echo",
+        "bpytop.main.run",
+        "bpytop.Box.draw_bg",
+        "<builtin>.isinstance",
+        "bpytop.Init.done",
+        "bpytop.TimeIt.start",
+        "bpytop.clean_quit",
+        "bpytop.Term.title"
+    ],
+    "bpytop.TimeIt.start": [],
+    "bpytop.Term.title": [],
+    "bpytop.Draw.now": [
+        "<builtin>.print"
+    ],
+    "bpytop.Term.echo": [],
+    "bpytop.UpdateChecker.run": [],
+    "bpytop.Init.start": [
+        "<builtin>.range",
+        "bpytop.Mv.down",
+        "bpytop.Draw.out",
+        "<builtin>.str",
+        "bpytop.Fx.trans",
+        "bpytop.Graph.__init__",
+        "bpytop.Color.fg",
+        "bpytop.Mv.left",
+        "bpytop.Draw.buffer",
+        "bpytop.Banner.draw",
+        "bpytop.Mv.to",
+        "<builtin>.round"
+    ],
+    "bpytop.Draw.buffer": [
+        "<str>.rstrip",
+        "bpytop.Draw.out",
+        "<str>.lstrip",
+        "<str>.startswith",
+        "<str>.endswith"
+    ],
+    "<str>.lstrip": [],
+    "<str>.rstrip": [],
+    "bpytop.Draw.out": [
+        "bpytop.Draw.clear",
+        "bpytop.Draw.now",
+        "<builtin>.sorted"
+    ],
+    "bpytop.Draw.clear": [],
+    "bpytop.Banner.draw": [
+        "bpytop.Draw.out",
+        "<builtin>.enumerate",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.Mv.to": [],
+    "bpytop.Graph.__init__": [
+        "<builtin>.range",
+        "<list>.reverse",
+        "bpytop.Graph._create",
+        "bpytop.min_max",
+        "<list>.insert",
+        "<builtin>.len",
+        "<builtin>.isinstance",
+        "<builtin>.min",
+        "<builtin>.int"
+    ],
+    "bpytop.min_max": [
+        "<builtin>.max",
+        "<builtin>.min"
+    ],
+    "<builtin>.min": [],
+    "<builtin>.max": [],
+    "<builtin>.isinstance": [],
+    "<list>.insert": [],
+    "bpytop.Graph._create": [
+        "<builtin>.range",
+        "bpytop.Mv.down",
+        "bpytop.Mv.left",
+        "<builtin>.bool",
+        "<builtin>.len",
+        "<builtin>.float",
+        "<builtin>.round"
+    ],
+    "<builtin>.float": [],
+    "bpytop.Theme.__init__": [
+        "bpytop.Theme._load_theme",
+        "bpytop.Theme.refresh"
+    ],
+    "bpytop.Theme.refresh": [
+        "<builtin>.str"
+    ],
+    "bpytop.Theme._load_theme": [
+        "<builtin>.range",
+        "bpytop.Theme._load_file",
+        "bpytop.Color.fg",
+        "bpytop.Color.__init__",
+        "<builtin>.setattr",
+        "bpytop.Draw.now",
+        "<builtin>.getattr"
+    ],
+    "bpytop.Theme._load_file": [
+        "<builtin>.str",
+        "<builtin>.open"
+    ],
+    "bpytop.Init.fail": [
+        "bpytop.clean_quit",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.clean_quit": [
+        "bpytop.Term.echo",
+        "<builtin>.SystemExit",
+        "bpytop.Collector.stop",
+        "bpytop.Key.stop",
+        "<builtin>.print",
+        "<builtin>.round",
+        "bpytop.Draw.now",
+        "bpytop.Term.title"
+    ],
+    "bpytop.Key.stop": [],
+    "bpytop.Collector.stop": [],
+    "bpytop.CpuCollector.get_sensors": [
+        "<builtin>.hasattr",
+        "<builtin>.bool"
+    ],
+    "bpytop.Box.calc_sizes": [],
+    "bpytop.Box.draw_bg": [
+        "bpytop.Box.empty_bg",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Box.draw_clock",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.Box.empty_bg": [
+        "bpytop.Mv.right",
+        "bpytop.Mv.down",
+        "bpytop.Mv.left",
+        "bpytop.Banner.draw"
+    ],
+    "bpytop.Box.draw_update_ms": [
+        "<builtin>.range",
+        "bpytop.Draw.out",
+        "<builtin>.hasattr",
+        "bpytop.Draw.clear",
+        "<builtin>.len",
+        "bpytop.Mv.to",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.Box.draw_clock": [
+        "bpytop.Draw.out",
+        "<builtin>.hasattr",
+        "bpytop.Mv.to",
+        "<builtin>.len",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.Key.start": [],
+    "bpytop.Collector.start": [],
+    "bpytop.Collector.collect": [
+        "<list>.remove",
+        "<builtin>.list"
+    ],
+    "<builtin>.list": [],
+    "<list>.remove": [],
+    "bpytop.Init.done": [
+        "bpytop.Draw.clear",
+        "bpytop.Init.draw_bg",
+        "bpytop.Draw.now"
+    ],
+    "bpytop.Init.draw_bg": [
+        "<builtin>.range",
+        "bpytop.Graph.__init__",
+        "bpytop.Draw.out",
+        "bpytop.Draw.buffer",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.Term.refresh": [
+        "bpytop.Mv.down",
+        "<builtin>.str",
+        "bpytop.create_box",
+        "bpytop.Box.draw_bg",
+        "bpytop.Mv.left",
+        "bpytop.Key.has_key",
+        "bpytop.Key.last",
+        "bpytop.clean_quit",
+        "bpytop.Mv.right",
+        "<builtin>.getattr",
+        "bpytop.Timer.finish",
+        "bpytop.Draw.now",
+        "<builtin>.min",
+        "bpytop.Box.calc_sizes"
+    ],
+    "bpytop.create_box": [
+        "<builtin>.range",
+        "bpytop.Mv.right",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.Key.has_key": [
+        "<builtin>.bool"
+    ],
+    "bpytop.Key.last": [],
+    "bpytop.Timer.finish": [
+        "bpytop.Key.break_wait"
+    ],
+    "bpytop.Key.break_wait": [
+        "<list>.append"
+    ],
+    "bpytop.TimeIt.stop": [],
+    "bpytop.main.run": [
+        "bpytop.process_keys",
+        "bpytop.Timer.left",
+        "bpytop.Key.input_wait",
+        "bpytop.Timer.not_zero",
+        "bpytop.Term.refresh",
+        "bpytop.Collector.collect",
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.Timer.stamp": [],
+    "bpytop.Timer.not_zero": [],
+    "bpytop.Timer.left": [
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.Key.input_wait": [
+        "bpytop.Draw.now"
+    ],
+    "bpytop.process_keys": [
+        "bpytop.Menu.main",
+        "bpytop.Key.get_mouse",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Draw.clear",
+        "bpytop.Key.has_key",
+        "bpytop.clean_quit",
+        "bpytop.ProcBox.selector",
+        "bpytop.Term.refresh",
+        "<builtin>.list",
+        "bpytop.Key.get",
+        "<builtin>.len",
+        "bpytop.Menu.help",
+        "bpytop.Menu.options",
+        "bpytop.Collector.collect",
+        "bpytop.ProcCollector.sorting",
+        "bpytop.NetCollector.switch"
+    ],
+    "bpytop.Key.get": [],
+    "bpytop.Key.get_mouse": [],
+    "bpytop.Menu.help": [
+        "bpytop.Mv.down",
+        "bpytop.create_box",
+        "bpytop.Key.get_mouse",
+        "bpytop.Banner.draw",
+        "bpytop.Fx.uncolor",
+        "bpytop.Collector.collect",
+        "<builtin>.enumerate",
+        "bpytop.Draw.now",
+        "<builtin>.range",
+        "bpytop.Timer.left",
+        "bpytop.Mv.left",
+        "bpytop.Key.input_wait",
+        "bpytop.Mv.right",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Timer.not_zero",
+        "bpytop.Key.get",
+        "bpytop.Mv.to",
+        "bpytop.Timer.stamp",
+        "bpytop.clean_quit",
+        "<builtin>.len"
+    ],
+    "bpytop.Draw.saved_buffer": [
+        "<builtin>.sorted"
+    ],
+    "bpytop.Fx.uncolor": [],
+    "bpytop.Menu.options": [
+        "bpytop.Mv.down",
+        "bpytop.Theme.refresh",
+        "bpytop.create_box",
+        "bpytop.Key.get_mouse",
+        "bpytop.Banner.draw",
+        "<builtin>.map",
+        "bpytop.Fx.uncolor",
+        "bpytop.Timer.finish",
+        "<builtin>.enumerate",
+        "bpytop.Draw.now",
+        "bpytop.Collector.collect",
+        "<builtin>.range",
+        "<builtin>.type",
+        "bpytop.Timer.left",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Draw.clear",
+        "bpytop.Mv.left",
+        "bpytop.Key.input_wait",
+        "bpytop.Mv.right",
+        "bpytop.Term.refresh",
+        "bpytop.CpuCollector.get_sensors",
+        "<builtin>.setattr",
+        "<builtin>.getattr",
+        "bpytop.Draw.saved_buffer",
+        "<builtin>.str",
+        "<str>.isdigit",
+        "bpytop.Timer.not_zero",
+        "<builtin>.max",
+        "<builtin>.list",
+        "bpytop.Key.get",
+        "bpytop.Mv.to",
+        "<builtin>.isinstance",
+        "bpytop.ProcCollector.sorting",
+        "<builtin>.int",
+        "bpytop.Timer.stamp",
+        "bpytop.clean_quit",
+        "<str>.split",
+        "<builtin>.len",
+        "<builtin>.round",
+        "<builtin>.min"
+    ],
+    "bpytop.ProcCollector.sorting": [
+        "bpytop.Collector.collect",
+        "<builtin>.len"
+    ],
+    "<str>.isdigit": [],
+    "bpytop.Menu.main": [
+        "bpytop.Mv.down",
+        "bpytop.Key.get_mouse",
+        "bpytop.Key.mouse_moved",
+        "bpytop.Banner.draw",
+        "bpytop.Fx.uncolor",
+        "bpytop.Collector.collect",
+        "bpytop.Draw.now",
+        "bpytop.Timer.left",
+        "bpytop.Mv.left",
+        "bpytop.Key.input_wait",
+        "bpytop.Mv.right",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Timer.not_zero",
+        "<builtin>.list",
+        "bpytop.Key.get",
+        "bpytop.Mv.to",
+        "bpytop.Menu.options",
+        "bpytop.Timer.stamp",
+        "bpytop.clean_quit",
+        "bpytop.Menu.help",
+        "<builtin>.len"
+    ],
+    "bpytop.Key.mouse_moved": [],
+    "bpytop.ProcBox.selector": [
+        "bpytop.Collector.collect",
+        "<builtin>.round",
+        "<list>.insert"
+    ],
+    "bpytop.NetCollector.switch": [
+        "bpytop.Collector.collect",
+        "<builtin>.len"
+    ],
+    "bpytop.TimeIt.pause": [],
+    "bpytop.Config.save_config": [
+        "<builtin>.str",
+        "<builtin>.open"
+    ],
+    "<list>.append": [],
+    "bpytop.Key._get_key": [
+        "bpytop.clean_quit",
+        "bpytop.Raw.__init__",
+        "<list>.clear"
+    ],
+    "bpytop.Raw.__init__": [],
+    "<list>.clear": [],
+    "bpytop.Color.__repr__": [
+        "<builtin>.repr"
+    ],
+    "<builtin>.repr": [],
+    "bpytop.Color.__call__": [
+        "<builtin>.len",
+        "<builtin>.getattr"
+    ],
+    "bpytop.Color.bg": [
+        "bpytop.Color.escape_color",
+        "<builtin>.len"
+    ],
+    "bpytop.Theme.__call__": [
+        "bpytop.Theme._load_theme"
+    ],
+    "bpytop.Graph.__call__": [
+        "<builtin>.range",
+        "<builtin>.isinstance",
+        "bpytop.min_max",
+        "bpytop.Graph._create"
+    ],
+    "bpytop.Graph.add": [
+        "bpytop.Graph.__call__"
+    ],
+    "bpytop.Graph.__repr__": [
+        "<builtin>.repr"
+    ],
+    "bpytop.Meter.__init__": [
+        "bpytop.Meter._create"
+    ],
+    "bpytop.Meter._create": [
+        "<builtin>.range",
+        "<builtin>.round"
+    ],
+    "bpytop.Meter.__call__": [
+        "<builtin>.isinstance",
+        "bpytop.Meter._create"
+    ],
+    "bpytop.Meter.__repr__": [
+        "<builtin>.repr"
+    ],
+    "bpytop.CpuBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.CpuBox._draw_bg": [
+        "<builtin>.range",
+        "bpytop.create_box",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.CpuBox.battery_activity": [
+        "<builtin>.hasattr",
+        "<builtin>.sorted",
+        "bpytop.readfile",
+        "<builtin>.getattr"
+    ],
+    "bpytop.readfile": [
+        "<builtin>.open"
+    ],
+    "bpytop.CpuBox._draw_fg": [
+        "bpytop.Fx.trans",
+        "bpytop.Draw.buffer",
+        "<builtin>.range",
+        "bpytop.Draw.clear",
+        "bpytop.Mv.left",
+        "bpytop.Mv.right",
+        "bpytop.Graph.__init__",
+        "<builtin>.str",
+        "bpytop.Meter.__init__",
+        "bpytop.min_max",
+        "bpytop.CpuBox.battery_activity",
+        "bpytop.temperature",
+        "<builtin>.max",
+        "bpytop.Mv.to",
+        "<builtin>.hasattr",
+        "<builtin>.len",
+        "<builtin>.float",
+        "<builtin>.round"
+    ],
+    "bpytop.temperature": [
+        "<builtin>.round"
+    ],
+    "bpytop.MemBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.MemBox._draw_bg": [
+        "<builtin>.range",
+        "bpytop.create_box",
+        "bpytop.Mv.to"
+    ],
+    "bpytop.MemBox._draw_fg": [
+        "bpytop.MemBox._calc_size",
+        "<builtin>.range",
+        "bpytop.Graph.__init__",
+        "<builtin>.str",
+        "bpytop.Fx.trans",
+        "bpytop.Meter.__init__",
+        "bpytop.MemBox._draw_bg",
+        "<map>.get",
+        "<str>.capitalize",
+        "bpytop.Mv.left",
+        "<builtin>.max",
+        "<builtin>.list",
+        "<builtin>.len",
+        "bpytop.Mv.to",
+        "bpytop.Draw.buffer",
+        "bpytop.Mv.up",
+        "<builtin>.enumerate",
+        "<builtin>.int"
+    ],
+    "<map>.get": [],
+    "bpytop.Mv.up": [],
+    "<str>.capitalize": [],
+    "bpytop.NetBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.NetBox._draw_bg": [
+        "bpytop.create_box"
+    ],
+    "bpytop.NetBox._draw_fg": [
+        "<builtin>.range",
+        "bpytop.Graph.__init__",
+        "<map>.get",
+        "<builtin>.bool",
+        "<builtin>.len",
+        "bpytop.Mv.to",
+        "bpytop.Draw.buffer",
+        "bpytop.NetBox._draw_bg"
+    ],
+    "bpytop.ProcBox._calc_size": [
+        "<builtin>.round"
+    ],
+    "bpytop.ProcBox._draw_bg": [
+        "bpytop.create_box"
+    ],
+    "bpytop.ProcBox._draw_fg": [
+        "<builtin>.range",
+        "bpytop.Graph.__init__",
+        "bpytop.floating_humanizer",
+        "<builtin>.str",
+        "<map>.get",
+        "<str>.replace",
+        "bpytop.Mv.left",
+        "<str>.split",
+        "bpytop.Mv.right",
+        "<builtin>.list",
+        "<builtin>.len",
+        "bpytop.Mv.to",
+        "bpytop.Draw.buffer",
+        "<builtin>.round",
+        "<builtin>.enumerate"
+    ],
+    "<list>.reverse": [],
+    "bpytop.floating_humanizer": [
+        "<builtin>.len",
+        "<builtin>.float",
+        "<builtin>.isinstance",
+        "<builtin>.round",
+        "<builtin>.int"
+    ],
+    "bpytop.Collector._runner": [
+        "<list>.pop",
+        "bpytop.Draw.out",
+        "<list>.append",
+        "bpytop.TimeIt.start",
+        "bpytop.clean_quit",
+        "bpytop.TimeIt.stop",
+        "bpytop.Box.draw_clock"
+    ],
+    "<list>.pop": [],
+    "bpytop.CpuCollector._collect": [
+        "<builtin>.hasattr",
+        "<builtin>.str",
+        "<builtin>.setattr",
+        "bpytop.CpuCollector._collect_temps",
+        "<builtin>.len",
+        "<builtin>.round",
+        "<builtin>.enumerate",
+        "<builtin>.getattr"
+    ],
+    "bpytop.CpuCollector._collect_temps": [
+        "<builtin>.range",
+        "<builtin>.str",
+        "<builtin>.hasattr",
+        "<builtin>.sum",
+        "<builtin>.max",
+        "<builtin>.len",
+        "bpytop.CpuBox._calc_size",
+        "<builtin>.float",
+        "<builtin>.round",
+        "<builtin>.enumerate",
+        "<builtin>.getattr",
+        "<builtin>.int"
+    ],
+    "<builtin>.sum": [],
+    "bpytop.CpuCollector._draw": [
+        "bpytop.CpuBox._draw_fg"
+    ],
+    "bpytop.MemCollector._collect": [
+        "bpytop.floating_humanizer",
+        "<builtin>.hasattr",
+        "<builtin>.open",
+        "<builtin>.tuple",
+        "<builtin>.list",
+        "<builtin>.len",
+        "<map>.update",
+        "<builtin>.round",
+        "<builtin>.getattr"
+    ],
+    "<map>.update": [],
+    "bpytop.MemCollector._draw": [
+        "bpytop.MemBox._draw_fg"
+    ],
+    "bpytop.NetCollector._get_nics": [
+        "<list>.index",
+        "<list>.append",
+        "<builtin>.sorted"
+    ],
+    "<list>.index": [],
+    "bpytop.NetCollector._collect": [
+        "bpytop.floating_humanizer",
+        "bpytop.NetCollector._get_nics",
+        "<list>.index",
+        "<builtin>.sorted",
+        "<builtin>.max",
+        "bpytop.units_to_bytes",
+        "<builtin>.len",
+        "<builtin>.round",
+        "<builtin>.getattr"
+    ],
+    "bpytop.units_to_bytes": [
+        "<builtin>.round",
+        "<builtin>.float",
+        "<builtin>.int"
+    ],
+    "bpytop.NetCollector._draw": [
+        "bpytop.NetBox._draw_fg"
+    ],
+    "bpytop.ProcCollector._collect": [
+        "<builtin>.round",
+        "<builtin>.hasattr",
+        "<map>.get",
+        "<builtin>.sorted",
+        "bpytop.ProcCollector._tree",
+        "<str>.split",
+        "<str>.lower"
+    ],
+    "<str>.lower": [],
+    "bpytop.ProcCollector._tree": [
+        "bpytop.ProcCollector._tree.create_tree",
+        "<builtin>.sorted",
+        "<builtin>.list",
+        "<builtin>.len",
+        "<builtin>.min"
+    ],
+    "bpytop.ProcCollector._tree.create_tree": [
+        "bpytop.ProcCollector._tree.create_tree",
+        "<builtin>.isinstance",
+        "<builtin>.round",
+        "<builtin>.hasattr"
+    ],
+    "bpytop.ProcCollector._draw": [
+        "bpytop.ProcBox._draw_fg"
+    ],
+    "bpytop.Init.success": [
+        "bpytop.Mv.right",
+        "bpytop.Init.draw_bg",
+        "bpytop.Draw.buffer"
+    ],
+    "<str>.index": [],
+    "bpytop.now_sleeping": [
+        "bpytop.Term.echo",
+        "bpytop.Collector.stop",
+        "bpytop.Key.stop",
+        "bpytop.Draw.now",
+        "bpytop.Term.title"
+    ],
+    "bpytop.now_awake": [
+        "bpytop.Key.start",
+        "bpytop.Term.echo",
+        "bpytop.Collector.start",
+        "bpytop.Term.refresh",
+        "bpytop.Box.calc_sizes",
+        "bpytop.Box.draw_bg",
+        "bpytop.Draw.now",
+        "bpytop.Term.title"
+    ],
+    "bpytop.quit_sigint": [
+        "bpytop.clean_quit"
+    ],
+    "bpytop.ProcCollector._collect.<lambda1>": [
+        "<builtin>.eval"
+    ],
+    "bpytop.ProcCollector._tree.<lambda1>": [
+        "<builtin>.eval"
+    ],
+    "bpytop.NetCollector._get_nics.<lambda1>": [
+        "<builtin>.getattr"
+    ]
+}

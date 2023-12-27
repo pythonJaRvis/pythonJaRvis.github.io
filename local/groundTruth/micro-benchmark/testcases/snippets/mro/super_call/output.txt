@@ -1,2 +1,0 @@
-pythonCG:	8 
-pycg:	5

@@ -1,1 +1,0 @@
-{"main": ["main.B.__init__", "main.B.func"], "main.B.__init__": ["<builtin>.super"], "<builtin>.super": [], "main.B.func": []}

@@ -1,0 +1,126 @@
+{
+    "rich_cli.__main__": [
+        "rich_cli.__main__.RichCommand",
+        "rich_cli.__main__.ForceWidth",
+        "rich_cli.__main__.run",
+        "<builtin>.sorted"
+    ],
+    "rich_cli.__main__.ForceWidth": [],
+    "rich_cli.__main__.RichCommand": [],
+    "rich_cli.__main__.RichCommand.format_help": [
+        "<builtin>.len",
+        "<builtin>.reversed",
+        "rich_cli.__main__.blend_text",
+        "rich_cli.__main__.RichCommand.format_help.OptionHighlighter",
+        "rich.highlighter.RegexHighlighter.__init__"
+    ],
+    "rich_cli.__main__.RichCommand.format_help.OptionHighlighter": [],
+    "rich_cli.markdown": [
+        "rich_cli.markdown.CodeBlock"
+    ],
+    "rich_cli.markdown.CodeBlock": [],
+    "rich_cli.pager": [
+        "rich_cli.pager.PagerRenderable",
+        "rich_cli.pager.PagerApp"
+    ],
+    "rich_cli.pager.PagerRenderable": [],
+    "rich_cli.pager.PagerApp": [],
+    "rich_cli": [],
+    "<builtin>.sorted": [],
+    "rich_cli.__main__.on_error": [
+        "<builtin>.str"
+    ],
+    "<builtin>.str": [],
+    "rich_cli.__main__.read_resource": [
+        "rich_cli.__main__.on_error",
+        "<builtin>.open"
+    ],
+    "<builtin>.open": [],
+    "rich_cli.__main__.ForceWidth.__init__": [],
+    "rich_cli.__main__.ForceWidth.__rich_console__": [],
+    "rich_cli.__main__.ForceWidth.__rich_measure__": [],
+    "rich_cli.__main__.blend_text": [
+        "<builtin>.len",
+        "<builtin>.int",
+        "<builtin>.range"
+    ],
+    "<builtin>.len": [],
+    "<builtin>.range": [],
+    "<builtin>.int": [],
+    "rich.highlighter.RegexHighlighter.__init__": [],
+    "<builtin>.reversed": [],
+    "rich_cli.__main__.main": [
+        "rich_cli.__main__.on_error",
+        "<builtin>.len",
+        "<builtin>.bool",
+        "<builtin>.tuple",
+        "rich_cli.__main__.read_resource",
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.ForceWidth.__init__",
+        "<builtin>.getattr",
+        "rich_cli.__main__.render_csv",
+        "rich_cli.__main__.render_ipynb",
+        "<builtin>.eval",
+        "<builtin>.int",
+        "rich_cli.__main__.main.print_usage"
+    ],
+    "<builtin>.bool": [],
+    "rich_cli.__main__.main.print_usage": [],
+    "<builtin>.eval": [],
+    "rich_cli.__main__.render_csv": [
+        "rich_cli.__main__.on_error",
+        "<builtin>.next",
+        "rich_cli.__main__.read_resource",
+        "<builtin>.enumerate",
+        "<builtin>.iter",
+        "<builtin>.str"
+    ],
+    "rich_cli.__main__.render_ipynb": [
+        "<builtin>.len",
+        "rich_cli.__main__._line_range",
+        "<builtin>.isinstance",
+        "rich_cli.__main__.read_resource"
+    ],
+    "rich_cli.__main__._line_range": [
+        "rich_cli.__main__.on_error"
+    ],
+    "<builtin>.tuple": [],
+    "<builtin>.getattr": [],
+    "<builtin>.iter": [],
+    "<builtin>.next": [],
+    "<builtin>.enumerate": [],
+    "<builtin>.isinstance": [],
+    "rich_cli.__main__.run": [
+        "rich_cli.__main__.main"
+    ],
+    "rich_cli.markdown.CodeBlock.create": [
+        "rich_cli.markdown.CodeBlock.__init__"
+    ],
+    "rich_cli.markdown.CodeBlock.__init__": [],
+    "rich_cli.markdown.CodeBlock.__rich_console__": [
+        "<builtin>.str"
+    ],
+    "rich_cli.pager.PagerRenderable.__init__": [
+        "<builtin>.list"
+    ],
+    "<builtin>.list": [],
+    "rich_cli.pager.PagerRenderable.__rich_console__": [],
+    "rich_cli.pager.PagerRenderable.__rich_measure__": [],
+    "rich_cli.pager.PagerApp.__init__": [
+        "<builtin>.super"
+    ],
+    "<builtin>.super": [],
+    "rich_cli.pager.PagerApp.on_load": [],
+    "rich_cli.pager.PagerApp.on_key": [],
+    "rich_cli.pager.PagerApp.on_mount": [],
+    "rich_cli.win_vt": [
+        "contextlib.contextmanager"
+    ],
+    "rich_cli.win_vt._get_console_mode": [],
+    "rich_cli.win_vt._set_console_mode": [],
+    "contextlib.contextmanager": [],
+    "rich_cli.win_vt.enable_windows_virtual_terminal_processing": [
+        "rich_cli.win_vt._get_console_mode",
+        "rich_cli.win_vt._set_console_mode"
+    ]
+}

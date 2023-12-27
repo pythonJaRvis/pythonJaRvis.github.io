@@ -1,0 +1,2543 @@
+{
+    "bpytop": [
+        "<str>.join",
+        "bpytop.Color",
+        "bpytop.UpdateChecker",
+        "bpytop.NetCollector",
+        "bpytop.Fx",
+        "bpytop.Meter",
+        "logging.Formatter.__init__",
+        "os.makedirs",
+        "bpytop.Box",
+        "logging.Logger.debug",
+        "logging.Handler.setLevel",
+        "logging.handlers.RotatingFileHandler.__init__",
+        "<builtin>.str",
+        "logging.Logger.addHandler",
+        "bpytop.Menu",
+        "time.time",
+        "bpytop.ProcBox",
+        "genericpath.isdir",
+        "bpytop.Graphs",
+        "argparse.ArgumentParser.__init__",
+        "bpytop.Meters",
+        "logging.getLogger",
+        "string.Template.__init__",
+        "bpytop.get_cpu_name",
+        "bpytop.Symbol",
+        "bpytop.TimeIt",
+        "bpytop.ProcCollector",
+        "bpytop.Mv",
+        "bpytop.Collector",
+        "logging.Handler.setFormatter",
+        "os.path.expanduser",
+        "<builtin>.SystemExit",
+        "posixpath.expanduser",
+        "bpytop.CpuCollector",
+        "<builtin>.getattr",
+        "bpytop.SubBox",
+        "bpytop.Timer",
+        "typing.inner",
+        "bpytop.Key",
+        "bpytop.Colors",
+        "bpytop.MemBox",
+        "<builtin>.print",
+        "bpytop.Term",
+        "os.mkdir",
+        "bpytop.MemCollector",
+        "bpytop.Init",
+        "bpytop.Config.__init__",
+        "argparse._ActionsContainer.add_argument",
+        "logging.Logger.setLevel",
+        "bpytop.Nonblocking",
+        "posixpath.dirname",
+        "bpytop.Config",
+        "bpytop.Theme",
+        "typing._VariadicGenericAlias.__getitem__",
+        "bpytop.Banner",
+        "os.getpid",
+        "bpytop.Raw",
+        "psutil.cpu_count",
+        "bpytop.Draw",
+        "bpytop.NetBox",
+        "bpytop.main",
+        "logging.Logger.info",
+        "bpytop.CpuBox",
+        "argparse.ArgumentParser.parse_args",
+        "bpytop.get_cpu_core_mapping",
+        "os.path.dirname",
+        "bpytop.Graph"
+    ],
+    "<str>.join": [],
+    "bpytop.Color": [
+        "<builtin>.staticmethod",
+        "typing._VariadicGenericAlias.__getitem__",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.UpdateChecker": [
+        "<builtin>.classmethod"
+    ],
+    "bpytop.NetCollector": [
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Fx": [
+        "<builtin>.staticmethod",
+        "re.compile",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Meter": [
+        "typing.inner"
+    ],
+    "logging.Formatter.__init__": [
+        "<builtin>.ValueError",
+        "logging.PercentStyle.__init__",
+        "__init__.PercentStyle.__init__",
+        "logging.PercentStyle.validate",
+        "<map>.keys"
+    ],
+    "os.makedirs": [],
+    "bpytop.Box": [
+        "typing.inner",
+        "<builtin>.classmethod",
+        "_collections_abc.Mapping.get",
+        "pwd.getpwuid",
+        "os.uname",
+        "<builtin>.sorted",
+        "os.getuid"
+    ],
+    "logging.Logger.debug": [
+        "logging.Logger._log",
+        "logging.Logger.isEnabledFor"
+    ],
+    "logging.Handler.setLevel": [
+        "logging._checkLevel"
+    ],
+    "logging.handlers.RotatingFileHandler.__init__": [
+        "logging.handlers.BaseRotatingHandler.__init__"
+    ],
+    "<builtin>.str": [],
+    "logging.Logger.addHandler": [
+        "<list>.append",
+        "logging._acquireLock",
+        "logging._releaseLock"
+    ],
+    "bpytop.Menu": [
+        "<builtin>.range",
+        "typing.inner",
+        "<builtin>.classmethod",
+        "bpytop.Color.fg",
+        "bpytop.Fx.trans",
+        "<builtin>.len",
+        "bpytop.fg",
+        "bpytop.Mv.down",
+        "bpytop.Mv.left"
+    ],
+    "time.time": [],
+    "bpytop.ProcBox": [
+        "typing._VariadicGenericAlias.__getitem__",
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "genericpath.isdir": [
+        "stat.S_ISDIR"
+    ],
+    "bpytop.Graphs": [
+        "typing.inner"
+    ],
+    "argparse.ArgumentParser.__init__": [
+        "posixpath.basename",
+        "argparse._ActionsContainer.__init__",
+        "argparse._ActionsContainer.register",
+        "argparse._AttributeHolder.__init__",
+        "gettext.gettext",
+        "<builtin>.super",
+        "argparse._ActionsContainer.add_argument",
+        "argparse._ActionsContainer.add_argument_group"
+    ],
+    "bpytop.Meters": [
+        "typing.inner"
+    ],
+    "logging.getLogger": [
+        "logging.Manager.getLogger"
+    ],
+    "string.Template.__init__": [],
+    "bpytop.get_cpu_name": [
+        "subprocess.check_output",
+        "<str>.split",
+        "<str>.index",
+        "<str>.replace",
+        "<str>.endswith",
+        "re.sub",
+        "<str>.lstrip"
+    ],
+    "bpytop.Symbol": [
+        "bpytop.Color.fg",
+        "typing.inner"
+    ],
+    "bpytop.TimeIt": [
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.ProcCollector": [
+        "<builtin>.compile",
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Mv": [
+        "<builtin>.staticmethod"
+    ],
+    "bpytop.Collector": [
+        "threading.Event.set",
+        "threading.Event.__init__",
+        "<builtin>.classmethod"
+    ],
+    "logging.Handler.setFormatter": [],
+    "os.path.expanduser": [],
+    "<builtin>.SystemExit": [],
+    "posixpath.expanduser": [
+        "<str>.startswith",
+        "posixpath._get_sep",
+        "<str>.find",
+        "<builtin>.str",
+        "<builtin>.len",
+        "<str>.rstrip",
+        "_collections_abc.Mapping.__contains__",
+        "os._Environ.__getitem__",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.CpuCollector": [
+        "<builtin>.range",
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "<builtin>.getattr": [],
+    "bpytop.SubBox": [],
+    "bpytop.Timer": [
+        "<builtin>.classmethod"
+    ],
+    "typing.inner": [
+        "typing._SpecialForm.__hash__",
+        "typing._GenericAlias.__hash__",
+        "typing.__getitem_inner__",
+        "typing.__getitem__",
+        "typing.__class_getitem__"
+    ],
+    "bpytop.Key": [
+        "typing._VariadicGenericAlias.__getitem__",
+        "typing.inner",
+        "threading.Event.__init__",
+        "<builtin>.classmethod",
+        "threading.Event.set"
+    ],
+    "bpytop.Colors": [
+        "bpytop.Color.__init__"
+    ],
+    "bpytop.MemBox": [
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "<builtin>.print": [],
+    "bpytop.Term": [
+        "<builtin>.staticmethod",
+        "threading.Event.__init__",
+        "<builtin>.classmethod"
+    ],
+    "os.mkdir": [],
+    "bpytop.MemCollector": [
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Init": [
+        "<builtin>.staticmethod",
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.Config.__init__": [
+        "bpytop.Config.__setattr__",
+        "<builtin>.getattr",
+        "<builtin>.setattr",
+        "bpytop.Config.load_config"
+    ],
+    "argparse._ActionsContainer.add_argument": [
+        "argparse.ArgumentParser._get_formatter",
+        "<builtin>.hasattr",
+        "argparse._HelpAction.__init__",
+        "argparse._ActionsContainer._pop_action_class",
+        "<builtin>.callable",
+        "argparse.HelpFormatter._format_args",
+        "<builtin>.len",
+        "argparse._ActionsContainer._registry_get",
+        "<builtin>.ValueError",
+        "argparse._StoreAction.__init__",
+        "argparse.ArgumentParser._add_action",
+        "argparse._ActionsContainer._get_optional_kwargs",
+        "argparse._StoreTrueAction.__init__"
+    ],
+    "logging.Logger.setLevel": [
+        "logging._checkLevel",
+        "logging.Manager._clear_cache"
+    ],
+    "bpytop.Nonblocking": [],
+    "posixpath.dirname": [
+        "posixpath._get_sep",
+        "<str>.rfind",
+        "<builtin>.len"
+    ],
+    "bpytop.Config": [
+        "<builtin>.getattr",
+        "<builtin>.hasattr",
+        "psutil.sensors_temperatures",
+        "typing.inner",
+        "<builtin>.enumerate",
+        "psutil.cpu_times_percent"
+    ],
+    "bpytop.Theme": [
+        "<builtin>.staticmethod",
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "typing._VariadicGenericAlias.__getitem__": [
+        "typing.inner",
+        "<builtin>.TypeError",
+        "<builtin>.tuple",
+        "<builtin>.len",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.Banner": [
+        "typing.inner",
+        "<builtin>.classmethod",
+        "bpytop.Color.fg",
+        "<builtin>.len",
+        "bpytop.Mv.right",
+        "<builtin>.enumerate"
+    ],
+    "os.getpid": [],
+    "bpytop.Raw": [],
+    "psutil.cpu_count": [
+        "_pslinux.cpu_count_cores",
+        "psutil._psosx.cpu_count_logical",
+        "_pslinux.cpu_count_logical",
+        "psutil._psosx.cpu_count_cores"
+    ],
+    "bpytop.Draw": [
+        "typing.inner",
+        "threading.Event.set",
+        "threading.Event.__init__",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.NetBox": [
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "bpytop.main": [
+        "bpytop.Theme.__init__",
+        "bpytop.Draw.now",
+        "signal.signal",
+        "bpytop.TimeIt.stop",
+        "bpytop.UpdateChecker.run",
+        "bpytop.Draw.out",
+        "bpytop.Init.start",
+        "codecs.BufferedIncrementalDecoder.__init__",
+        "bpytop.main.run",
+        "bpytop.Init.done",
+        "bpytop.Collector.collect",
+        "bpytop.Init.success",
+        "bpytop.Key.start",
+        "bpytop.Term.title",
+        "os.get_terminal_size",
+        "logging.Logger.exception",
+        "bpytop.Collector.start",
+        "bpytop.clean_quit",
+        "bpytop.Box.draw_bg",
+        "bpytop.CpuCollector.get_sensors",
+        "bpytop.TimeIt.start",
+        "threading.Event.wait",
+        "bpytop.Draw.buffer",
+        "bpytop.Fx.trans",
+        "bpytop.Term.echo",
+        "sys.stdin.reconfigure",
+        "bpytop.Init.fail",
+        "bpytop.Box.calc_sizes",
+        "bpytop.Term.refresh",
+        "<builtin>.isinstance"
+    ],
+    "logging.Logger.info": [
+        "logging.Logger._log",
+        "logging.Logger.isEnabledFor"
+    ],
+    "bpytop.CpuBox": [
+        "typing.inner",
+        "<builtin>.classmethod"
+    ],
+    "argparse.ArgumentParser.parse_args": [
+        "gettext.gettext",
+        "argparse.ArgumentParser.parse_known_args",
+        "argparse.ArgumentParser.error"
+    ],
+    "bpytop.get_cpu_core_mapping": [
+        "<builtin>.range",
+        "_bootlocale.getpreferredencoding",
+        "codecs.BufferedIncrementalDecoder.__init__",
+        "genericpath.isfile",
+        "codecs.BufferedIncrementalDecoder.decode",
+        "<list>.extend",
+        "<builtin>.open",
+        "<builtin>.int"
+    ],
+    "os.path.dirname": [],
+    "bpytop.Graph": [
+        "typing.inner"
+    ],
+    "<builtin>.staticmethod": [],
+    "<builtin>.classmethod": [],
+    "re.compile": [
+        "re._compile"
+    ],
+    "<builtin>.ValueError": [],
+    "logging.PercentStyle.__init__": [],
+    "__init__.PercentStyle.__init__": [],
+    "logging.PercentStyle.validate": [],
+    "<map>.keys": [],
+    "_collections_abc.Mapping.get": [
+        "os._Environ.__getitem__"
+    ],
+    "pwd.getpwuid": [],
+    "os.uname": [],
+    "<builtin>.sorted": [],
+    "os.getuid": [],
+    "logging.Logger._log": [
+        "logging.Logger.handle",
+        "<builtin>.type",
+        "logging.Logger.makeRecord",
+        "logging.Logger.findCaller",
+        "<builtin>.isinstance"
+    ],
+    "logging.Logger.isEnabledFor": [
+        "logging.Logger.getEffectiveLevel",
+        "logging._acquireLock",
+        "logging._releaseLock"
+    ],
+    "logging._checkLevel": [
+        "<builtin>.TypeError",
+        "<builtin>.ValueError",
+        "<builtin>.str",
+        "<builtin>.isinstance"
+    ],
+    "logging.handlers.BaseRotatingHandler.__init__": [
+        "__init__.FileHandler.__init__",
+        "logging.FileHandler.__init__"
+    ],
+    "<list>.append": [],
+    "logging._acquireLock": [],
+    "logging._releaseLock": [],
+    "<builtin>.range": [],
+    "bpytop.Color.fg": [
+        "<builtin>.len",
+        "bpytop.Color.escape_color"
+    ],
+    "bpytop.Fx.trans": [
+        "<str>.replace"
+    ],
+    "<builtin>.len": [],
+    "bpytop.fg": [],
+    "bpytop.Mv.down": [],
+    "bpytop.Mv.left": [],
+    "stat.S_ISDIR": [],
+    "posixpath.basename": [
+        "<str>.rfind",
+        "posixpath._get_sep"
+    ],
+    "argparse._ActionsContainer.__init__": [
+        "argparse._ArgumentGroup.register",
+        "argparse._ActionsContainer.register",
+        "re.compile",
+        "argparse.ArgumentParser.register",
+        "argparse._ArgumentGroup._get_handler",
+        "argparse._ActionsContainer._get_handler",
+        "argparse.ArgumentParser._get_handler",
+        "<builtin>.super"
+    ],
+    "argparse._ActionsContainer.register": [],
+    "argparse._AttributeHolder.__init__": [],
+    "gettext.gettext": [
+        "gettext.dgettext"
+    ],
+    "<builtin>.super": [],
+    "argparse._ActionsContainer.add_argument_group": [
+        "argparse._ArgumentGroup.__init__"
+    ],
+    "logging.Manager.getLogger": [
+        "logging.Logger.__init__",
+        "<builtin>.TypeError",
+        "logging._releaseLock",
+        "logging._acquireLock",
+        "logging.Manager._fixupParents",
+        "logging.Manager._fixupChildren",
+        "<builtin>.isinstance"
+    ],
+    "subprocess.check_output": [
+        "subprocess.Popen.__del__",
+        "<builtin>.ValueError",
+        "subprocess.run"
+    ],
+    "<str>.split": [],
+    "<str>.index": [],
+    "<str>.replace": [],
+    "<str>.endswith": [],
+    "re.sub": [
+        "re._compile",
+        "<str>.sub",
+        "re._subx"
+    ],
+    "<str>.lstrip": [],
+    "<builtin>.compile": [],
+    "threading.Event.set": [
+        "threading.Condition.__enter__",
+        "threading.Condition.__exit__",
+        "threading.Condition.notify_all"
+    ],
+    "threading.Event.__init__": [
+        "threading.Condition.__init__"
+    ],
+    "<str>.startswith": [],
+    "posixpath._get_sep": [],
+    "<str>.find": [],
+    "<str>.rstrip": [],
+    "_collections_abc.Mapping.__contains__": [
+        "os._Environ.__getitem__"
+    ],
+    "os._Environ.__getitem__": [
+        "os.decode",
+        "os.encode",
+        "<builtin>.KeyError"
+    ],
+    "<builtin>.isinstance": [],
+    "typing._SpecialForm.__hash__": [],
+    "typing._GenericAlias.__hash__": [
+        "typing._SpecialForm.__hash__",
+        "<builtin>.hash",
+        "typing._GenericAlias.__hash__",
+        "<builtin>.frozenset"
+    ],
+    "typing.__getitem_inner__": [
+        "typing._type_check",
+        "typing.<genexpr>",
+        "typing._GenericAlias.copy_with"
+    ],
+    "typing.__getitem__": [
+        "typing._subs_tvars",
+        "typing.inner",
+        "typing._remove_dups_flatten",
+        "typing.<genexpr>",
+        "typing._check_generic",
+        "typing._type_check",
+        "typing._GenericAlias.__init__"
+    ],
+    "typing.__class_getitem__": [
+        "typing.inner",
+        "typing._check_generic",
+        "typing.<genexpr>",
+        "typing._GenericAlias.__init__"
+    ],
+    "bpytop.Color.__init__": [
+        "<builtin>.all",
+        "<str>.startswith",
+        "<builtin>.hex",
+        "<builtin>.tuple",
+        "<builtin>.str",
+        "<builtin>.len",
+        "bpytop.Color.truecolor_to_256",
+        "<builtin>.ValueError",
+        "<str>.split",
+        "<builtin>.int",
+        "<builtin>.map"
+    ],
+    "bpytop.Config.__setattr__": [],
+    "<builtin>.setattr": [],
+    "bpytop.Config.load_config": [
+        "<builtin>.getattr",
+        "codecs.BufferedIncrementalDecoder.__init__",
+        "bpytop.strtobool",
+        "genericpath.isfile",
+        "codecs.BufferedIncrementalDecoder.decode",
+        "<builtin>.open",
+        "<builtin>.str",
+        "<builtin>.bool",
+        "<builtin>.type",
+        "<builtin>.int",
+        "logging.Logger.exception"
+    ],
+    "argparse.ArgumentParser._get_formatter": [
+        "argparse.HelpFormatter.__init__",
+        "argparse.ArgumentParser.formatter_class"
+    ],
+    "<builtin>.hasattr": [],
+    "argparse._HelpAction.__init__": [
+        "<builtin>.super",
+        "argparse.Action.__init__"
+    ],
+    "argparse._ActionsContainer._pop_action_class": [
+        "argparse._ActionsContainer._registry_get"
+    ],
+    "<builtin>.callable": [],
+    "argparse.HelpFormatter._format_args": [
+        "argparse.format",
+        "<builtin>.ValueError",
+        "<builtin>.range",
+        "argparse.HelpFormatter._metavar_formatter"
+    ],
+    "argparse._ActionsContainer._registry_get": [],
+    "argparse._StoreAction.__init__": [
+        "<builtin>.ValueError",
+        "<builtin>.super",
+        "argparse.Action.__init__"
+    ],
+    "argparse.ArgumentParser._add_action": [
+        "argparse._ArgumentGroup._add_action"
+    ],
+    "argparse._ActionsContainer._get_optional_kwargs": [
+        "<builtin>.dict",
+        "<builtin>.len",
+        "<builtin>.ValueError",
+        "<list>.append",
+        "gettext.gettext"
+    ],
+    "argparse._StoreTrueAction.__init__": [
+        "argparse._StoreConstAction.__init__",
+        "<builtin>.super"
+    ],
+    "logging.Manager._clear_cache": [
+        "logging.Manager.root._cache.clear",
+        "logging._releaseLock",
+        "logging._acquireLock",
+        "logging.RootLogger.manager.root._cache.clear",
+        "<builtin>.isinstance"
+    ],
+    "<str>.rfind": [],
+    "psutil.sensors_temperatures": [
+        "<builtin>.dict",
+        "psutil.sensors_temperatures.convert",
+        "_pslinux.sensors_temperatures"
+    ],
+    "<builtin>.enumerate": [],
+    "psutil.cpu_times_percent": [
+        "psutil.cpu_times",
+        "psutil.cpu_times_percent.calculate",
+        "psutil.calculate",
+        "<builtin>.ValueError",
+        "time.time",
+        "psutil._cpu_tot_time",
+        "<builtin>.zip"
+    ],
+    "<builtin>.TypeError": [],
+    "<builtin>.tuple": [],
+    "bpytop.Mv.right": [],
+    "_pslinux.cpu_count_cores": [
+        "_common.open_binary",
+        "glob.glob"
+    ],
+    "psutil._psosx.cpu_count_logical": [],
+    "_pslinux.cpu_count_logical": [],
+    "psutil._psosx.cpu_count_cores": [],
+    "bpytop.Theme.__init__": [
+        "bpytop.Theme.refresh",
+        "bpytop.Theme._load_theme"
+    ],
+    "bpytop.Draw.now": [
+        "threading.Event.wait",
+        "<builtin>.print",
+        "bpytop.Color.__str__",
+        "threading.Event.clear",
+        "threading.Event.set"
+    ],
+    "signal.signal": [
+        "signal._enum_to_int",
+        "signal._int_to_enum"
+    ],
+    "bpytop.TimeIt.stop": [
+        "logging.Logger.debug",
+        "time.time"
+    ],
+    "bpytop.UpdateChecker.run": [
+        "threading.Thread.__init__",
+        "threading.Thread.start"
+    ],
+    "bpytop.Draw.out": [
+        "bpytop.Draw.now",
+        "<builtin>.sorted",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.Init.start": [
+        "<builtin>.round",
+        "bpytop.Banner.draw",
+        "<builtin>.range",
+        "bpytop.Color.fg",
+        "bpytop.Draw.buffer",
+        "<builtin>.str",
+        "bpytop.Fx.trans",
+        "bpytop.Graph.__init__",
+        "bpytop.Mv.left",
+        "random.randint",
+        "bpytop.Mv.down",
+        "bpytop.Draw.out",
+        "bpytop.Mv.to",
+        "random.Random.randint"
+    ],
+    "codecs.BufferedIncrementalDecoder.__init__": [
+        "codecs.IncrementalDecoder.__init__"
+    ],
+    "bpytop.main.run": [
+        "bpytop.Key.input_wait",
+        "bpytop.Timer.not_zero",
+        "bpytop.Collector.collect",
+        "bpytop.process_keys",
+        "bpytop.Timer.left",
+        "bpytop.Timer.stamp",
+        "bpytop.Term.refresh"
+    ],
+    "bpytop.Init.done": [
+        "bpytop.Init.draw_bg",
+        "bpytop.Draw.now",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.Collector.collect": [
+        "<list>.remove",
+        "<builtin>.list",
+        "threading.Event.set",
+        "threading.Event.wait"
+    ],
+    "bpytop.Init.success": [
+        "bpytop.Init.draw_bg",
+        "bpytop.Draw.buffer",
+        "bpytop.Mv.right"
+    ],
+    "bpytop.Key.start": [
+        "threading.Thread.__init__",
+        "threading.Thread.start"
+    ],
+    "bpytop.Term.title": [
+        "_collections_abc.Mapping.get"
+    ],
+    "os.get_terminal_size": [],
+    "logging.Logger.exception": [
+        "logging.Logger.error"
+    ],
+    "bpytop.Collector.start": [
+        "threading.Thread.__init__",
+        "threading.Thread.start"
+    ],
+    "bpytop.clean_quit": [
+        "<builtin>.round",
+        "bpytop.Draw.now",
+        "_thread.interrupt_main",
+        "bpytop.Config.save_config",
+        "bpytop.Collector.stop",
+        "datetime.timedelta.__init__",
+        "<builtin>.print",
+        "bpytop.Term.echo",
+        "logging.Logger.info",
+        "time.time",
+        "bpytop.Key.stop",
+        "bpytop.Term.title",
+        "<builtin>.SystemExit"
+    ],
+    "bpytop.Box.draw_bg": [
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Box.draw_clock",
+        "bpytop.Box.empty_bg",
+        "bpytop.Draw.buffer"
+    ],
+    "bpytop.CpuCollector.get_sensors": [
+        "subprocess.check_output",
+        "<builtin>.hasattr",
+        "psutil.sensors_temperatures",
+        "shutil.which",
+        "<builtin>.bool"
+    ],
+    "bpytop.TimeIt.start": [
+        "time.time"
+    ],
+    "threading.Event.wait": [
+        "threading.Condition.__enter__",
+        "threading.Condition.__exit__",
+        "threading.Condition.wait"
+    ],
+    "bpytop.Draw.buffer": [
+        "<str>.startswith",
+        "<str>.rstrip",
+        "bpytop.Draw.out",
+        "<str>.endswith",
+        "<str>.lstrip"
+    ],
+    "bpytop.Term.echo": [],
+    "sys.stdin.reconfigure": [],
+    "bpytop.Init.fail": [
+        "logging.Logger.exception",
+        "bpytop.Draw.buffer",
+        "time.sleep",
+        "bpytop.clean_quit"
+    ],
+    "bpytop.Box.calc_sizes": [
+        "bpytop.Box._calc_size"
+    ],
+    "bpytop.Term.refresh": [
+        "bpytop.Box.draw_bg",
+        "bpytop.Draw.now",
+        "<builtin>.getattr",
+        "bpytop.Timer.finish",
+        "<builtin>.min",
+        "bpytop.Key.last",
+        "bpytop.Key.has_key",
+        "threading.Event.wait",
+        "<builtin>.str",
+        "bpytop.Mv.left",
+        "bpytop.Mv.right",
+        "bpytop.Mv.down",
+        "os.get_terminal_size",
+        "threading.Event.clear",
+        "bpytop.Box.calc_sizes",
+        "threading.Event.set",
+        "bpytop.create_box",
+        "bpytop.clean_quit"
+    ],
+    "argparse.ArgumentParser.parse_known_args": [
+        "<builtin>.getattr",
+        "<builtin>.hasattr",
+        "sys.exc_info",
+        "argparse.ArgumentParser.error",
+        "<builtin>.delattr",
+        "<builtin>.str",
+        "<list>.extend",
+        "argparse.Namespace.__init__",
+        "<builtin>.list",
+        "<builtin>.setattr",
+        "argparse.ArgumentParser._parse_known_args"
+    ],
+    "argparse.ArgumentParser.error": [
+        "argparse.ArgumentParser.print_usage",
+        "gettext.gettext",
+        "argparse.ArgumentParser.exit"
+    ],
+    "_bootlocale.getpreferredencoding": [],
+    "genericpath.isfile": [
+        "stat.S_ISREG"
+    ],
+    "codecs.BufferedIncrementalDecoder.decode": [],
+    "<list>.extend": [],
+    "<builtin>.open": [],
+    "<builtin>.int": [],
+    "re._compile": [
+        "<builtin>.next",
+        "sre_compile.isstring",
+        "<builtin>.iter",
+        "<builtin>.TypeError",
+        "enum.IntFlag.__and__",
+        "<builtin>.len",
+        "<builtin>.ValueError",
+        "sre_compile.compile",
+        "<builtin>.type",
+        "types.DynamicClassAttribute.__get__",
+        "<builtin>.isinstance"
+    ],
+    "logging.Logger.handle": [
+        "logging.Filterer.filter",
+        "logging.Logger.callHandlers"
+    ],
+    "<builtin>.type": [],
+    "logging.Logger.makeRecord": [
+        "<builtin>.KeyError",
+        "logging.LogRecord.__init__"
+    ],
+    "logging.Logger.findCaller": [
+        "__init__.<lambda>",
+        "<builtin>.hasattr",
+        "posixpath.normcase"
+    ],
+    "logging.Logger.getEffectiveLevel": [],
+    "__init__.FileHandler.__init__": [],
+    "logging.FileHandler.__init__": [
+        "logging.FileHandler._open",
+        "__init__.FileHandler._open",
+        "logging.StreamHandler.__init__",
+        "logging.Filterer.__init__",
+        "posixpath.abspath"
+    ],
+    "bpytop.Color.escape_color": [
+        "<builtin>.int",
+        "bpytop.Color.truecolor_to_256",
+        "logging.Logger.exception",
+        "<builtin>.len"
+    ],
+    "argparse._ArgumentGroup.register": [],
+    "argparse.ArgumentParser.register": [],
+    "argparse._ArgumentGroup._get_handler": [],
+    "argparse._ActionsContainer._get_handler": [
+        "<builtin>.getattr",
+        "<builtin>.ValueError",
+        "gettext.gettext"
+    ],
+    "argparse.ArgumentParser._get_handler": [],
+    "gettext.dgettext": [
+        "<map>.gettext",
+        "<map>.get",
+        "gettext.translation"
+    ],
+    "argparse._ArgumentGroup.__init__": [
+        "argparse._ActionsContainer.__init__",
+        "<builtin>.super"
+    ],
+    "logging.Logger.__init__": [
+        "logging._checkLevel",
+        "logging.Filterer.__init__",
+        "__init__.Filterer.__init__"
+    ],
+    "logging.Manager._fixupParents": [],
+    "logging.Manager._fixupChildren": [],
+    "subprocess.Popen.__del__": [
+        "subprocess.Popen._internal_poll"
+    ],
+    "subprocess.run": [
+        "subprocess.Popen.communicate",
+        "subprocess.Popen.__exit__",
+        "subprocess.Popen.__enter__",
+        "subprocess.CompletedProcess.__init__",
+        "<builtin>.ValueError",
+        "subprocess.Popen.poll",
+        "subprocess.Popen.__init__"
+    ],
+    "<str>.sub": [],
+    "re._subx": [
+        "re._compile_repl",
+        "<builtin>.len"
+    ],
+    "threading.Condition.__enter__": [],
+    "threading.Condition.__exit__": [],
+    "threading.Condition.notify_all": [
+        "<builtin>.len",
+        "threading.Condition.notify"
+    ],
+    "threading.Condition.__init__": [
+        "_collections.deque",
+        "threading.RLock"
+    ],
+    "os.decode": [],
+    "os.encode": [],
+    "<builtin>.KeyError": [],
+    "<builtin>.hash": [],
+    "<builtin>.frozenset": [],
+    "typing._type_check": [
+        "typing._GenericAlias.__eq__",
+        "<builtin>.TypeError",
+        "<builtin>.callable",
+        "typing._SpecialForm.__eq__",
+        "<builtin>.type",
+        "<builtin>.isinstance"
+    ],
+    "typing.<genexpr>": [
+        "typing._type_check"
+    ],
+    "typing._GenericAlias.copy_with": [
+        "typing._GenericAlias.__init__"
+    ],
+    "typing._subs_tvars": [
+        "<builtin>.tuple",
+        "<builtin>.list",
+        "<builtin>.enumerate",
+        "typing._GenericAlias.copy_with",
+        "<builtin>.isinstance"
+    ],
+    "typing._remove_dups_flatten": [
+        "<builtin>.tuple",
+        "<builtin>.len",
+        "<builtin>.set",
+        "typing._GenericAlias.__hash__",
+        "<builtin>.isinstance"
+    ],
+    "typing._check_generic": [],
+    "typing._GenericAlias.__init__": [
+        "typing._collect_type_vars",
+        "<builtin>.tuple",
+        "typing.<genexpr>",
+        "<map>.get",
+        "typing._GenericAlias.__setattr__",
+        "<builtin>.isinstance"
+    ],
+    "<builtin>.all": [],
+    "<builtin>.hex": [],
+    "bpytop.Color.truecolor_to_256": [
+        "<builtin>.round"
+    ],
+    "<builtin>.map": [],
+    "bpytop.strtobool": [
+        "<builtin>.ValueError",
+        "<builtin>.type"
+    ],
+    "<builtin>.bool": [],
+    "argparse.HelpFormatter.__init__": [
+        "<builtin>.min",
+        "<builtin>.max",
+        "argparse._Section.__init__",
+        "re.compile",
+        "shutil.get_terminal_size"
+    ],
+    "argparse.ArgumentParser.formatter_class": [],
+    "argparse.Action.__init__": [],
+    "argparse.format": [],
+    "argparse.HelpFormatter._metavar_formatter": [
+        "<builtin>.str"
+    ],
+    "argparse._ArgumentGroup._add_action": [
+        "<builtin>.super",
+        "argparse._ActionsContainer._add_action"
+    ],
+    "<builtin>.dict": [],
+    "argparse._StoreConstAction.__init__": [
+        "<builtin>.super",
+        "argparse.Action.__init__"
+    ],
+    "logging.Manager.root._cache.clear": [],
+    "logging.RootLogger.manager.root._cache.clear": [],
+    "psutil.sensors_temperatures.convert": [
+        "<builtin>.float"
+    ],
+    "_pslinux.sensors_temperatures": [
+        "posixpath.dirname",
+        "re.compile",
+        "_common.cat",
+        "glob.glob",
+        "posixpath.join",
+        "_common.bcat"
+    ],
+    "psutil.cpu_times": [
+        "_pslinux.wrapper",
+        "psutil._psosx.wrapper",
+        "psutil._psosx.cpu_times",
+        "_pslinux.cpu_times",
+        "psutil._psosx.per_cpu_times",
+        "_pslinux.per_cpu_times"
+    ],
+    "psutil.cpu_times_percent.calculate": [
+        "<builtin>.round",
+        "psutil.cpu_times_percent.calculate.nums.append",
+        "<builtin>.min",
+        "<builtin>.max",
+        "psutil._cpu_tot_time",
+        "psutil._cpu_times_deltas"
+    ],
+    "psutil.calculate": [
+        "psutil._cpu_tot_time",
+        "psutil._cpu_times_deltas",
+        "psutil._cpu_busy_time"
+    ],
+    "psutil._cpu_tot_time": [],
+    "<builtin>.zip": [],
+    "_common.open_binary": [],
+    "glob.glob": [
+        "glob._iglob",
+        "glob.iglob",
+        "<builtin>.list"
+    ],
+    "bpytop.Theme.refresh": [
+        "logging.Logger.exception",
+        "posix.listDir",
+        "<builtin>.str"
+    ],
+    "bpytop.Theme._load_theme": [
+        "bpytop.Draw.now",
+        "<builtin>.getattr",
+        "<builtin>.range",
+        "bpytop.Theme._load_file",
+        "bpytop.Color.fg",
+        "bpytop.Color.__init__",
+        "bpytop.Color.__iter__",
+        "bpytop.Color.__str__",
+        "<builtin>.list",
+        "<builtin>.setattr"
+    ],
+    "bpytop.Color.__str__": [],
+    "threading.Event.clear": [
+        "threading.Condition.__enter__",
+        "threading.Condition.__exit__"
+    ],
+    "signal._enum_to_int": [],
+    "signal._int_to_enum": [
+        "enum.EnumMeta.__call__",
+        "signal.signal.Handlers"
+    ],
+    "threading.Thread.__init__": [
+        "threading.Event.__init__",
+        "threading.daemon",
+        "threading._newname",
+        "<builtin>.str",
+        "_weakrefset.WeakSet.add",
+        "threading.current_thread"
+    ],
+    "threading.Thread.start": [
+        "<builtin>.RuntimeError",
+        "threading.Event.is_set",
+        "threading.Event.wait"
+    ],
+    "bpytop.Draw.clear": [],
+    "<builtin>.round": [],
+    "bpytop.Banner.draw": [
+        "bpytop.Mv.to",
+        "<builtin>.enumerate",
+        "bpytop.Draw.out"
+    ],
+    "bpytop.Graph.__init__": [
+        "bpytop.min_max",
+        "<builtin>.range",
+        "<list>.reverse",
+        "<builtin>.min",
+        "math.ceil",
+        "<builtin>.len",
+        "bpytop.Graph._create",
+        "<builtin>.int",
+        "<list>.insert",
+        "<builtin>.isinstance"
+    ],
+    "random.randint": [],
+    "bpytop.Mv.to": [],
+    "random.Random.randint": [],
+    "codecs.IncrementalDecoder.__init__": [],
+    "bpytop.Key.input_wait": [
+        "threading.Event.clear",
+        "bpytop.Draw.now",
+        "threading.Event.is_set",
+        "threading.Event.wait"
+    ],
+    "bpytop.Timer.not_zero": [
+        "time.time"
+    ],
+    "bpytop.process_keys": [
+        "bpytop.Menu.options",
+        "logging.Logger.error",
+        "bpytop.Key.get_mouse",
+        "bpytop.ProcBox.selector",
+        "bpytop.Menu.help",
+        "bpytop.ProcCollector.sorting",
+        "<builtin>.list",
+        "bpytop.Draw.clear",
+        "psutil.pid_exists",
+        "bpytop.Key.has_key",
+        "bpytop.Collector.collect",
+        "os.kill",
+        "logging.Logger.exception",
+        "bpytop.NetCollector.switch",
+        "bpytop.clean_quit",
+        "threading.Event.wait",
+        "bpytop.Box.draw_update_ms",
+        "bpytop.Menu.main",
+        "<builtin>.len",
+        "bpytop.Key.get",
+        "bpytop.Term.refresh"
+    ],
+    "bpytop.Timer.left": [
+        "time.time",
+        "bpytop.Timer.stamp"
+    ],
+    "bpytop.Timer.stamp": [
+        "time.time"
+    ],
+    "bpytop.Init.draw_bg": [
+        "<builtin>.range",
+        "bpytop.Draw.buffer",
+        "bpytop.Graph.__init__",
+        "time.sleep",
+        "bpytop.Draw.out",
+        "bpytop.Mv.to",
+        "random.Random.randint"
+    ],
+    "<list>.remove": [],
+    "<builtin>.list": [],
+    "logging.Logger.error": [
+        "logging.Logger._log",
+        "logging.Logger.isEnabledFor"
+    ],
+    "_thread.interrupt_main": [],
+    "bpytop.Config.save_config": [
+        "logging.Logger.exception",
+        "<builtin>.str",
+        "<builtin>.open"
+    ],
+    "bpytop.Collector.stop": [
+        "threading.Thread.is_alive",
+        "threading.Event.set",
+        "threading.Thread.join"
+    ],
+    "datetime.timedelta.__init__": [],
+    "bpytop.Key.stop": [
+        "threading.Thread.is_alive",
+        "threading.Thread.join"
+    ],
+    "bpytop.Box.draw_update_ms": [
+        "<builtin>.hasattr",
+        "<builtin>.range",
+        "bpytop.Draw.buffer",
+        "<builtin>.len",
+        "psutil.sensors_battery",
+        "bpytop.Draw.out",
+        "bpytop.Mv.to",
+        "bpytop.Color.__call__",
+        "bpytop.Draw.clear"
+    ],
+    "bpytop.Box.draw_clock": [
+        "time.strftime",
+        "<builtin>.hasattr",
+        "bpytop.Draw.buffer",
+        "time.tzset",
+        "<builtin>.len",
+        "psutil.sensors_battery",
+        "bpytop.Color.__str__",
+        "bpytop.Draw.out",
+        "bpytop.Mv.to",
+        "bpytop.Color.__call__"
+    ],
+    "bpytop.Box.empty_bg": [
+        "bpytop.Banner.draw",
+        "bpytop.Mv.right",
+        "bpytop.Mv.down",
+        "bpytop.Mv.left"
+    ],
+    "shutil.which": [
+        "posixpath.dirname",
+        "<builtin>.any",
+        "shutil._access_check",
+        "_collections_abc.Mapping.get",
+        "os.fsdecode",
+        "<map>.insert",
+        "<str>.lower",
+        "<builtin>.set",
+        "posixpath.normcase",
+        "<str>.split",
+        "posixpath.join",
+        "<str>.endswith",
+        "<str>.insert",
+        "<builtin>.isinstance"
+    ],
+    "threading.Condition.wait": [
+        "threading.Condition._acquire_restore",
+        "<builtin>.RuntimeError",
+        "threading.Condition._release_save",
+        "threading.Condition._is_owned"
+    ],
+    "time.sleep": [],
+    "bpytop.Box._calc_size": [],
+    "bpytop.Timer.finish": [
+        "bpytop.Key.break_wait",
+        "time.time"
+    ],
+    "<builtin>.min": [],
+    "bpytop.Key.last": [],
+    "bpytop.Key.has_key": [
+        "<builtin>.bool"
+    ],
+    "bpytop.create_box": [
+        "<builtin>.range",
+        "bpytop.Color.__str__",
+        "bpytop.Mv.right",
+        "bpytop.Mv.to",
+        "bpytop.Color.__call__"
+    ],
+    "sys.exc_info": [],
+    "<builtin>.delattr": [],
+    "argparse.Namespace.__init__": [
+        "<builtin>.setattr"
+    ],
+    "argparse.ArgumentParser._parse_known_args": [
+        "<builtin>.hasattr",
+        "<builtin>.iter",
+        "<list>.extend",
+        "gettext.gettext",
+        "argparse.ArgumentParser._parse_known_args.extras.extend",
+        "argparse.ArgumentParser._get_value",
+        "argparse.ArgumentParser._parse_known_args.arg_string_pattern_parts.append",
+        "<builtin>.setattr",
+        "argparse.ArgumentParser._parse_known_args.required_actions.append",
+        "<map>.setdefault",
+        "argparse.ArgumentParser._read_args_from_files",
+        "<list>.append",
+        "argparse.ArgumentParser._parse_known_args.action_conflicts.setdefault",
+        "argparse.ArgumentParser._parse_known_args.consume_optional",
+        "<builtin>.getattr",
+        "argparse.ArgumentParser._get_positional_actions",
+        "<builtin>.max",
+        "argparse.ArgumentParser._parse_optional",
+        "<builtin>.enumerate",
+        "<builtin>.min",
+        "argparse.ArgumentParser._parse_known_args.consume_positionals",
+        "argparse.ArgumentParser.error",
+        "argparse.consume_positionals",
+        "<builtin>.set",
+        "<builtin>.isinstance"
+    ],
+    "argparse.ArgumentParser.print_usage": [
+        "argparse.ArgumentParser.format_usage",
+        "argparse.ArgumentParser._print_message"
+    ],
+    "argparse.ArgumentParser.exit": [
+        "argparse.ArgumentParser._print_message"
+    ],
+    "stat.S_ISREG": [],
+    "<builtin>.next": [],
+    "sre_compile.isstring": [],
+    "<builtin>.iter": [],
+    "enum.IntFlag.__and__": [
+        "enum.EnumMeta.__call__",
+        "<builtin>.isinstance"
+    ],
+    "sre_compile.compile": [
+        "sre_compile.isstring",
+        "<map>.items",
+        "<builtin>.tuple",
+        "sre_compile._code",
+        "<builtin>.print",
+        "sre_parse.parse",
+        "sre_parse.groups"
+    ],
+    "types.DynamicClassAttribute.__get__": [
+        "enum.name",
+        "<builtin>.AttributeError",
+        "enum.value"
+    ],
+    "logging.Filterer.filter": [
+        "<builtin>.hasattr"
+    ],
+    "logging.Logger.callHandlers": [
+        "logging.Handler.handle"
+    ],
+    "logging.LogRecord.__init__": [
+        "<builtin>.hasattr",
+        "posixpath.basename",
+        "<builtin>.len",
+        "<builtin>.int",
+        "logging.handlers.getLevelName",
+        "threading.name",
+        "posixpath.splitext",
+        "threading.current_thread",
+        "<builtin>.isinstance"
+    ],
+    "__init__.<lambda>": [],
+    "posixpath.normcase": [],
+    "logging.FileHandler._open": [
+        "_bootlocale.getpreferredencoding",
+        "codecs.IncrementalEncoder.setstate",
+        "<builtin>.open",
+        "codecs.IncrementalEncoder.__init__"
+    ],
+    "__init__.FileHandler._open": [],
+    "logging.StreamHandler.__init__": [
+        "logging.Handler.__init__"
+    ],
+    "logging.Filterer.__init__": [],
+    "posixpath.abspath": [
+        "posixpath.normpath",
+        "posixpath.isabs",
+        "<builtin>.isinstance"
+    ],
+    "<map>.gettext": [],
+    "<map>.get": [],
+    "gettext.translation": [
+        "<builtin>.FileNotFoundError",
+        "<builtin>.open",
+        "gettext.find",
+        "<map>.get",
+        "gettext.GNUTranslations.__init__",
+        "gettext.NullTranslations.__init__",
+        "os.path.abspath"
+    ],
+    "__init__.Filterer.__init__": [],
+    "subprocess.Popen._internal_poll": [
+        "subprocess.Popen._handle_exitstatus"
+    ],
+    "subprocess.Popen.communicate": [
+        "subprocess.Popen.wait",
+        "<list>.count",
+        "<builtin>.min",
+        "codecs.BufferedIncrementalDecoder.decode",
+        "<builtin>.ValueError"
+    ],
+    "subprocess.Popen.__exit__": [
+        "subprocess.Popen.wait"
+    ],
+    "subprocess.Popen.__enter__": [],
+    "subprocess.CompletedProcess.__init__": [],
+    "subprocess.Popen.poll": [
+        "subprocess.Popen._internal_poll"
+    ],
+    "subprocess.Popen.__init__": [
+        "subprocess.Popen._get_handles",
+        "warnings.warn",
+        "<builtin>.hasattr",
+        "subprocess._cleanup",
+        "os.close",
+        "subprocess.Popen._execute_child",
+        "_bootlocale.getpreferredencoding",
+        "<builtin>.TypeError",
+        "codecs.BufferedIncrementalDecoder.__init__",
+        "<builtin>.filter",
+        "_io.open",
+        "<builtin>.ValueError",
+        "<list>.append",
+        "<builtin>.bool",
+        "io.TextIOWrapper",
+        "<builtin>.isinstance"
+    ],
+    "re._compile_repl": [
+        "sre_parse.parse_template"
+    ],
+    "threading.Condition.notify": [
+        "<builtin>.RuntimeError",
+        "threading.Condition._is_owned"
+    ],
+    "_collections.deque": [],
+    "threading.RLock": [
+        "_thread.RLock",
+        "threading._RLock.__init__"
+    ],
+    "typing._GenericAlias.__eq__": [],
+    "typing._SpecialForm.__eq__": [],
+    "<builtin>.set": [],
+    "typing._collect_type_vars": [
+        "<list>.append",
+        "<builtin>.tuple",
+        "<builtin>.isinstance",
+        "<list>.extend"
+    ],
+    "typing._GenericAlias.__setattr__": [
+        "<builtin>.setattr",
+        "<builtin>.super",
+        "typing._is_dunder"
+    ],
+    "<builtin>.max": [],
+    "argparse._Section.__init__": [],
+    "shutil.get_terminal_size": [
+        "<builtin>.int",
+        "os._Environ.__getitem__"
+    ],
+    "argparse._ActionsContainer._add_action": [
+        "argparse._ActionsContainer._check_conflict"
+    ],
+    "<builtin>.float": [],
+    "_common.cat": [],
+    "posixpath.join": [
+        "posixpath._get_sep",
+        "<str>.endswith",
+        "<builtin>.map"
+    ],
+    "_common.bcat": [],
+    "_pslinux.wrapper": [
+        "_pslinux.name",
+        "_pslinux.uids",
+        "_pslinux.memory_info",
+        "_common.wrapper",
+        "_pslinux.cpu_times",
+        "_pslinux.num_threads",
+        "_pslinux.create_time",
+        "_pslinux.cmdline",
+        "genericpath.exists",
+        "_common.NoSuchProcess.__init__"
+    ],
+    "psutil._psosx.wrapper": [
+        "psutil._common.NoSuchProcess.__init__",
+        "psutil._psosx.cmdline",
+        "psutil._psosx.memory_info",
+        "psutil._psosx.num_threads",
+        "psutil._psosx.create_time",
+        "psutil._psosx.uids",
+        "psutil._psosx.cpu_times",
+        "psutil._common.AccessDenied.__init__",
+        "psutil._common.wrapper",
+        "psutil._psosx.is_zombie",
+        "psutil._psosx.name"
+    ],
+    "psutil._psosx.cpu_times": [
+        "psutil._psosx.wrapper"
+    ],
+    "_pslinux.cpu_times": [
+        "_pslinux.wrapper",
+        "_common.get_procfs_path",
+        "_common.wrapper",
+        "_common.open_binary"
+    ],
+    "psutil._psosx.per_cpu_times": [
+        "<list>.append"
+    ],
+    "_pslinux.per_cpu_times": [
+        "_common.get_procfs_path",
+        "_common.wrapper",
+        "_common.open_binary"
+    ],
+    "psutil.cpu_times_percent.calculate.nums.append": [],
+    "psutil._cpu_times_deltas": [
+        "<builtin>.max",
+        "<builtin>.getattr"
+    ],
+    "psutil._cpu_busy_time": [
+        "<builtin>.getattr",
+        "psutil._cpu_tot_time"
+    ],
+    "glob._iglob": [
+        "glob._iglob",
+        "posixpath.split",
+        "glob._glob0",
+        "posixpath.join",
+        "glob._glob1",
+        "glob.has_magic"
+    ],
+    "glob.iglob": [],
+    "posix.listDir": [],
+    "bpytop.Theme._load_file": [
+        "logging.Logger.exception",
+        "<builtin>.str",
+        "<builtin>.open"
+    ],
+    "bpytop.Color.__iter__": [],
+    "enum.EnumMeta.__call__": [
+        "enum.EnumMeta._create_",
+        "enum.__new__"
+    ],
+    "signal.signal.Handlers": [],
+    "threading.daemon": [],
+    "threading._newname": [],
+    "_weakrefset.WeakSet.add": [
+        "_weakrefset.WeakSet._commit_removals"
+    ],
+    "threading.current_thread": [
+        "threading._DummyThread.__init__",
+        "_thread.get_ident"
+    ],
+    "<builtin>.RuntimeError": [],
+    "threading.Event.is_set": [],
+    "bpytop.min_max": [
+        "<builtin>.max",
+        "<builtin>.min"
+    ],
+    "<list>.reverse": [],
+    "math.ceil": [],
+    "bpytop.Graph._create": [
+        "<builtin>.round",
+        "<builtin>.range",
+        "<builtin>.len",
+        "bpytop.Color.__str__",
+        "<builtin>.float",
+        "<builtin>.bool",
+        "bpytop.Mv.down",
+        "bpytop.Mv.left"
+    ],
+    "<list>.insert": [],
+    "bpytop.Menu.options": [
+        "bpytop.Draw.now",
+        "bpytop.Banner.draw",
+        "<str>.split",
+        "<builtin>.range",
+        "bpytop.Key.get_mouse",
+        "<builtin>.str",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Theme.refresh",
+        "<builtin>.setattr",
+        "<builtin>.type",
+        "bpytop.Mv.to",
+        "bpytop.Mv.left",
+        "<builtin>.round",
+        "bpytop.Timer.finish",
+        "bpytop.Timer.not_zero",
+        "bpytop.ProcCollector.sorting",
+        "<builtin>.list",
+        "bpytop.Mv.right",
+        "bpytop.Timer.left",
+        "bpytop.Timer.stamp",
+        "bpytop.Fx.uncolor",
+        "bpytop.Draw.clear",
+        "<builtin>.getattr",
+        "<builtin>.max",
+        "bpytop.Collector.collect",
+        "bpytop.Mv.down",
+        "<builtin>.enumerate",
+        "<builtin>.map",
+        "logging.Logger.setLevel",
+        "bpytop.create_box",
+        "bpytop.clean_quit",
+        "bpytop.Key.input_wait",
+        "bpytop.CpuCollector.get_sensors",
+        "<builtin>.min",
+        "threading.Event.wait",
+        "bpytop.Box.draw_update_ms",
+        "<str>.isdigit",
+        "<builtin>.len",
+        "logging.Logger.info",
+        "bpytop.Key.get",
+        "<builtin>.int",
+        "logging.Logger.warning",
+        "bpytop.Term.refresh",
+        "<builtin>.isinstance"
+    ],
+    "bpytop.Key.get_mouse": [
+        "threading.Event.clear",
+        "threading.Event.is_set"
+    ],
+    "bpytop.ProcBox.selector": [
+        "<builtin>.round",
+        "<list>.insert",
+        "bpytop.Collector.collect",
+        "<list>.insert"
+    ],
+    "bpytop.Menu.help": [
+        "bpytop.Draw.now",
+        "bpytop.Banner.draw",
+        "<builtin>.range",
+        "bpytop.Key.get_mouse",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Mv.to",
+        "bpytop.Mv.left",
+        "bpytop.Timer.not_zero",
+        "bpytop.Mv.right",
+        "bpytop.Timer.left",
+        "bpytop.Timer.stamp",
+        "bpytop.Fx.uncolor",
+        "bpytop.Collector.collect",
+        "bpytop.Mv.down",
+        "<builtin>.enumerate",
+        "bpytop.create_box",
+        "bpytop.clean_quit",
+        "bpytop.Key.input_wait",
+        "threading.Event.wait",
+        "<builtin>.len",
+        "bpytop.Key.get",
+        "logging.Logger.warning"
+    ],
+    "bpytop.ProcCollector.sorting": [
+        "<builtin>.len",
+        "bpytop.Collector.collect"
+    ],
+    "psutil.pid_exists": [
+        "psutil._pssunos.pid_exists",
+        "psutil._psposix.pid_exists",
+        "psutil._psbsd.pid_exists",
+        "psutil._pslinux.pid_exists",
+        "psutil.pids",
+        "psutil._psaix.pid_exists"
+    ],
+    "os.kill": [],
+    "bpytop.NetCollector.switch": [
+        "<builtin>.len",
+        "bpytop.Collector.collect"
+    ],
+    "bpytop.Menu.main": [
+        "bpytop.Menu.options",
+        "bpytop.Draw.now",
+        "bpytop.Banner.draw",
+        "bpytop.Key.get_mouse",
+        "bpytop.Draw.saved_buffer",
+        "bpytop.Mv.to",
+        "bpytop.Key.mouse_moved",
+        "bpytop.Mv.left",
+        "bpytop.Menu.help",
+        "bpytop.Timer.not_zero",
+        "<builtin>.list",
+        "bpytop.Mv.right",
+        "bpytop.Timer.left",
+        "bpytop.Timer.stamp",
+        "bpytop.Fx.uncolor",
+        "bpytop.Collector.collect",
+        "bpytop.Mv.down",
+        "bpytop.clean_quit",
+        "bpytop.Key.input_wait",
+        "threading.Event.wait",
+        "<builtin>.len",
+        "bpytop.Key.get",
+        "logging.Logger.warning"
+    ],
+    "bpytop.Key.get": [],
+    "threading.Thread.is_alive": [
+        "threading.Thread._wait_for_tstate_lock",
+        "threading.Event.is_set"
+    ],
+    "threading.Thread.join": [
+        "<builtin>.RuntimeError",
+        "<builtin>.max",
+        "threading.Event.is_set",
+        "threading.current_thread",
+        "threading.Thread._wait_for_tstate_lock"
+    ],
+    "psutil.sensors_battery": [
+        "psutil._psosx.sensors_battery",
+        "_pslinux.sensors_battery"
+    ],
+    "bpytop.Color.__call__": [
+        "<builtin>.len",
+        "<builtin>.getattr"
+    ],
+    "time.strftime": [],
+    "time.tzset": [],
+    "<builtin>.any": [],
+    "shutil._access_check": [
+        "genericpath.exists",
+        "genericpath.isdir"
+    ],
+    "os.fsdecode": [],
+    "<map>.insert": [],
+    "<str>.lower": [],
+    "<str>.insert": [],
+    "threading.Condition._acquire_restore": [],
+    "threading.Condition._release_save": [],
+    "threading.Condition._is_owned": [],
+    "bpytop.Key.break_wait": [
+        "threading.Event.clear",
+        "<list>.append",
+        "threading.Event.set",
+        "time.sleep"
+    ],
+    "argparse.ArgumentParser._parse_known_args.extras.extend": [],
+    "argparse.ArgumentParser._get_value": [
+        "<builtin>.getattr",
+        "<builtin>.callable",
+        "<builtin>.str",
+        "argparse._ActionsContainer._registry_get",
+        "argparse.ArgumentError.__init__",
+        "gettext.gettext",
+        "<builtin>.repr"
+    ],
+    "argparse.ArgumentParser._parse_known_args.arg_string_pattern_parts.append": [],
+    "argparse.ArgumentParser._parse_known_args.required_actions.append": [],
+    "<map>.setdefault": [],
+    "argparse.ArgumentParser._read_args_from_files": [
+        "argparse.ArgumentParser._read_args_from_files",
+        "argparse.ArgumentParser.error",
+        "<builtin>.str",
+        "<builtin>.open",
+        "<list>.append"
+    ],
+    "argparse.ArgumentParser._parse_known_args.action_conflicts.setdefault": [],
+    "argparse.ArgumentParser._parse_known_args.consume_optional": [
+        "<list>.append",
+        "argparse.take_action",
+        "argparse.ArgumentParser._match_argument"
+    ],
+    "argparse.ArgumentParser._get_positional_actions": [],
+    "argparse.ArgumentParser._parse_optional": [
+        "<builtin>.len",
+        "gettext.gettext",
+        "argparse.ArgumentParser._get_option_tuples",
+        "argparse.ArgumentParser.error"
+    ],
+    "argparse.ArgumentParser._parse_known_args.consume_positionals": [
+        "<builtin>.len",
+        "<builtin>.zip",
+        "argparse.ArgumentParser._match_arguments_partial"
+    ],
+    "argparse.consume_positionals": [],
+    "argparse.ArgumentParser.format_usage": [
+        "argparse.ArgumentParser._get_formatter",
+        "argparse.HelpFormatter.format_help",
+        "argparse.HelpFormatter.add_usage"
+    ],
+    "argparse.ArgumentParser._print_message": [
+        "codecs.StreamRecoder.write"
+    ],
+    "<map>.items": [],
+    "sre_compile._code": [
+        "sre_compile._compile_info",
+        "<list>.append",
+        "sre_compile._compile"
+    ],
+    "sre_parse.parse": [
+        "sre_parse.Tokenizer.__init__",
+        "sre_parse.fix_flags",
+        "sre_parse._parse_sub",
+        "sre_parse.Pattern.__init__"
+    ],
+    "sre_parse.groups": [],
+    "enum.name": [],
+    "<builtin>.AttributeError": [],
+    "enum.value": [],
+    "logging.Handler.handle": [
+        "logging.FileHandler.emit",
+        "logging.StreamHandler.emit",
+        "logging.handlers.BaseRotatingHandler.emit",
+        "logging.Handler.acquire",
+        "logging.Filterer.filter",
+        "logging.Handler.release",
+        "logging.Handler.emit"
+    ],
+    "logging.handlers.getLevelName": [],
+    "threading.name": [],
+    "posixpath.splitext": [
+        "genericpath._splitext",
+        "<builtin>.isinstance"
+    ],
+    "codecs.IncrementalEncoder.setstate": [],
+    "codecs.IncrementalEncoder.__init__": [],
+    "logging.Handler.__init__": [
+        "logging._checkLevel",
+        "logging.FileHandler.createLock",
+        "logging.NullHandler.createLock",
+        "logging.Filterer.__init__",
+        "logging._addHandlerRef",
+        "logging.StreamHandler.createLock",
+        "logging.Handler.createLock"
+    ],
+    "posixpath.normpath": [],
+    "posixpath.isabs": [
+        "<str>.startswith",
+        "posixpath._get_sep"
+    ],
+    "<builtin>.FileNotFoundError": [],
+    "gettext.find": [
+        "_collections_abc.Mapping.get",
+        "gettext._expand_lang",
+        "<list>.append",
+        "posixpath.join",
+        "genericpath.exists"
+    ],
+    "gettext.GNUTranslations.__init__": [],
+    "gettext.NullTranslations.__init__": [],
+    "os.path.abspath": [],
+    "subprocess.Popen._handle_exitstatus": [],
+    "subprocess.Popen.wait": [
+        "<builtin>.min",
+        "subprocess.Popen._wait"
+    ],
+    "<list>.count": [],
+    "subprocess.Popen._get_handles": [
+        "subprocess.Popen._get_devnull",
+        "<builtin>.isinstance"
+    ],
+    "warnings.warn": [],
+    "subprocess._cleanup": [
+        "<list>.remove"
+    ],
+    "os.close": [],
+    "subprocess.Popen._execute_child": [
+        "<builtin>.hasattr",
+        "os.fsencode",
+        "<builtin>.bytes",
+        "<builtin>.TypeError",
+        "<list>.append",
+        "<builtin>.list",
+        "<builtin>.getattr",
+        "<builtin>.issubclass",
+        "<builtin>.tuple",
+        "<builtin>.ValueError",
+        "<builtin>.bytearray",
+        "<builtin>.bool",
+        "<builtin>.map",
+        "<builtin>.sorted",
+        "posixpath.dirname",
+        "<builtin>.len",
+        "<builtin>.set",
+        "<builtin>.int",
+        "<builtin>.isinstance"
+    ],
+    "<builtin>.filter": [],
+    "_io.open": [],
+    "io.TextIOWrapper": [],
+    "sre_parse.parse_template": [
+        "<builtin>.isinstance",
+        "sre_parse.addgroup",
+        "sre_parse.Tokenizer.__init__",
+        "sre_parse.Tokenizer.get",
+        "<builtin>.len",
+        "<builtin>.IndexError",
+        "<builtin>.int",
+        "<builtin>.chr"
+    ],
+    "_thread.RLock": [],
+    "threading._RLock.__init__": [],
+    "typing._is_dunder": [],
+    "argparse._ActionsContainer._check_conflict": [
+        "<list>.append",
+        "argparse._ActionsContainer._get_handler"
+    ],
+    "_pslinux.name": [
+        "_pslinux.wrapper",
+        "_common.decode"
+    ],
+    "_pslinux.uids": [
+        "_pslinux.wrapper"
+    ],
+    "_pslinux.memory_info": [
+        "_common.open_binary"
+    ],
+    "_common.wrapper": [],
+    "_pslinux.num_threads": [
+        "_pslinux.wrapper"
+    ],
+    "_pslinux.create_time": [
+        "_pslinux.wrapper",
+        "_pslinux.boot_time"
+    ],
+    "_pslinux.cmdline": [
+        "_common.open_text",
+        "codecs.BufferedIncrementalDecoder.decode"
+    ],
+    "genericpath.exists": [],
+    "_common.NoSuchProcess.__init__": [],
+    "psutil._common.NoSuchProcess.__init__": [],
+    "psutil._psosx.cmdline": [],
+    "psutil._psosx.memory_info": [
+        "psutil._psosx.wrapper"
+    ],
+    "psutil._psosx.num_threads": [
+        "psutil._psosx.wrapper"
+    ],
+    "psutil._psosx.create_time": [
+        "psutil._psosx.wrapper"
+    ],
+    "psutil._psosx.uids": [
+        "psutil._psosx.wrapper"
+    ],
+    "psutil._common.AccessDenied.__init__": [],
+    "psutil._common.wrapper": [
+        "psutil.cpu_times",
+        "psutil.memory_info",
+        "psutil._psosx._get_kinfo_proc",
+        "psutil._psosx._get_pidtaskinfo",
+        "psutil.uids"
+    ],
+    "psutil._psosx.is_zombie": [],
+    "psutil._psosx.name": [
+        "psutil._psosx.wrapper"
+    ],
+    "_common.get_procfs_path": [],
+    "posixpath.split": [
+        "posixpath._get_sep",
+        "<str>.rfind",
+        "<builtin>.len"
+    ],
+    "glob._glob0": [
+        "posixpath.lexists",
+        "posixpath.join"
+    ],
+    "glob._glob1": [
+        "glob._iterdir",
+        "<builtin>.list",
+        "fnmatch.filter",
+        "glob._ishidden"
+    ],
+    "glob.has_magic": [],
+    "enum.EnumMeta._create_": [
+        "enum._get_mixins_",
+        "enum.__prepare__",
+        "<builtin>.enumerate",
+        "enum.EnumMeta.__setattr__",
+        "<builtin>.isinstance",
+        "enum._EnumDict.__setitem__",
+        "enum.__new__"
+    ],
+    "enum.__new__": [
+        "enum._missing_",
+        "enum.<genexpr>",
+        "enum._find_new_",
+        "enum._get_mixins_",
+        "enum._make_class_unpicklable",
+        "enum.<dictcomp>",
+        "ssl.__new__",
+        "__init__.__new__",
+        "enum.<setcomp>",
+        "enum.EnumMeta.__setattr__",
+        "enum._EnumDict.__setitem__"
+    ],
+    "_weakrefset.WeakSet._commit_removals": [],
+    "threading._DummyThread.__init__": [
+        "threading.Thread._set_native_id",
+        "threading.Thread.__init__",
+        "threading._newname",
+        "threading.Thread._set_ident"
+    ],
+    "_thread.get_ident": [],
+    "bpytop.Draw.saved_buffer": [
+        "<builtin>.sorted"
+    ],
+    "bpytop.Fx.uncolor": [
+        "<str>.sub"
+    ],
+    "<str>.isdigit": [],
+    "logging.Logger.warning": [
+        "logging.Logger._log",
+        "logging.Logger.isEnabledFor"
+    ],
+    "psutil._pssunos.pid_exists": [
+        "psutil._psposix.pid_exists"
+    ],
+    "psutil._psposix.pid_exists": [],
+    "psutil._psbsd.pid_exists": [],
+    "psutil._pslinux.pid_exists": [
+        "psutil._psposix.pid_exists",
+        "psutil._common.open_binary",
+        "<builtin>.ValueError",
+        "psutil._common.get_procfs_path",
+        "<builtin>.int",
+        "psutil._pslinux.pids"
+    ],
+    "psutil.pids": [
+        "_pslinux.pids",
+        "<builtin>.sorted"
+    ],
+    "psutil._psaix.pid_exists": [],
+    "bpytop.Key.mouse_moved": [
+        "threading.Event.clear",
+        "threading.Event.is_set"
+    ],
+    "threading.Thread._wait_for_tstate_lock": [
+        "threading.Thread._stop"
+    ],
+    "psutil._psosx.sensors_battery": [],
+    "_pslinux.sensors_battery": [],
+    "argparse.ArgumentError.__init__": [
+        "argparse._get_action_name"
+    ],
+    "<builtin>.repr": [],
+    "argparse.take_action": [],
+    "argparse.ArgumentParser._match_argument": [
+        "re.match",
+        "<str>.group",
+        "argparse.ArgumentParser._get_nargs_pattern",
+        "<builtin>.len",
+        "<map>.get"
+    ],
+    "argparse.ArgumentParser._get_option_tuples": [
+        "<list>.append",
+        "gettext.gettext",
+        "argparse.ArgumentParser.error"
+    ],
+    "argparse.ArgumentParser._match_arguments_partial": [
+        "<builtin>.len",
+        "<builtin>.range",
+        "re.match",
+        "<list>.extend"
+    ],
+    "argparse.HelpFormatter.format_help": [
+        "argparse._Section.format_help"
+    ],
+    "argparse.HelpFormatter.add_usage": [
+        "argparse.HelpFormatter._add_item"
+    ],
+    "codecs.StreamRecoder.write": [],
+    "sre_compile._compile_info": [
+        "<builtin>.min",
+        "sre_compile._get_literal_prefix",
+        "sre_compile._compile_charset",
+        "sre_compile._generate_overlap_table",
+        "sre_compile._get_charset_prefix",
+        "<list>.extend",
+        "<builtin>.len",
+        "sre_parse.SubPattern.getwidth",
+        "<str>.getwidth",
+        "sre_compile._optimize_charset"
+    ],
+    "sre_compile._compile": [
+        "sre_compile._compile._len",
+        "sre_compile._simple",
+        "sre_compile._compile_charset",
+        "sre_compile._combine_flags",
+        "sre_compile._compile.error",
+        "sre_parse.SubPattern.__getitem__",
+        "<map>.get",
+        "sre_compile._compile",
+        "sre_compile._compile.iscased",
+        "sre_compile._optimize_charset"
+    ],
+    "sre_parse.Tokenizer.__init__": [
+        "<builtin>.str",
+        "<builtin>.isinstance",
+        "sre_parse.Tokenizer.__next"
+    ],
+    "sre_parse.fix_flags": [],
+    "sre_parse._parse_sub": [
+        "sre_parse.SubPattern.append",
+        "sre_parse.SubPattern.__len__",
+        "<list>.extend",
+        "<builtin>.len",
+        "sre_parse.Tokenizer.tell",
+        "sre_parse.SubPattern.__getitem__",
+        "<list>.append",
+        "sre_parse._parse",
+        "sre_parse.Tokenizer.match",
+        "sre_parse.SubPattern.__init__"
+    ],
+    "sre_parse.Pattern.__init__": [],
+    "logging.FileHandler.emit": [
+        "logging.StreamHandler.emit"
+    ],
+    "logging.StreamHandler.emit": [
+        "logging.StreamHandler.flush",
+        "logging.Handler.format"
+    ],
+    "logging.handlers.BaseRotatingHandler.emit": [
+        "logging.handlers.RotatingFileHandler.shouldRollover",
+        "__init__.FileHandler.emit"
+    ],
+    "logging.Handler.acquire": [],
+    "logging.Handler.release": [],
+    "logging.Handler.emit": [
+        "<builtin>.NotImplementedError"
+    ],
+    "genericpath._splitext": [
+        "<builtin>.max",
+        "<str>.rfind"
+    ],
+    "logging.FileHandler.createLock": [],
+    "logging.NullHandler.createLock": [],
+    "logging._addHandlerRef": [
+        "<list>.append",
+        "logging._acquireLock",
+        "_weakref.ref",
+        "logging._releaseLock"
+    ],
+    "logging.StreamHandler.createLock": [],
+    "logging.Handler.createLock": [
+        "logging._register_at_fork_reinit_lock",
+        "threading.RLock"
+    ],
+    "gettext._expand_lang": [
+        "<builtin>.range",
+        "<list>.append",
+        "<list>.reverse",
+        "locale.normalize"
+    ],
+    "subprocess.Popen._wait": [
+        "<builtin>.int",
+        "subprocess.Popen._try_wait",
+        "<builtin>.min",
+        "subprocess.Popen._handle_exitstatus"
+    ],
+    "subprocess.Popen._get_devnull": [
+        "<builtin>.hasattr"
+    ],
+    "os.fsencode": [],
+    "<builtin>.bytes": [],
+    "<builtin>.issubclass": [],
+    "<builtin>.bytearray": [],
+    "sre_parse.addgroup": [],
+    "sre_parse.Tokenizer.get": [
+        "sre_parse._parse.__next",
+        "sre_parse._parse_flags.__next",
+        "sre_parse.Tokenizer.__next"
+    ],
+    "<builtin>.IndexError": [],
+    "<builtin>.chr": [],
+    "_common.decode": [],
+    "_pslinux.boot_time": [
+        "_common.get_procfs_path",
+        "_common.open_binary"
+    ],
+    "_common.open_text": [],
+    "psutil.memory_info": [
+        "psutil._psosx.wrapper"
+    ],
+    "psutil._psosx._get_kinfo_proc": [],
+    "psutil._psosx._get_pidtaskinfo": [],
+    "psutil.uids": [
+        "psutil._psosx.wrapper"
+    ],
+    "posixpath.lexists": [],
+    "glob._iterdir": [],
+    "fnmatch.filter": [
+        "<list>.append",
+        "posixpath.normcase",
+        "fnmatch._compile_pattern",
+        "glob.<genexpr>"
+    ],
+    "glob._ishidden": [],
+    "enum._get_mixins_": [
+        "enum._find_data_type"
+    ],
+    "enum.__prepare__": [
+        "enum._EnumDict.__init__",
+        "enum._EnumDict.__setitem__",
+        "enum._get_mixins_"
+    ],
+    "enum.EnumMeta.__setattr__": [],
+    "enum._EnumDict.__setitem__": [
+        "<builtin>.TypeError",
+        "enum._is_descriptor",
+        "enum._is_sunder",
+        "<builtin>.len",
+        "enum._is_dunder",
+        "<builtin>.ValueError",
+        "<builtin>.list",
+        "<builtin>.super",
+        "<builtin>.setattr",
+        "<builtin>.set",
+        "<builtin>.isinstance"
+    ],
+    "enum._missing_": [
+        "enum._create_pseudo_member_"
+    ],
+    "enum.<genexpr>": [],
+    "enum._find_new_": [
+        "enum.EnumMeta.__getattr__"
+    ],
+    "enum._make_class_unpicklable": [
+        "enum.EnumMeta.__setattr__"
+    ],
+    "enum.<dictcomp>": [],
+    "ssl.__new__": [],
+    "__init__.__new__": [],
+    "enum.<setcomp>": [],
+    "threading.Thread._set_native_id": [],
+    "threading.Thread._set_ident": [
+        "_thread.get_ident"
+    ],
+    "psutil._common.open_binary": [],
+    "psutil._common.get_procfs_path": [],
+    "psutil._pslinux.pids": [
+        "<builtin>.int"
+    ],
+    "_pslinux.pids": [
+        "_common.get_procfs_path",
+        "_compat.b"
+    ],
+    "threading.Thread._stop": [
+        "threading.daemon"
+    ],
+    "argparse._get_action_name": [],
+    "re.match": [
+        "<str>.match",
+        "re._compile"
+    ],
+    "<str>.group": [],
+    "argparse.ArgumentParser._get_nargs_pattern": [
+        "<str>.replace"
+    ],
+    "argparse._Section.format_help": [
+        "argparse.HelpFormatter._indent",
+        "argparse.HelpFormatter._dedent",
+        "argparse.HelpFormatter._join_parts"
+    ],
+    "argparse.HelpFormatter._add_item": [],
+    "sre_compile._get_literal_prefix": [
+        "sre_compile._get_literal_prefix",
+        "sre_compile._get_iscased",
+        "sre_compile._combine_flags",
+        "<list>.extend",
+        "<builtin>.len"
+    ],
+    "sre_compile._compile_charset": [],
+    "sre_compile._generate_overlap_table": [],
+    "sre_compile._get_charset_prefix": [
+        "<builtin>.any",
+        "<builtin>.range",
+        "sre_compile._get_iscased",
+        "sre_compile._combine_flags",
+        "sre_parse.SubPattern.__len__",
+        "sre_parse.SubPattern.__getitem__",
+        "<builtin>.map"
+    ],
+    "sre_parse.SubPattern.getwidth": [
+        "sre_parse.SubPattern.getwidth",
+        "<builtin>.max",
+        "<builtin>.min"
+    ],
+    "<str>.getwidth": [],
+    "sre_compile._optimize_charset": [
+        "<builtin>.any",
+        "<builtin>.range",
+        "sre_compile._bytes_to_codes",
+        "<builtin>.bytes",
+        "<builtin>.len",
+        "<list>.append",
+        "<builtin>.bytearray",
+        "<builtin>.map",
+        "sre_compile._mk_bitmap"
+    ],
+    "sre_compile._compile._len": [],
+    "sre_compile._simple": [
+        "<builtin>.len",
+        "sre_parse.SubPattern.__getitem__",
+        "sre_parse.SubPattern.__len__"
+    ],
+    "sre_compile._combine_flags": [],
+    "sre_compile._compile.error": [],
+    "sre_parse.SubPattern.__getitem__": [
+        "sre_parse.SubPattern.__init__",
+        "<builtin>.isinstance"
+    ],
+    "sre_compile._compile.iscased": [],
+    "sre_parse.Tokenizer.__next": [],
+    "sre_parse.SubPattern.append": [],
+    "sre_parse.SubPattern.__len__": [],
+    "sre_parse.Tokenizer.tell": [],
+    "sre_parse._parse": [
+        "sre_parse.SubPattern.append",
+        "<builtin>.range",
+        "sre_parse.SubPattern.__setitem__",
+        "sre_parse.Tokenizer.tell",
+        "sre_parse._parse_flags",
+        "sre_parse.Tokenizer.match",
+        "sre_parse._class_escape",
+        "sre_parse._escape",
+        "sre_parse.Tokenizer.get",
+        "sre_parse.SubPattern.__getitem__",
+        "sre_parse._uniq",
+        "sre_parse.Pattern.opengroup",
+        "sre_parse._parse_sub",
+        "sre_parse.Tokenizer.seek",
+        "sre_parse.Pattern.closegroup",
+        "sre_parse.SubPattern.__init__",
+        "<builtin>.OverflowError",
+        "<builtin>.AssertionError",
+        "sre_parse.SubPattern.__len__",
+        "<builtin>.len",
+        "<builtin>.int",
+        "sre_parse.Tokenizer.getuntil"
+    ],
+    "sre_parse.Tokenizer.match": [
+        "sre_parse._parse.__next",
+        "sre_parse.Tokenizer.__next"
+    ],
+    "sre_parse.SubPattern.__init__": [],
+    "logging.StreamHandler.flush": [
+        "logging.Handler.acquire",
+        "<builtin>.hasattr",
+        "logging.Handler.release"
+    ],
+    "logging.Handler.format": [
+        "logging.Formatter.format"
+    ],
+    "logging.handlers.RotatingFileHandler.shouldRollover": [
+        "<builtin>.len",
+        "codecs.IncrementalEncoder.setstate",
+        "__init__.Handler.format"
+    ],
+    "__init__.FileHandler.emit": [],
+    "<builtin>.NotImplementedError": [],
+    "_weakref.ref": [],
+    "logging._register_at_fork_reinit_lock": [
+        "_weakrefset.WeakSet.add",
+        "logging._acquireLock",
+        "logging._releaseLock"
+    ],
+    "locale.normalize": [
+        "locale._replace_encoding",
+        "<map>.get",
+        "<str>.replace"
+    ],
+    "subprocess.Popen._try_wait": [],
+    "sre_parse._parse.__next": [],
+    "sre_parse._parse_flags.__next": [],
+    "fnmatch._compile_pattern": [
+        "<builtin>.bytes",
+        "re.compile",
+        "<builtin>.str",
+        "fnmatch.translate",
+        "<builtin>.isinstance"
+    ],
+    "glob.<genexpr>": [],
+    "enum._find_data_type": [],
+    "enum._EnumDict.__init__": [],
+    "enum._is_descriptor": [],
+    "enum._is_sunder": [],
+    "enum._is_dunder": [],
+    "enum._create_pseudo_member_": [
+        "enum._decompose"
+    ],
+    "enum.EnumMeta.__getattr__": [
+        "enum._is_dunder",
+        "<builtin>.AttributeError"
+    ],
+    "_compat.b": [],
+    "<str>.match": [],
+    "argparse.HelpFormatter._indent": [],
+    "argparse.HelpFormatter._dedent": [],
+    "argparse.HelpFormatter._join_parts": [],
+    "sre_compile._get_iscased": [],
+    "sre_compile._bytes_to_codes": [],
+    "sre_compile._mk_bitmap": [
+        "<builtin>.len",
+        "<builtin>.range"
+    ],
+    "sre_parse.SubPattern.__setitem__": [
+        "sre_parse.SubPattern.__getitem__",
+        "sre_parse.SubPattern.__len__"
+    ],
+    "sre_parse._parse_flags": [
+        "<builtin>.len",
+        "sre_parse.Tokenizer.get",
+        "sre_parse.Tokenizer.error"
+    ],
+    "sre_parse._class_escape": [
+        "<builtin>.ord",
+        "sre_parse.Tokenizer.getwhile",
+        "<builtin>.len",
+        "<builtin>.int",
+        "<builtin>.chr"
+    ],
+    "sre_parse._escape": [
+        "<builtin>.ord",
+        "sre_parse.Pattern.checklookbehindgroup",
+        "sre_parse.Tokenizer.getwhile",
+        "<builtin>.len",
+        "<builtin>.int",
+        "<builtin>.chr",
+        "sre_parse.groups",
+        "sre_parse.Pattern.checkgroup"
+    ],
+    "sre_parse._uniq": [],
+    "sre_parse.Pattern.opengroup": [
+        "sre_parse.groups"
+    ],
+    "sre_parse.Tokenizer.seek": [
+        "sre_parse.Tokenizer.__next"
+    ],
+    "sre_parse.Pattern.closegroup": [
+        "sre_parse.SubPattern.getwidth"
+    ],
+    "<builtin>.OverflowError": [],
+    "<builtin>.AssertionError": [],
+    "sre_parse.Tokenizer.getuntil": [
+        "<builtin>.len",
+        "sre_parse.Tokenizer.__next"
+    ],
+    "logging.Formatter.format": [
+        "logging.LogRecord.getMessage",
+        "logging.Formatter.usesTime",
+        "logging.Formatter.formatMessage",
+        "logging.Formatter.formatTime",
+        "logging.Formatter.formatException"
+    ],
+    "__init__.Handler.format": [],
+    "locale._replace_encoding": [
+        "encodings.normalize_encoding",
+        "<str>.lower",
+        "<map>.get",
+        "<str>.replace"
+    ],
+    "fnmatch.translate": [
+        "<builtin>.len",
+        "re.sub",
+        "re.escape",
+        "<list>.append"
+    ],
+    "enum._decompose": [
+        "<builtin>.len",
+        "types.DynamicClassAttribute.__get__",
+        "<builtin>.list",
+        "enum.<lambda>"
+    ],
+    "sre_parse.Tokenizer.error": [],
+    "<builtin>.ord": [],
+    "sre_parse.Tokenizer.getwhile": [
+        "<builtin>.range",
+        "sre_parse.Tokenizer.__next"
+    ],
+    "sre_parse.Pattern.checklookbehindgroup": [],
+    "sre_parse.Pattern.checkgroup": [
+        "sre_parse.groups"
+    ],
+    "logging.LogRecord.getMessage": [
+        "<builtin>.str"
+    ],
+    "logging.Formatter.usesTime": [
+        "logging.PercentStyle.usesTime"
+    ],
+    "logging.Formatter.formatMessage": [
+        "logging.PercentStyle.format"
+    ],
+    "logging.Formatter.formatTime": [],
+    "logging.Formatter.formatException": [
+        "traceback.print_exception"
+    ],
+    "encodings.normalize_encoding": [],
+    "re.escape": [
+        "<builtin>.str",
+        "<builtin>.isinstance"
+    ],
+    "enum.<lambda>": [],
+    "logging.PercentStyle.usesTime": [],
+    "logging.PercentStyle.format": [
+        "logging.PercentStyle._format",
+        "<builtin>.ValueError"
+    ],
+    "traceback.print_exception": [
+        "<builtin>.print",
+        "traceback.TracebackException.__init__",
+        "<builtin>.type",
+        "traceback.TracebackException.format"
+    ],
+    "logging.PercentStyle._format": [],
+    "traceback.TracebackException.__init__": [
+        "traceback._some_str",
+        "<builtin>.issubclass",
+        "<builtin>.id",
+        "<builtin>.str",
+        "traceback.TracebackException.__init__",
+        "<builtin>.set",
+        "traceback.extract",
+        "traceback.TracebackException._load_lines",
+        "<builtin>.type"
+    ],
+    "traceback.TracebackException.format": [
+        "traceback.StackSummary.format",
+        "traceback.TracebackException.format_exception_only",
+        "traceback.TracebackException.format"
+    ],
+    "traceback._some_str": [
+        "<builtin>.str",
+        "<builtin>.type",
+        "urllib.error.URLError.__str__"
+    ],
+    "<builtin>.id": [],
+    "traceback.extract": [
+        "traceback.walk_tb",
+        "linecache.checkcache",
+        "linecache.lazycache",
+        "traceback.line",
+        "traceback.FrameSummary.__init__"
+    ],
+    "traceback.TracebackException._load_lines": [
+        "traceback.line",
+        "traceback.TracebackException._load_lines"
+    ],
+    "traceback.StackSummary.format": [
+        "<builtin>.sorted",
+        "<list>.append",
+        "traceback.line"
+    ],
+    "traceback.TracebackException.format_exception_only": [
+        "<builtin>.min",
+        "<builtin>.issubclass",
+        "traceback._format_final_exc_line",
+        "<builtin>.str",
+        "<builtin>.len"
+    ],
+    "urllib.error.URLError.__str__": [],
+    "traceback.walk_tb": [],
+    "linecache.checkcache": [],
+    "linecache.lazycache": [],
+    "traceback.line": [
+        "linecache.getline"
+    ],
+    "traceback.FrameSummary.__init__": [],
+    "traceback._format_final_exc_line": [
+        "traceback._some_str"
+    ],
+    "linecache.getline": [
+        "<builtin>.len",
+        "linecache.getlines"
+    ],
+    "linecache.getlines": [
+        "linecache.updatecache",
+        "<builtin>.len"
+    ],
+    "linecache.updatecache": [
+        "<str>.startswith",
+        "codecs.BufferedIncrementalDecoder.decode",
+        "<builtin>.len",
+        "tokenize.open",
+        "<str>.endswith"
+    ],
+    "tokenize.open": [
+        "codecs.BufferedIncrementalDecoder.__init__",
+        "tokenize.detect_encoding"
+    ],
+    "tokenize.detect_encoding": [
+        "<str>.match",
+        "tokenize.find_cookie",
+        "tokenize.read_or_stop"
+    ],
+    "tokenize.find_cookie": [],
+    "tokenize.read_or_stop": []
+}

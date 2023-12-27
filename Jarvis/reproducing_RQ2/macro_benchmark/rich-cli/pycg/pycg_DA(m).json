@@ -1,0 +1,87 @@
+{
+    "rich_cli.__main__": [
+        "rich_cli.__main__.ForceWidth",
+        "<builtin>.sorted",
+        "rich_cli.__main__.run",
+        "rich_cli.__main__.RichCommand"
+    ],
+    "rich_cli.markdown": [
+        "rich_cli.markdown.CodeBlock"
+    ],
+    "rich_cli.pager": [
+        "rich_cli.pager.PagerRenderable",
+        "rich_cli.pager.PagerApp"
+    ],
+    "rich_cli.win_vt": [],
+    "rich_cli.markdown.CodeBlock": [],
+    "rich_cli": [],
+    "rich_cli.__main__.ForceWidth": [],
+    "<builtin>.sorted": [],
+    "rich_cli.__main__.run": [
+        "rich_cli.__main__.main"
+    ],
+    "rich_cli.__main__.RichCommand": [],
+    "rich_cli.pager.PagerRenderable": [],
+    "rich_cli.pager.PagerApp": [],
+    "rich_cli.__main__.main": [
+        "rich_cli.markdown",
+        "rich_cli.__main__.read_resource",
+        "rich_cli.pager.PagerRenderable.__init__",
+        "rich_cli.__main__.render_csv",
+        "<builtin>.tuple",
+        "rich_cli.__main__.main.print_usage",
+        "rich_cli.__main__.render_ipynb",
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.on_error",
+        "rich_cli.__main__.ForceWidth.__init__",
+        "<builtin>.getattr",
+        "<builtin>.bool",
+        "rich_cli.pager",
+        "<builtin>.eval",
+        "<builtin>.len",
+        "<builtin>.int"
+    ],
+    "rich_cli.__main__.read_resource": [
+        "rich_cli.__main__.on_error",
+        "<builtin>.open"
+    ],
+    "rich_cli.pager.PagerRenderable.__init__": [
+        "<builtin>.list"
+    ],
+    "rich_cli.__main__.render_csv": [
+        "<builtin>.next",
+        "<builtin>.iter",
+        "rich_cli.__main__.read_resource",
+        "rich_cli.__main__.on_error",
+        "<builtin>.str",
+        "<builtin>.enumerate"
+    ],
+    "<builtin>.tuple": [],
+    "rich_cli.__main__.main.print_usage": [],
+    "rich_cli.__main__.render_ipynb": [
+        "rich_cli.markdown",
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.read_resource",
+        "<builtin>.len",
+        "<builtin>.isinstance"
+    ],
+    "rich_cli.__main__._line_range": [
+        "rich_cli.__main__.on_error"
+    ],
+    "rich_cli.__main__.on_error": [
+        "<builtin>.str"
+    ],
+    "rich_cli.__main__.ForceWidth.__init__": [],
+    "<builtin>.getattr": [],
+    "<builtin>.bool": [],
+    "<builtin>.eval": [],
+    "<builtin>.len": [],
+    "<builtin>.int": [],
+    "<builtin>.open": [],
+    "<builtin>.list": [],
+    "<builtin>.next": [],
+    "<builtin>.iter": [],
+    "<builtin>.str": [],
+    "<builtin>.enumerate": [],
+    "<builtin>.isinstance": []
+}

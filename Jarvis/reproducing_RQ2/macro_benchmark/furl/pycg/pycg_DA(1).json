@@ -1,0 +1,223 @@
+{
+    "furl.furl": [
+        "furl.furl.furl",
+        "furl.compat",
+        "furl.furl.Query",
+        "furl.furl.static_vars.decorator",
+        "furl.furl.FragmentCompositionInterface",
+        "furl.furl.Fragment",
+        "furl.furl.PathCompositionInterface",
+        "furl.furl.FragmentPathCompositionInterface",
+        "furl.omdict1D",
+        "furl.furl.static_vars",
+        "furl.furl.Path",
+        "furl.furl.QueryCompositionInterface",
+        "furl.furl.URLPathCompositionInterface",
+        "furl.common"
+    ],
+    "furl.furl.Fragment.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.furl.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.furl.__truediv__": [
+        "furl.furl.furl.copy"
+    ],
+    "furl.furl.Path.__eq__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Path.__truediv__": [],
+    "furl.furl.Query.__eq__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Query.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Query.params": [
+        "furl.omdict1D.omdict1D.add",
+        "furl.furl.Query._items"
+    ],
+    "furl.furl.QueryCompositionInterface.querystrfurl.common": [],
+    "furl.compat": [
+        "<builtin>.list",
+        "furl.compat.UnicodeMixin"
+    ],
+    "furl.furl.Fragment.__bool__": [
+        "<builtin>.bool"
+    ],
+    "furl.furl.Fragment.__eq__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.FragmentCompositionInterface.fragmentstr": [
+        "<builtin>.str"
+    ],
+    "furl.furl.furl.asdict": [
+        "furl.furl.idna_encode"
+    ],
+    "furl.furl.furl.join": [
+        "furl.furl.furl.load",
+        "<builtin>.str",
+        "<builtin>.isinstance",
+        "furl.furl.urljoin"
+    ],
+    "furl.furl.furl.remove": [],
+    "furl.furl.Path.__repr__": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Path.normalize": [
+        "<builtin>.str",
+        "furl.furl.Path.load"
+    ],
+    "furl.furl.Path.set": [
+        "furl.furl.Path.load"
+    ],
+    "furl.furl.PathCompositionInterface.pathstr": [
+        "<builtin>.str"
+    ],
+    "furl.furl.Query.__bool__": [
+        "<builtin>.len"
+    ],
+    "furl.furl.QueryCompositionInterface.args": [],
+    "furl.omdict1D.omdict1D.__setitem__": [
+        "furl.omdict1D.omdict1D._set"
+    ],
+    "furl.omdict1D": [
+        "furl.common",
+        "furl.omdict1D.omdict1D"
+    ],
+    "furl": [
+        "<builtin>.dict",
+        "furl.furl",
+        "furl.__version__",
+        "<builtin>.globals"
+    ],
+    "furl.omdict1D.omdict1D.addfurl.omdict1D.omdict1D.set": [],
+    "furl.furl.furl": [],
+    "furl.furl.Query": [],
+    "furl.furl.static_vars.decorator": [
+        "<builtin>.setattr"
+    ],
+    "furl.furl.FragmentCompositionInterface": [],
+    "furl.furl.Fragment": [],
+    "furl.furl.PathCompositionInterface": [],
+    "furl.furl.FragmentPathCompositionInterface": [],
+    "furl.furl.static_vars": [],
+    "furl.furl.Path": [],
+    "furl.furl.QueryCompositionInterface": [],
+    "furl.furl.URLPathCompositionInterface": [],
+    "furl.common": [
+        "<builtin>.object",
+        "furl.compat"
+    ],
+    "<builtin>.str": [],
+    "furl.furl.furl.copy": [],
+    "furl.omdict1D.omdict1D.add": [
+        "furl.common.is_iterable_but_not_string",
+        "<builtin>.list"
+    ],
+    "furl.furl.Query._items": [
+        "<builtin>.list",
+        "furl.furl.Query._extract_items_from_querystr",
+        "<builtin>.isinstance",
+        "furl.common.callable_attr"
+    ],
+    "<builtin>.list": [],
+    "furl.compat.UnicodeMixin": [],
+    "<builtin>.bool": [],
+    "furl.furl.idna_encode": [
+        "<builtin>.str",
+        "furl.common.callable_attr"
+    ],
+    "furl.furl.furl.load": [
+        "<builtin>.str",
+        "<builtin>.isinstance",
+        "furl.furl.urlsplit"
+    ],
+    "<builtin>.isinstance": [],
+    "furl.furl.urljoin": [
+        "furl.furl.set_scheme",
+        "furl.furl.has_netloc",
+        "furl.furl.get_scheme"
+    ],
+    "furl.furl.Path.load": [
+        "furl.furl.Path.<lambda1>",
+        "<builtin>.len",
+        "furl.furl.PathCompositionInterface._force_absolute",
+        "furl.furl.quacks_like_a_path_with_segments",
+        "furl.furl.Path._segments_from_path",
+        "furl.common.is_iterable_but_not_string"
+    ],
+    "<builtin>.len": [],
+    "furl.omdict1D.omdict1D._set": [
+        "furl.common.is_iterable_but_not_string"
+    ],
+    "furl.omdict1D.omdict1D": [],
+    "<builtin>.dict": [],
+    "furl.__version__": [],
+    "<builtin>.globals": [],
+    "<builtin>.setattr": [],
+    "<builtin>.object": [],
+    "furl.common.is_iterable_but_not_string": [
+        "<builtin>.isinstance",
+        "furl.common.callable_attr"
+    ],
+    "furl.furl.Query._extract_items_from_querystr": [
+        "furl.furl.is_valid_encoded_query_key",
+        "furl.furl.is_valid_encoded_query_value",
+        "furl.furl.lget"
+    ],
+    "furl.common.callable_attr": [
+        "<builtin>.hasattr",
+        "<builtin>.getattr",
+        "<builtin>.callable"
+    ],
+    "furl.furl.urlsplit": [
+        "furl.furl.set_scheme",
+        "furl.furl.get_scheme",
+        "furl.furl.strip_scheme"
+    ],
+    "furl.furl.set_scheme": [
+        "furl.furl.strip_scheme"
+    ],
+    "furl.furl.has_netloc": [
+        "furl.furl.get_scheme"
+    ],
+    "furl.furl.get_scheme": [
+        "<builtin>.max",
+        "furl.furl.is_valid_scheme"
+    ],
+    "furl.furl.Path.<lambda1>": [],
+    "furl.furl.PathCompositionInterface._force_absolute": [],
+    "furl.furl.quacks_like_a_path_with_segments": [
+        "furl.common.is_iterable_but_not_string",
+        "<builtin>.hasattr"
+    ],
+    "furl.furl.Path._segments_from_path": [
+        "furl.furl.utf8",
+        "furl.furl.Path._path_from_segments",
+        "furl.furl.is_valid_encoded_path_segment",
+        "<builtin>.isinstance"
+    ],
+    "furl.furl.is_valid_encoded_query_key": [],
+    "furl.furl.is_valid_encoded_query_value": [],
+    "furl.furl.lget": [],
+    "<builtin>.hasattr": [],
+    "<builtin>.getattr": [],
+    "<builtin>.callable": [],
+    "furl.furl.strip_scheme": [
+        "<builtin>.len",
+        "furl.furl.get_scheme"
+    ],
+    "<builtin>.max": [],
+    "furl.furl.is_valid_scheme": [],
+    "furl.furl.utf8": [],
+    "furl.furl.Path._path_from_segments": [
+        "furl.furl.utf8",
+        "furl.furl.attemptstr"
+    ],
+    "furl.furl.is_valid_encoded_path_segment": [],
+    "furl.furl.attemptstr": [
+        "<builtin>.str"
+    ]
+}

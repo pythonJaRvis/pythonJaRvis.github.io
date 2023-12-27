@@ -1,1 +1,0 @@
-{"main": ["main.dec2", "main.dec1", "main.func"], "main.dec2": [], "main.dec1": [], "main.func": [], "main.dec2.inner": ["main.func"], "main.dec1.inner": ["main.dec1"]}

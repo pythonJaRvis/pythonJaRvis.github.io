@@ -1,0 +1,284 @@
+{
+    "sqlparse.utils": [],
+    "sqlparse.tokens": [
+        "sqlparse.tokens._TokenType"
+    ],
+    "sqlparse.tokens._TokenType": [],
+    "sqlparse.sql": [
+        "sqlparse.utils",
+        "sqlparse.sql.Token",
+        "sqlparse.sql.Begin",
+        "sqlparse.sql.Statement",
+        "sqlparse.sql.IdentifierList",
+        "sqlparse.sql.Function",
+        "sqlparse.sql.SquareBrackets",
+        "sqlparse.sql.Case",
+        "sqlparse.sql.Assignment",
+        "sqlparse.sql.Comparison",
+        "sqlparse.sql.For",
+        "sqlparse.sql.Where",
+        "sqlparse.sql.Having",
+        "sqlparse.sql.If",
+        "sqlparse.sql.Command",
+        "sqlparse.sql.TypedLiteral",
+        "sqlparse.sql.Values",
+        "sqlparse.sql.Identifier",
+        "sqlparse.sql.Comment",
+        "sqlparse.sql.Parenthesis",
+        "sqlparse.sql.Operation",
+        "sqlparse.tokens",
+        "sqlparse.sql.NameAliasMixin",
+        "sqlparse.sql.TokenList"
+    ],
+    "sqlparse.sql.NameAliasMixin": [],
+    "sqlparse.sql.Token": [],
+    "sqlparse.sql.TokenList": [
+        "<builtin>.property"
+    ],
+    "<builtin>.property": [],
+    "sqlparse.sql.Statement": [],
+    "sqlparse.sql.Identifier": [],
+    "sqlparse.sql.IdentifierList": [],
+    "sqlparse.sql.TypedLiteral": [],
+    "sqlparse.sql.Parenthesis": [
+        "<builtin>.property"
+    ],
+    "sqlparse.sql.SquareBrackets": [
+        "<builtin>.property"
+    ],
+    "sqlparse.sql.Assignment": [],
+    "sqlparse.sql.If": [],
+    "sqlparse.sql.For": [],
+    "sqlparse.sql.Comparison": [
+        "<builtin>.property"
+    ],
+    "sqlparse.sql.Comment": [],
+    "sqlparse.sql.Where": [],
+    "sqlparse.sql.Having": [],
+    "sqlparse.sql.Case": [],
+    "sqlparse.sql.Function": [],
+    "sqlparse.sql.Begin": [],
+    "sqlparse.sql.Operation": [],
+    "sqlparse.sql.Values": [],
+    "sqlparse.sql.Command": [],
+    "sqlparse.keywords": [
+        "sqlparse.tokens"
+    ],
+    "sqlparse.lexer": [
+        "sqlparse.utils",
+        "sqlparse.keywords",
+        "sqlparse.lexer.Lexer",
+        "sqlparse.tokens"
+    ],
+    "sqlparse.lexer.Lexer": [
+        "<builtin>.staticmethod"
+    ],
+    "<builtin>.staticmethod": [],
+    "sqlparse.formatter": [
+        "sqlparse.filters",
+        "sqlparse.exceptions"
+    ],
+    "sqlparse.filters": [
+        "sqlparse.filters.others",
+        "sqlparse.filters.reindent",
+        "sqlparse.filters.tokens",
+        "sqlparse.filters.aligned_indent",
+        "sqlparse.filters.right_margin",
+        "sqlparse.filters.output"
+    ],
+    "sqlparse.filters.others": [
+        "sqlparse.utils",
+        "sqlparse.sql",
+        "sqlparse.tokens",
+        "sqlparse.filters.others.SpacesAroundOperatorsFilter",
+        "sqlparse.filters.others.SerializerUnicode",
+        "sqlparse.filters.others.StripWhitespaceFilter",
+        "sqlparse.filters.others.StripCommentsFilter"
+    ],
+    "sqlparse.filters.others.StripCommentsFilter": [
+        "<builtin>.staticmethod"
+    ],
+    "sqlparse.filters.others.StripWhitespaceFilter": [
+        "<builtin>.staticmethod"
+    ],
+    "sqlparse.filters.others.SpacesAroundOperatorsFilter": [
+        "<builtin>.staticmethod"
+    ],
+    "sqlparse.filters.others.SerializerUnicode": [
+        "<builtin>.staticmethod"
+    ],
+    "sqlparse.filters.output": [
+        "sqlparse.sql",
+        "sqlparse.tokens",
+        "sqlparse.filters.output.OutputPythonFilter",
+        "sqlparse.filters.output.OutputFilter",
+        "sqlparse.filters.output.OutputPHPFilter"
+    ],
+    "sqlparse.filters.output.OutputFilter": [],
+    "sqlparse.filters.output.OutputPythonFilter": [],
+    "sqlparse.filters.output.OutputPHPFilter": [],
+    "sqlparse.filters.tokens": [
+        "sqlparse.filters.tokens._CaseFilter",
+        "sqlparse.tokens",
+        "sqlparse.filters.tokens.IdentifierCaseFilter",
+        "sqlparse.filters.tokens.KeywordCaseFilter",
+        "sqlparse.filters.tokens.TruncateStringFilter"
+    ],
+    "sqlparse.filters.tokens._CaseFilter": [],
+    "sqlparse.filters.tokens.KeywordCaseFilter": [],
+    "sqlparse.filters.tokens.IdentifierCaseFilter": [],
+    "sqlparse.filters.tokens.TruncateStringFilter": [],
+    "sqlparse.filters.reindent": [
+        "sqlparse.utils",
+        "sqlparse.filters.reindent.ReindentFilter",
+        "sqlparse.sql",
+        "sqlparse.tokens"
+    ],
+    "sqlparse.filters.reindent.ReindentFilter": [
+        "<builtin>.property"
+    ],
+    "sqlparse.filters.right_margin": [
+        "sqlparse.sql",
+        "sqlparse.filters.right_margin.RightMarginFilter",
+        "sqlparse.tokens"
+    ],
+    "sqlparse.filters.right_margin.RightMarginFilter": [],
+    "sqlparse.filters.aligned_indent": [
+        "sqlparse.utils",
+        "sqlparse.sql",
+        "sqlparse.tokens",
+        "sqlparse.filters.aligned_indent.AlignedIndentFilter"
+    ],
+    "sqlparse.filters.aligned_indent.AlignedIndentFilter": [],
+    "sqlparse.exceptions": [
+        "sqlparse.exceptions.SQLParseError"
+    ],
+    "sqlparse.exceptions.SQLParseError": [],
+    "sqlparse.cli": [
+        "sqlparse.exceptions",
+        "sqlparse"
+    ],
+    "sqlparse": [
+        "sqlparse.formatter",
+        "sqlparse.filters",
+        "sqlparse.engine",
+        "sqlparse.sql",
+        "sqlparse.cli",
+        "sqlparse.tokens"
+    ],
+    "sqlparse.engine": [
+        "sqlparse.engine.filter_stack",
+        "sqlparse.engine.grouping",
+        "sqlparse.engine.statement_splitter"
+    ],
+    "sqlparse.engine.grouping": [
+        "sqlparse.utils",
+        "sqlparse.utils.recurse.wrap",
+        "sqlparse.sql",
+        "sqlparse.tokens",
+        "sqlparse.utils.recurse"
+    ],
+    "sqlparse.utils.recurse": [],
+    "sqlparse.utils.recurse.wrap": [],
+    "sqlparse.engine.filter_stack": [
+        "sqlparse.engine.filter_stack.FilterStack",
+        "sqlparse.engine.grouping",
+        "sqlparse.engine.statement_splitter",
+        "sqlparse.lexer"
+    ],
+    "sqlparse.engine.statement_splitter": [
+        "sqlparse.sql",
+        "sqlparse.tokens",
+        "sqlparse.engine.statement_splitter.StatementSplitter"
+    ],
+    "sqlparse.engine.statement_splitter.StatementSplitter": [],
+    "sqlparse.engine.filter_stack.FilterStack": [],
+    "sqlparse.__main__": [
+        "sqlparse.cli",
+        "sqlparse.cli.main"
+    ],
+    "sqlparse.cli.main": [
+        "sqlparse.cli.create_parser",
+        "<builtin>.open",
+        "sqlparse.cli._error",
+        "<builtin>.vars",
+        "sqlparse.format",
+        "sqlparse.formatter.validate_options"
+    ],
+    "sqlparse.cli.create_parser": [
+        "<str>.format",
+        "<str>.join"
+    ],
+    "<str>.format": [],
+    "<str>.join": [],
+    "<builtin>.open": [],
+    "sqlparse.cli._error": [],
+    "<builtin>.vars": [],
+    "sqlparse.formatter.validate_options": [
+        "<builtin>.int"
+    ],
+    "<builtin>.int": [],
+    "sqlparse.format": [
+        "sqlparse.engine.filter_stack.FilterStack.run",
+        "sqlparse.formatter.build_filter_stack",
+        "sqlparse.engine.filter_stack.FilterStack.__init__",
+        "<list>.append",
+        "sqlparse.formatter.validate_options"
+    ],
+    "sqlparse.engine.filter_stack.FilterStack.__init__": [],
+    "sqlparse.formatter.build_filter_stack": [
+        "sqlparse.engine.filter_stack.FilterStack.enable_grouping",
+        "<list>.append"
+    ],
+    "<list>.append": [],
+    "sqlparse.engine.filter_stack.FilterStack.enable_grouping": [],
+    "sqlparse.engine.filter_stack.FilterStack.run": [
+        "sqlparse.lexer.tokenize",
+        "sqlparse.engine.grouping.group",
+        "sqlparse.engine.statement_splitter.StatementSplitter.process",
+        "sqlparse.engine.statement_splitter.StatementSplitter.__init__"
+    ],
+    "sqlparse.lexer.tokenize": [
+        "sqlparse.lexer.Lexer.get_tokens"
+    ],
+    "sqlparse.lexer.Lexer.get_tokens": [
+        "<builtin>.TypeError",
+        "sqlparse.utils.consume",
+        "<builtin>.callable",
+        "<builtin>.enumerate",
+        "<builtin>.isinstance",
+        "<builtin>.type"
+    ],
+    "<builtin>.isinstance": [],
+    "<builtin>.type": [],
+    "<builtin>.TypeError": [],
+    "<builtin>.enumerate": [],
+    "<builtin>.callable": [],
+    "sqlparse.utils.consume": [],
+    "sqlparse.engine.statement_splitter.StatementSplitter.__init__": [
+        "sqlparse.engine.statement_splitter.StatementSplitter._reset"
+    ],
+    "sqlparse.engine.statement_splitter.StatementSplitter._reset": [],
+    "sqlparse.engine.statement_splitter.StatementSplitter.process": [
+        "sqlparse.engine.statement_splitter.StatementSplitter._change_splitlevel",
+        "sqlparse.engine.statement_splitter.StatementSplitter._reset",
+        "<list>.append",
+        "<builtin>.all"
+    ],
+    "sqlparse.engine.statement_splitter.StatementSplitter._change_splitlevel": [
+        "<builtin>.max"
+    ],
+    "<builtin>.max": [],
+    "<builtin>.all": [],
+    "sqlparse.engine.grouping.group": [],
+    "sqlparse.parse": [
+        "<builtin>.tuple",
+        "sqlparse.parsestream"
+    ],
+    "sqlparse.parsestream": [
+        "sqlparse.engine.filter_stack.FilterStack.enable_grouping",
+        "sqlparse.engine.filter_stack.FilterStack.run",
+        "sqlparse.engine.filter_stack.FilterStack.__init__"
+    ],
+    "<builtin>.tuple": []
+}

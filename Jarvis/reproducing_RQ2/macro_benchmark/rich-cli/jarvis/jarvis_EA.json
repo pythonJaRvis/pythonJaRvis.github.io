@@ -1,0 +1,132 @@
+{
+    "rich_cli": [],
+    "rich_cli.__main__": [
+        "rich_cli.__main__.RichCommand",
+        "<builtin>.sorted",
+        "<str>.join",
+        "rich_cli.__main__.run",
+        "rich_cli.__main__.ForceWidth"
+    ],
+    "<str>.join": [],
+    "rich_cli.__main__.ForceWidth": [],
+    "rich_cli.__main__.RichCommand": [],
+    "rich_cli.__main__.run": [
+        "rich_cli.__main__.main"
+    ],
+    "rich_cli.__main__.main": [
+        "<builtin>.int",
+        "<str>.split",
+        "<str>.splitlines",
+        "rich_cli.__main__.render_csv",
+        "rich_cli.markdown",
+        "rich_cli.__main__.ForceWidth.__init__",
+        "<builtin>.tuple",
+        "<builtin>.len",
+        "rich_cli.__main__.main.print_usage",
+        "rich_cli.pager.PagerRenderable.__init__",
+        "<builtin>.eval",
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.read_resource",
+        "<str>.upper",
+        "<builtin>.bool",
+        "rich_cli.pager",
+        "rich_cli.__main__.render_ipynb",
+        "<builtin>.getattr",
+        "rich_cli.__main__.on_error"
+    ],
+    "<builtin>.bool": [],
+    "<builtin>.int": [],
+    "<str>.split": [],
+    "rich_cli.__main__.on_error": [
+        "<builtin>.str"
+    ],
+    "<builtin>.str": [],
+    "rich_cli.__main__.main.print_usage": [],
+    "rich_cli.__main__.read_resource": [
+        "<builtin>.open",
+        "<map>.get",
+        "rich_cli.__main__.on_error"
+    ],
+    "<builtin>.open": [],
+    "<map>.get": [],
+    "<str>.splitlines": [],
+    "<builtin>.len": [],
+    "rich_cli.__main__._line_range": [
+        "rich_cli.__main__.on_error"
+    ],
+    "rich_cli.__main__.render_ipynb": [
+        "<str>.rstrip",
+        "rich_cli.__main__._line_range",
+        "rich_cli.__main__.read_resource",
+        "<str>.splitlines",
+        "rich_cli.markdown",
+        "<builtin>.isinstance",
+        "<builtin>.len"
+    ],
+    "rich_cli.markdown": [
+        "rich_cli.markdown.CodeBlock"
+    ],
+    "rich_cli.markdown.CodeBlock": [
+        "<builtin>.classmethod"
+    ],
+    "<builtin>.classmethod": [],
+    "<builtin>.isinstance": [],
+    "<str>.rstrip": [],
+    "rich_cli.__main__.render_csv": [
+        "<builtin>.str",
+        "<builtin>.enumerate",
+        "<builtin>.iter",
+        "<builtin>.next",
+        "rich_cli.__main__.read_resource",
+        "rich_cli.__main__.on_error"
+    ],
+    "<builtin>.iter": [],
+    "<builtin>.next": [],
+    "<builtin>.enumerate": [],
+    "<builtin>.eval": [],
+    "<builtin>.tuple": [],
+    "<str>.upper": [],
+    "<builtin>.getattr": [],
+    "rich_cli.__main__.ForceWidth.__init__": [],
+    "rich_cli.pager": [
+        "rich_cli.pager.PagerApp",
+        "rich_cli.pager.PagerRenderable"
+    ],
+    "rich_cli.pager.PagerRenderable": [],
+    "rich_cli.pager.PagerApp": [],
+    "rich_cli.pager.PagerRenderable.__init__": [
+        "<builtin>.list"
+    ],
+    "<builtin>.list": [],
+    "rich_cli.win_vt": [],
+    "<builtin>.sorted": [],
+    "rich_cli.__main__.ForceWidth.__rich_measure__": [],
+    "rich_cli.__main__.blend_text": [
+        "<builtin>.range",
+        "<builtin>.int",
+        "<builtin>.len"
+    ],
+    "<builtin>.range": [],
+    "rich_cli.__main__.RichCommand.format_help": [
+        "rich_cli.__main__.RichCommand.format_help.OptionHighlighter",
+        "rich_cli.__main__.blend_text",
+        "<builtin>.reversed",
+        "<builtin>.len"
+    ],
+    "rich_cli.__main__.RichCommand.format_help.OptionHighlighter": [],
+    "<builtin>.reversed": [],
+    "rich_cli.markdown.CodeBlock.create": [
+        "rich_cli.markdown.CodeBlock.__init__"
+    ],
+    "rich_cli.markdown.CodeBlock.__init__": [],
+    "rich_cli.markdown.CodeBlock.__rich_console__": [
+        "<builtin>.str"
+    ],
+    "rich_cli.pager.PagerRenderable.__rich_measure__": [],
+    "rich_cli.pager.PagerApp.__init__": [
+        "<builtin>.super"
+    ],
+    "<builtin>.super": [],
+    "rich_cli.pager.PagerApp.on_mount": [],
+    "rich_cli.win_vt._get_console_mode": []
+}

@@ -20,7 +20,7 @@ To overcome these drawbacks, we propose a scalable demand-driven approach for ge
 
 
 
-The paper has been submitted to ISSTA 2024.
+The paper has been submitted to ISSTA 2024. The Jarvis artifact is provided [here](Jarvis.zip).
 
 ## Transfer rules
 
@@ -118,68 +118,129 @@ d_1=new\_def(cls), d_2=new\_def(cls.\_\_iter\_\_), d_3=new\_def(f)
 
 ## Dataset and Ground truth
 
-The micro-benchmark and macro-benchmark is provide in our [dataset](dataset.zip).
+The micro-benchmark and macro-benchmark is provide in `dataset` and `ground_truth` directory.
 
 ## Getting Jarvis to run
 
-<<<<<<< HEAD
-=======
+Prerequisites:
+* Python = 3.8
+* PyCG: tool/PyCG
+* Jarvis: tool/Jarvis
 
->>>>>>> f2151faf872f13a7cc080b8b1eee62446a4826a5
+run `jarvis_cli.py`.
+
+Jarvis usage:
+
+```bash
+$ python3 tool/Jarvis/jarvis_cli.py [module_path1 module_path2 module_path3...] [--package] [--decy] [-o output_path]
+```
+
+Jarvis help:
+
+```bash
+$ python3 tool/Jarvis/jarvis_cli.py -h
+  usage: jarvis_cli.py [-h] [--package PACKAGE] [--decy] [--precision]
+                       [--moduleEntry [MODULEENTRY ...]]
+                       [--operation {call-graph,key-error}] [-o OUTPUT]
+                       [module ...]
+
+  positional arguments:
+    module                modules to be processed, which are also 'Demands' in D.W. mode 
+
+  options:
+    -h, --help            show this help message and exit
+    --package PACKAGE     Package containing the code to be analyzed
+    --decy                whether analyze the dependencies
+    --precision           whether flow-sensitive
+    --entry-point [MODULEENTRY ...]
+                          Entry functions to be processed
+    -o OUTPUT, --output OUTPUT
+                          Output call graph path
+```
+
+*Example 1:* analyze bpytop.py in E.A. mode.
+
+```bash
+$ python3 tool/Jarvis/jarvis_cli.py dataset/macro_benchmark/pj/bpytop/bpytop.py --package dataset/macro_benchmark/pj/bpytop -o jarvis.json
+```
+
+*Example 2:* analyze bpytop.py in D.W. mode. Note we should prepare all the dependencies in the virtual environment.
+
+```bash
+# create virtualenv environment
+$ virtualenv venv python=python3.8
+# install Dependencies in virtualenv environment
+$ python3 -m pip install psutil
+# run jarvis
+$ python3 tool/Jarvis/jarvis_cli.py dataset/macro_benchmark/pj/bpytop/bpytop.py --package dataset/macro_benchmark/pj/bpytop --decy -o jarvis.json
+```
+
+
+
+
 ## Evaluation 
+
+### RQ1 and RQ2 Setup
+
+cd to the root directory of the unzipped files.
+
+```bash
+# 1. run micro_benchmark
+$ ./reproducing_RQ12_setup/micro_benchmark/test_All.sh
+# 2. run macro_benchmark
+$ ./reproducing_RQ12_setup/macro_benchmark/pycg_EA.sh
+#     PyCG iterates once
+$ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh 1
+#     PyCG iterates twice
+$ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh 2
+#     PyCG iterates to convergence 
+$ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_DA.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_EA.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_DW.sh
+```
 
 ### RQ1. Scalability Evaluation
 
-#### Micro-benchmark
 
-For Jarvis, run
+#### Scalability results
+Run
 
-```
-python jarvis_cli.py 
-```
-
-For PyCG, run
-```
-python pycg.py
+```bash
+$ python3 ./reproducing_RQ1/gen_table.py
 ```
 
-Upon executed Jarvis and PyCG, there are two call graph files. xxx and xxx. Use the `compare.py` to generate the scalability result.
-```
-python compare.py
+The results are shown below:
+
+![scalability](Jarvis/reproducing_RQ1/scalability.png)
+
+#### AGs and FAGs 
+
+Run 
+
+```shell
+$ pip3 install matplotlib
+$ pip3 install numpy
+$ python3 ./reproducing_RQ1/FAG/plot.py
 ```
 
+The generated graphs are `pycg-ag.pdf`, `pycg-change-ag.pdf` and `jarvis-fag.pdf`, where they represents Fig. 9a, Fig. 9b and Fig 10, correspondingly.
 
 
-
-#### Macro-benchmark
-```
-python jarvis_cli.py 
-```
-
-To measure FAG and AG, run Javis:
-```
-python jarvis_cli.py fag=true
-```
-
-run PyCG:
-```
-python pycg.py ag=true
-```
-
-Use the `gen_plot.py` to generate the FAG graphs.
-```
-python gen_plot.py
-```
 
 ### RQ2. Accuracy Evaluation
 
-```
-python jarvis_cli.py 
+#### Accuracy results
+
+Run
+
+```bash
+$ python3 ./reproducing_RQ2/gen_table.py     
 ```
 
-```
-python jarvis_cli.py 
-```
+The generated results:
+
+![accuracy](Jarvis/reproducing_RQ2/accuracy.png)
 
 ### Case Study: Fine-grained Tracking of Vulnerable Dependencies
 
@@ -208,24 +269,24 @@ The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care t
 
 ```
 - sherlock.sherlock
-  - requests(v2.31.0)
-    - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - requests(v2.28.0)
+    - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - sherlock.sites
-  - requests(v.2.31.0)
-    - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - requests(v.2.28.0)
+    - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ```
 
 ##### airflow
 
 ```
 - airflow.kubernetes.kube_client
-  - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - airflow.providers.cncf.kubernetes.operators.pod
-  - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - airflow.providers.cncf.kubernetes.utils.pod_manager
-  - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - airflow.executors.kubernetes_executor
-  - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ......
 ```
 
@@ -233,19 +294,19 @@ The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care t
 
 ```
 - wagtail.contrib.frontend_cache.backends
-  - requests(v2.31.0)
-    - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - requests(v2.28.0)
+    - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ```
 
 ##### Httpie
 
 ```
 - httpie.client
-  - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - httpie.ssl_
-  - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - httpie.models
-  - urllib3(2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - urllib3(1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ```
 
 ##### Scrapy
@@ -253,22 +314,22 @@ The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care t
 ```
 - scrapy.downloadermiddlewares.cookies
   - tldextract(v3.4.4)
-    - requests(v2.31.0)
-      - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+    - requests(v2.28.0)
+      - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ```
 
 ##### Lightning
 
 ```
 - lightning.app.utilities.network
-  - requests(v2.31.0)
-    - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - requests(v2.28.0)
+    - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - lightning.app.utilities.network
-  - requests(v2.31.0)
-    - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - requests(v2.28.0)
+    - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - lightning.app.utilities.network
-  - requests(v2.31.0)
-    - urllib3(v2.0.4) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
+  - requests(v2.28.0)
+    - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ...
 ```
 
