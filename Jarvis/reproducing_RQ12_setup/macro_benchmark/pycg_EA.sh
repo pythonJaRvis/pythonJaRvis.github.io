@@ -3,7 +3,11 @@ PjDir=$(pwd)/dataset/macro_benchmark/pj
 OutputDir=$(pwd)/output/macro_benchmark
 
 Base=$(pwd)/tool
+if [ ! -d "$OutputDir" ]; then
 
+	mkdir -p $OutputDir
+    mkdir -p $OutputDir/{bpytop,sshtunnel,rich-cli,furl,sqlparse,TextRank4ZH}/{pycg,jarvis}
+fi
 
 pip3 install pycg >/dev/null 2>&1
 

@@ -3,7 +3,11 @@ PjDir=$(pwd)/dataset/macro_benchmark/pj
 OutputDir=$(pwd)/output/macro_benchmark
 
 Base=$(pwd)/tool
+if [ ! -d "$OutputDir" ]; then
 
+	mkdir -p $OutputDir
+    mkdir -p $OutputDir/{bpytop,sshtunnel,rich-cli,furl,sqlparse,TextRank4ZH}/{pycg,jarvis}
+fi
 
 if [ "$#" -eq 0 ]; then
     echo 'bpytop analyze'

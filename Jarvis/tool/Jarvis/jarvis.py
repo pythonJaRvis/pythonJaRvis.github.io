@@ -135,6 +135,8 @@ class CallGraphGenerator(object):
             self.moduleEntry = []
             for local in self.module_manager.local:
                 moduleNode = self.module_manager.get(local)
+                if not moduleNode:
+                    continue
                 methodDict: dict = moduleNode.get_methods()
                 for method in methodDict.keys():
                     self.moduleEntry.append(method)

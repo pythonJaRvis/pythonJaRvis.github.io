@@ -4,6 +4,9 @@ OutputDir=$(pwd)/output/micro_benchmark
 Base=$(pwd)/tool
 
 start_pycg(){
+	if [ ! -d "$OutputDir" ]; then
+		mkdir -p "$OutputDir"
+	fi
     # pip3 install pycg
 	for element in `ls $1`
 	do

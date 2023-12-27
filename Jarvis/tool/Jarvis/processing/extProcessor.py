@@ -814,16 +814,18 @@ class ExtProcessor(ProcessingBase):
                 return_ns = utils.join_ns(name, utils.constants.RETURN_NAME)
                 iter_return_ns = utils.join_ns(name, utils.constants.ITER_METHOD,utils.constants.RETURN_NAME)
                 next_return_ns = utils.join_ns(name, utils.constants.NEXT_METHOD,utils.constants.RETURN_NAME)
-                pointList += self.getYPOint(node.lineno, iter_return_ns)
-                pointList += self.getYPOint(node.lineno, next_return_ns)
-                pointList += self.getYPOint(node.lineno, return_ns)
-
                 if self.def_manager.get(iter_ns):
                     # self.cg.add_edge(self.current_ns, iter_ns)
                     self.pushStack(self.def_manager.get(iter_ns))
                 if self.def_manager.get(next_ns):
                     # self.cg.add_edge(self.current_ns, next_ns)
                     self.pushStack(self.def_manager.get(next_ns))
+                if self.def_manager.get(iter_return_ns):
+                    pointList += self.getYPOint(node.lineno, iter_return_ns)
+                if self.def_manager.get(next_return_ns):
+                    pointList += self.getYPOint(node.lineno, next_return_ns)
+                if self.def_manager.get(return_ns):
+                    pointList += self.getYPOint(node.lineno, return_ns)
         pointList = list(set(pointList))
         for inode in inodeList:
             if isinstance(inode,Definition):
@@ -1297,7 +1299,7 @@ class ExtProcessor(ProcessingBase):
                     argsPoint = self.getYPOint(node.lineno, [arg])
                 elif isinstance(arg, list) and arg:
                     # argsPoint = reduce(lambda x, y: x + y, map(lambda x: self.getPoint(x), arg))
-                    argsPoint = self.getYPOint(node.lineno, [arg])
+                    argsPoint = self.getYPOint(node.lineno, arg)
                 elif isinstance(arg, ScopeItem):
                     # argsPoint = self.getPoint(arg.get_ns())
                     argsPoint = self.getYPOint(node.lineno, [arg])
@@ -1501,11 +1503,11 @@ class ExtProcessor(ProcessingBase):
             self.import_manager.create_node(self.modname)
             self.import_manager.set_filepath(self.modname, self.filename)
 
-        # try:
-        #     self.visit(ast.parse(self.contents, self.filename))
-        # except Exception:
-        #     print(self.filename, "error")
-        self.visit(ast.parse(self.contents, self.filename))
+        try:
+            self.visit(ast.parse(self.contents, self.filename))
+        except Exception:
+            pass
+        # self.visit(ast.parse(self.contents, self.filename))
 
     def analyze_localfunction(self, localList):
         for local in localList:
@@ -1694,6 +1696,8 @@ class ExtProcessor(ProcessingBase):
                 curScope.add_def(defiNs[len(curScopeNs) + 1:], changedDefi)
 
     def resolve(self, calleeNs: str, row: int, flag=False) -> list:
+        if "__iter__.<return>" in calleeNs:
+            print()
         calleeDefi: Definition = self.def_manager.get(calleeNs)
         tmp = reduce(
             lambda x, y: x or y, map(lambda x: x in calleeNs, utils.constants.BUILTTYPE)
@@ -1753,7 +1757,8 @@ class ExtProcessor(ProcessingBase):
                 rightList.insert(0, ns[rIndex:])
                 ns = ns[:rIndex]
             return [ns], rightList
-
+        if "__iter__.<RETURN>" in ns:
+            print()
         if not isinstance(ns, str):
             return []
         leftList, rightList = helper(ns)
@@ -1768,6 +1773,9 @@ class ExtProcessor(ProcessingBase):
         leftList = list(
             filter(lambda x: x, self.flatten(list(map(self.convert_final, leftList))))
         )
+        for x in leftList:
+            if "__iter__.<RETURN>" in x:
+                print()
         return leftList
 
     def mergeLeftRight(self, left, row, right):
@@ -1818,6 +1826,14 @@ class ExtProcessor(ProcessingBase):
                     visited.add("<list>")
                 if curDefi.get_type() == utils.constants.MAP_DEF:
                     visited.add("<map>")
+                if "<str>" in curDefi.get_ns():
+                    visited.add("<str>")
+                if "<list>" in curDefi.get_ns():
+                    visited.add("<list>")
+                if "<dict>" in curDefi.get_ns():
+                    visited.add("<dict>")
+                if "<int>" in curDefi.get_ns():
+                    visited.add("<int>")
                 visited.add(cur)
             return visited
 
