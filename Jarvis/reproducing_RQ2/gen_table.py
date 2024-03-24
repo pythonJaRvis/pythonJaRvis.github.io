@@ -208,7 +208,6 @@ import json
 import os
 
 pjList = ['bpytop', 'sqlparse', 'textrank4zh', 'furl', 'rich-cli', 'sshtunnel']
-gt_bpytop = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/bpytop'
 
 
 
