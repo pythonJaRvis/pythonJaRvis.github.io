@@ -1,6 +1,6 @@
 ## Dataset and Ground truth
 
-The micro-benchmark and macro-benchmark is provide in `dataset` and `ground_truth` directory.
+The micro-benchmark and macro-benchmark are provided in `dataset` and `ground_truth` directory.
 
 ## Getting Jarvis to run
 
@@ -47,7 +47,7 @@ $ python3 tool/Jarvis/jarvis_cli.py -h
 $ python3 tool/Jarvis/jarvis_cli.py dataset/macro_benchmark/pj/bpytop/bpytop.py --package dataset/macro_benchmark/pj/bpytop -o jarvis.json
 ```
 
-*Example 2:* analyze bpytop.py in D.W. mode. Note we should prepare all the dependencies in the virtual environment.
+*Example 2:* analyze bpytop.py in A.W. mode. Note we should prepare all the dependencies in the virtual environment.
 
 ```bash
 # create virtualenv environment
@@ -78,9 +78,9 @@ $ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh 1
 $ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh 2
 #     PyCG iterates to convergence 
 $ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh
-$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_DA.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_AA.sh
 $ ./reproducing_RQ12_setup/macro_benchmark/jarvis_EA.sh
-$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_DW.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_AW.sh
 ```
 
 ### RQ1. Scalability Evaluation
@@ -98,17 +98,17 @@ The results are shown below:
 
 ![scalability](Jarvis/reproducing_RQ1/scalability.png)
 
-#### AGs and FAGs 
+#### AGs and FTGs 
 
 Run 
 
 ```shell
 $ pip3 install matplotlib
 $ pip3 install numpy
-$ python3 ./reproducing_RQ1/FAG/plot.py
+$ python3 ./reproducing_RQ1/FTG/plot.py
 ```
 
-The generated graphs are `pycg-ag.pdf`, `pycg-change-ag.pdf` and `jarvis-fag.pdf`, where they represents Fig. 9a, Fig. 9b and Fig 10, correspondingly.
+The generated graphs are `pycg-ag.pdf`, `pycg-change-ag.pdf` and `jarvis-ftg.pdf`, where they represents Fig. 9a, Fig. 9b and Fig 10, correspondingly.
 
 
 

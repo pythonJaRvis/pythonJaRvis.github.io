@@ -14,68 +14,68 @@
 
 ## ABSTRACT
 
-Call graph generation is the foundation of inter-procedural static analysis. PyCG is the state-of-the-art approach for generating call graphs for Python programs. Unfortunately, PyCG does not scale to large programs when adapted to whole-program analysis where dependent libraries are also analyzed. Further, PyCG does not support demand-driven analysis where only the reachable functions from given entry functions are analyzed. Moreover, PyCG is flow-insensitive and does not fully support Python's features, hindering its accuracy.
+Call graph construction is the foundation of inter-procedural static analysis. PyCG is the state-of-the-art approach for constructing call graphs for Python programs. Unfortunately, PyCG does not scale to large programs when adapted to whole-program analysis where application and dependent libraries are both analyzed. Moreover, PyCG is flow-insensitive and does not fully support Python’s features, hindering its accuracy.
 
-To overcome these drawbacks, we propose a scalable demand-driven approach for generating call graphs for Python programs,and implement it as a prototype tool JARVIS . JARVIS maintains an assignment graph (i.e., points-to relations between program identifiers) for each function in a program to allow reuse and improve scalability. Given a set of entry functions as the demands, generates the call graph on-the-fly, where flow-sensitive intra-procedural analysis and inter-procedural analysis are conducted in turn. Our evaluation on a micro-benchmark of 135 small Python programs and a macro-benchmark of 6 real-world Python applications has demonstrated that  can significantly improve PyCG by at least 67% faster in time, 84% higher in precision, and at least 10% higher in recall.
+To overcome these drawbacks, we propose a scalable and precise approach for constructing application-centered call graphs for Python programs, and implement it as a prototype tool JARVIS. JARVIS maintains a type graph (i.e., type relations of program identifiers) for each function in a program to allow type inference. Taking one function as an input, JARVIS generates the call graph on-the-fly, where flow-sensitive intra-procedural analysis and inter-procedural analysis are conducted in turn and strong updates are conducted. Our evaluation on a micro-benchmark of 135 small Python programs and a macro-benchmark of 6 real- world Python applications has demonstrated that JARVIS can significantly improve PYCG by at least 67% faster in time, 84% higher in precision, and at least 20% higher in recall.
 
 
 
-The paper has been submitted to ISSTA 2024. The Jarvis artifact is provided [here](Jarvis.zip).
+The paper has been submitted to ICSE 2025. The Jarvis artifact is provided [here](Jarvis.zip).
 
 ## Transfer rules
 
 $$\begin{align*}
 &{Import:}~from~m~^\prime~import~x, import~m^\prime \\
 &\frac{\begin{matrix}
-d_1=new\_def(m,~x), d_2=new\_def(m^\prime,~x), d_3=d_m, d_4=new\_def(m^\prime)
+t_1=new\_type(m,~x), t_2=new\_type(m^\prime,~x), t_3=t_m, t_4=new\_type(m^\prime)
 \end{matrix}
-}{ \Delta_{e} \leftarrow \langle d_1, d_2, e\rangle, \Delta_{e} \leftarrow \langle d_3, d_4, e\rangle}\\
+}{ \Delta_{e} \leftarrow \langle t_1, t_2, e\rangle, \Delta_{e} \leftarrow \langle t_3, t_4, e\rangle}\\
 &{Assign:}~x=y \\
-&\frac{d_1=new\_def(x), d_2=new\_def(y)} { \Delta_{e} \leftarrow \langle d_1, d_2, e\rangle} \\
+&\frac{t_1=new\_type(x), t_2=new\_type(y)} { \Delta_{e} \leftarrow \langle t_1, t_2, e\rangle} \\
 &{Store:}~x.field~=~y\\
-&\frac{d_i \in points(x), d_2 = new\_def(y)}{\Delta_{e} \leftarrow \langle d_i.field, d_2, e\rangle}\\
+&\frac{t_i \in points(x), t_2 = new\_type(y)}{\Delta_{e} \leftarrow \langle t_i.field, t_2, e\rangle}\\
 &{Load:}~y~=~x.field\\
-&\frac{d_1 \in new\_def(y), d_j \in points(x)}{\Delta_{e} \leftarrow \langle d_1, d_j.field,~e \rangle} \\
+&\frac{t_1 \in new\_type(y), t_j \in points(x)}{\Delta_{e} \leftarrow \langle t_1, t_j.field,~e \rangle} \\
 &{New:}~y~=~x(...) \\
-&\frac{d_1=new\_def(y), d_2=new\_def(x)}{
+&\frac{t_1=new\_type(y), t_2=new\_type(x)}{
 \begin{matrix}
-\Delta_{e}~\leftarrow~{inter\_analysis}(f,~e,FAG^f_{e.p}), \Delta_{e}~\leftarrow~\langle~d_1,~d_2,~e~\rangle\\
+\Delta_{e}~\leftarrow~{inter\_analysis}(f,~e,FTG^f_{e.p}), \Delta_{e}~\leftarrow~\langle~t_1,~t_2,~e~\rangle\\
 \end{matrix}
 } \\
 &{Call:}~a=x.m(...) \\
 &\frac{
 \begin{matrix}
-d_1=new\_def(x), d_2=new\_def(d_1.m), d_3=new\_def(a)
+t_1=new\_type(x), t_2=new\_type(t_1.m), t_3=new\_type(a)
 \end{matrix}
 }
 {\begin{matrix}
-\Delta_{call}~\leftarrow~{inter\_analysis}(f,~e,FAG^f_{e.p}), \Delta_{call}~\leftarrow~\langle~d_3,~d_2.\textit{<ret>},~e\rangle
+\Delta_{call}~\leftarrow~{inter\_analysis}(f,~e,FTG^f_{e.p}), \Delta_{call}~\leftarrow~\langle~t_3,~t_2.\textit{ret},~e\rangle
 \end{matrix}
 }\\
 &{Func:}~def~m^\prime(args...) ...\\
-&\frac{d=new\_def(m^\prime),d_{1...n}=new\_def(args_{1...n})}{\Delta_{e} \leftarrow \langle d, \varnothing, e \rangle,F \leftarrow \langle d,args_{1...n} \rangle}\\
+&\frac{d=new\_type(m^\prime),t_{1...n}=new\_type(args_{1...n})}{\Delta_{e} \leftarrow \langle d, \varnothing, e \rangle,F \leftarrow \langle d,args_{1...n} \rangle}\\
 &{Class:}~class~cls(base...) ...\\
-&\frac{d=new\_def(cls),base_{1...n}=new\_def(base_{1...n})}{\Delta_{e} \leftarrow \langle d, \varnothing, e \rangle,C \leftarrow \langle d,base_{1...n} \rangle}\\
+&\frac{d=new\_type(cls),base_{1...n}=new\_type(base_{1...n})}{\Delta_{e} \leftarrow \langle d, \varnothing, e \rangle,C \leftarrow \langle d,base_{1...n} \rangle}\\
 &{Return:}~def~m^\prime ...~return~x\\
-&\frac{d_1=new\_def(m^\prime), d_2=new\_def(x)}{\Delta_{e} \leftarrow \langle d_1.\textit{<ret>}, d_2, e \rangle}\\
+&\frac{t_1=new\_type(m^\prime), t_2=new\_type(x)}{\Delta_{e} \leftarrow \langle t_1.\textit{ret}, t_2, e \rangle}\\
 &{With:}~with~cls()~as~f\\
 &\frac{
 \begin{matrix}
-d_1=new\_def(cls), d_2=new\_def(cls.\_\_enter\_\_), d_3=new\_def(f)
+t_1=new\_type(cls), t_2=new\_type(cls.\_\_enter\_\_), t_3=new\_type(f)
 \end{matrix}
 }
 {\begin{matrix}
-\Delta_{call}~\leftarrow~{inter\_analysis}(f,~e,FAG^f_{e.p}), \Delta_{call}~\leftarrow~\langle~d_3,~d_2.\textit{<ret>},~e\rangle
+\Delta_{call}~\leftarrow~{inter\_analysis}(f,~e,FTG^f_{e.p}), \Delta_{call}~\leftarrow~\langle~t_3,~t_2.\textit{ret},~e\rangle
 \end{matrix}
 }\\
 &{For:}~for~x~in~cls()\\
 &\frac{
 \begin{matrix}
-d_1=new\_def(cls), d_2=new\_def(cls.\_\_iter\_\_), d_3=new\_def(f)
+t_1=new\_type(cls), t_2=new\_type(cls.\_\_iter\_\_), t_3=new\_type(f)
 \end{matrix}
 }
 {\begin{matrix}
-\Delta_{call}~\leftarrow~{inter\_analysis}(f,~e,FAG^f_{e.p}), \Delta_{call}~\leftarrow~\langle~d_3,~d_2.\textit{<ret>},~e\rangle
+\Delta_{call}~\leftarrow~{inter\_analysis}(f,~e,FTG^f_{e.p}), \Delta_{call}~\leftarrow~\langle~t_3,~t_2.\textit{ret},~e\rangle
 \end{matrix}
 }\\
 &{If:}~if ...\\
@@ -118,7 +118,7 @@ d_1=new\_def(cls), d_2=new\_def(cls.\_\_iter\_\_), d_3=new\_def(f)
 
 ## Dataset and Ground truth
 
-The micro-benchmark and macro-benchmark is provide in `dataset` and `ground_truth` directory.
+The micro-benchmark and macro-benchmark are provided in `dataset` and `grount_truth` directory.
 
 ## Getting Jarvis to run
 
@@ -145,7 +145,7 @@ $ python3 tool/Jarvis/jarvis_cli.py -h
                        [module ...]
 
   positional arguments:
-    module                modules to be processed, which are also 'Demands' in D.W. mode 
+    module                modules to be processed, which are also application entries in A.W. mode 
 
   options:
     -h, --help            show this help message and exit
@@ -164,7 +164,7 @@ $ python3 tool/Jarvis/jarvis_cli.py -h
 $ python3 tool/Jarvis/jarvis_cli.py dataset/macro_benchmark/pj/bpytop/bpytop.py --package dataset/macro_benchmark/pj/bpytop -o jarvis.json
 ```
 
-*Example 2:* analyze bpytop.py in D.W. mode. Note we should prepare all the dependencies in the virtual environment.
+*Example 2:* analyze bpytop.py in A.W. mode. Note we should prepare all the dependencies in the virtual environment.
 
 ```bash
 # create virtualenv environment
@@ -195,9 +195,9 @@ $ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh 1
 $ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh 2
 #     PyCG iterates to convergence 
 $ ./reproducing_RQ12_setup/macro_benchmark/pycg_EW.sh
-$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_DA.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_AA.sh
 $ ./reproducing_RQ12_setup/macro_benchmark/jarvis_EA.sh
-$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_DW.sh
+$ ./reproducing_RQ12_setup/macro_benchmark/jarvis_AW.sh
 ```
 
 ### RQ1. Scalability Evaluation
@@ -214,17 +214,17 @@ The results are shown below:
 
 ![scalability](Jarvis/reproducing_RQ1/scalability.png)
 
-#### AGs and FAGs 
+#### AGs and FTGs 
 
 Run 
 
 ```shell
 $ pip3 install matplotlib
 $ pip3 install numpy
-$ python3 ./reproducing_RQ1/FAG/plot.py
+$ python3 ./reproducing_RQ1/FTG/plot.py
 ```
 
-The generated graphs are `pycg-ag.pdf`, `pycg-change-ag.pdf` and `jarvis-fag.pdf`, where they represents Fig. 9a, Fig. 9b and Fig 10, correspondingly.
+The generated graphs are `pycg-ag.pdf`, `pycg-change-ag.pdf` and `jarvis-ftg.pdf`, where they represents Fig. 9a, Fig. 9b and Fig 10, correspondingly.
 
 
 
@@ -283,7 +283,7 @@ The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care t
   - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - airflow.providers.cncf.kubernetes.operators.pod
   - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
-- airflow.providers.cncf.kubernetes.utils.pod_manager
+- airflow.providers.cncf.kubernetes.utils.pot_manager
   - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 - airflow.executors.kubernetes_executor
   - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
@@ -293,7 +293,7 @@ The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care t
 ##### wagtail
 
 ```
-- wagtail.contrib.frontend_cache.backends
+- wagtail.contrib.frontent_cache.backends
   - requests(v2.28.0)
     - urllib3(v1.26.0) ---- [CVE-2021-33503,CVE-2019-11324,CVE-2019-11236,CVE-2020-7212]
 ```

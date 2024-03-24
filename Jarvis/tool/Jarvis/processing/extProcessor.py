@@ -111,7 +111,6 @@ class ExtProcessor(ProcessingBase):
                 self.cg.add_edge(self.current_ns, callNs)
             return
         gol.add_value('cnt')
-        # base = "/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/result/jarvis/"
         # # if gol.get_value('cnt') % 10 == 0:
         # with open(base + "text.txt",'a') as f:
         #     f.write("{}:{}\n".format(len(self.scope_manager.scopes),len(self.def_manager.defs)))
@@ -294,8 +293,22 @@ class ExtProcessor(ProcessingBase):
                     continue
                 function1Ns = utils.join_ns(leftDefi[0].get_ns(), "__enter__")
                 function2Ns = utils.join_ns(leftDefi[0].get_ns(), "__exit__")
-                function1Defi = self.def_manager.get(function1Ns)
-                function2Defi = self.def_manager.get(function2Ns)
+                
+                # function1Defi = self.def_manager.get(function1Ns)
+                # function2Defi = self.def_manager.get(function2Ns)
+                # function1Defi = self.getYPOint(node.lineno,[function1Ns])
+                # function2Defi = self.getYPOint(node.lineno,[function2Ns])
+                # tmp1 = self.find_field(leftDefi[0].get_ns(),"__enter__")
+                # tmp2 = self.find_field(leftDefi[0].get_ns(),"__exit__")
+                function1Defi = self.find_field(leftDefi[0].get_ns(),"__enter__")
+                function2Defi = self.find_field(leftDefi[0].get_ns(),"__exit__")
+                # print(tmp1.get_ns(),tmp2.get_ns())
+
+                # print(function1Defi,function2Defi)
+                # for d in function1Defi:
+                #     self.pushStack(d, isEntry=True)
+                # for d in function2Defi:
+                #     self.pushStack(d, isEntry=True)
                 self.pushStack(function1Defi, isEntry=True)
                 self.pushStack(function2Defi, isEntry=True)
                 leftPoint = self.getYPOint(

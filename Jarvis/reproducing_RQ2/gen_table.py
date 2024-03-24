@@ -67,8 +67,8 @@ def findFile(item):
             if f == "pycg.json":
                 fullname = os.path.join(root, f)
                 returnList[1] = fullname
-                print(root,Output_Path,Gt_Path)
-                print(root.replace(Output_Path, Gt_Path))
+                # print(root,Output_Path,Gt_Path)
+                # print(root.replace(Output_Path, Gt_Path))
                 fullname = os.path.join(root.replace(Output_Path, Gt_Path), 'callgraph.json')
                 returnList[0] = fullname
             if f == "jarvis.json":
@@ -122,17 +122,19 @@ entries = [
     f"lists",
     f"mro",
     f"returns",
+    f"context_managers",
     f"new_arguments",
     f"new_assignments",
     f"new_control_flow",
     f"new_direct_calls",
     f"new_imports"
 ]
-nums = [6, 4, 3, 22, 7, 12, 4, 3, 4, 6, 14, 3, 5, 8, 7, 4, 4, 4, 5, 5, 5]
+nums = [6, 4, 3, 22, 7, 12, 4, 3, 4, 6, 14, 3, 5, 8, 7, 4,4, 4, 4, 4, 5, 5]
 
 s = '''
 |-------------------------------------------------------------------------------------------------------------
 |{}        {}                {}
+|{} {} {} {} {} {} {} {} {} {} {} 
 |{} {} {} {} {} {} {} {} {} {} {} 
 |{} {} {} {} {} {} {} {} {} {} {} 
 |{} {} {} {} {} {} {} {} {} {} {} 
@@ -168,6 +170,8 @@ cur = [
 ]
 
 for index, (entry, num) in enumerate(zip(entries, nums)):
+    if entry == 'context_managers':
+        print
     pycgres, jarvisres = micro_table(index, entry)
     cur.append(entry.center(interval // 2))
     cur.append("{}/{}".format(pycgres[4], num).center(int1))
@@ -205,19 +209,7 @@ import os
 
 pjList = ['bpytop', 'sqlparse', 'textrank4zh', 'furl', 'rich-cli', 'sshtunnel']
 gt_bpytop = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/bpytop'
-# gt_bpytop = "/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/script/macro/result/bpytop/bpytop.json"
-gt_rich = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/rich-cli'
-gt_sqlparse = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/sqlparse'
-gt_ssh = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/sshtunnel'
-gt_text = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/TextRank4ZH'
-gt_furl = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/groundTruth/furl'
 
-output_bpytop = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/output/bpytop'
-output_rich = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/output/rich-cli'
-output_sqlparse = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/output/sqlparse'
-output_ssh = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/output/sshtunnel'
-output_text = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/output/textrank4zh'
-output_furl = '/Users/yixuanyan/yyx/github/supplychain/YanYixuan/pythonCG/macro_benchmark/output/furl'
 
 
 def run(truth, pycg, pythoncg):

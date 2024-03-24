@@ -4,7 +4,6 @@ import os
 import json
 
 curcwd = os.getcwd()
-curcwd = "/Users/yixuanyan/yyx/github/supplychain/YanYixuan/local"
 base = os.path.join(curcwd,'reproducing_RQ1','macro_benchmark')
 pjList = ['bpytop', 'sqlparse', 'textrank4zh', 'furl', 'rich-cli', 'sshtunnel']
 

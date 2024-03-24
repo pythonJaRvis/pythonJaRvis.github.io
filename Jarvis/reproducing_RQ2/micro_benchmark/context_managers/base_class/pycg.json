@@ -1,0 +1,11 @@
+{
+    "main": [
+        "main.child.__init__"
+    ],
+    "main.base.__init__": [],
+    "main.base.__enter__": [],
+    "main.base.__exit__": [],
+    "main.child.__init__": [],
+    "main.child.__enter__": [],
+    "main.child.operate": []
+}
