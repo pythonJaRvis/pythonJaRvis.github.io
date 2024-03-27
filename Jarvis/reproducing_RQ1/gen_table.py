@@ -116,7 +116,7 @@ interval = 80
 int1 = 8
 cur = [
     ' Id.'.center(int1), 'PYCG'.center(interval), 'JARVIS'.center(interval // 2),
-    '  '.center(int1), 'E.A.(1).'.center(int1*2), 'E.A.(m).'.center(int1*2), 'E.W.(1)'.center(int1*2), 'E.W.(2)'.center(int1*2),'E.W.(m)'.center(int1*2), 'D.W.(2)'.center(int1*2), 'E.A.'.center(int1*2), 'E.W.'.center(int1*2), 'D.A.'.center(int1*2),'D.W.'.center(int1*2),
+    '  '.center(int1), 'E.A.(1).'.center(int1*2), 'E.A.(m).'.center(int1*2), 'E.W.(1)'.center(int1*2), 'E.W.(2)'.center(int1*2),'E.W.(m)'.center(int1*2), 'A.W.(2)'.center(int1*2), 'E.A.'.center(int1*2), 'E.W.'.center(int1*2), 'A.A.'.center(int1*2),'A.W.'.center(int1*2),
     ''.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1),'T.'.center(int1),'M.'.center(int1)
 ]
 
