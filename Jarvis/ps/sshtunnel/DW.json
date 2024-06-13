@@ -1,0 +1,1 @@
+{"sshtunnel": ["sshtunnel._cli_main"], "sshtunnel._cli_main": ["sshtunnel.open_tunnel"], "sshtunnel.open_tunnel": ["sshtunnel.create_logger"], "sshtunnel.create_logger": ["sshtunnel._check_paramiko_handlers"], "sshtunnel._check_paramiko_handlers": []}

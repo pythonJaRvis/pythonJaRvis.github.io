@@ -27,7 +27,7 @@ class ProcessingBase(ast.NodeVisitor):
         self.modules_analyzed.add(self.modname)
 
         self.filename = os.path.abspath(filename)
-        # print(filename)
+        print(filename)
         with open(filename, "rt",errors="ignore") as f:
             self.contents = f.read()
         self.name_stack = []
