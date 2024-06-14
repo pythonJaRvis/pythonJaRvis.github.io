@@ -256,6 +256,8 @@ Accuracy results (RQ2):
 
 ### Case Study: Fine-grained Tracking of Vulnerable Dependencies
 
+The 43 python projects out of the top 200 Highly-starred projects are listed in [file](Jarvis/reproducing_RQ12_setup/projects_case_study.txt)
+
 #### 1. Target projects
 
 [Fastapi](https://github.com/tiangolo/fastapi),  [Httpie](https://github.com/httpie/httpie), [Scrapy](https://github.com/scrapy/scrapy), [Lightning](github.com/Lightning-AI/lightning), [Airflow](https://github.com/apache/airflow),[sherlock](https://github.com/sherlock-project/sherlock),[wagtail](https://github.com/wagtail/wagtail)
@@ -277,7 +279,7 @@ The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care t
 
 #### 3. Vulnerable projects using dependency analysis
 
-The 43 python projects out of the top 200 Highly-starred projects are listed in [file](Jarvis/reproducing_RQ12_setup/projects_case_study.txt)
+
 
 ##### sherlock
 
