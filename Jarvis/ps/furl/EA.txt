@@ -17,4 +17,23 @@ Code2Flow: Skipped processing these calls because the algorithm linked them to m
 Code2Flow: Generating output file...
 Code2Flow: Wrote output file '/Users/yixuanyan/yyx/github/jarvis/Jarvis/ps/furl/EA.json' with 82 nodes and 167 edges.
 Code2Flow: Code2flow finished processing in 0.09 seconds.
-        0.19 real         0.16 user         0.02 sys
+real 0.18
+user 0.15
+sys 0.02
+            17633280  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                5630  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  10  voluntary context switches
+                  41  involuntary context switches
+          1422134931  instructions retired
+           344548537  cycles elapsed
+            13292736  peak memory footprint

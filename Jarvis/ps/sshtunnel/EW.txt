@@ -228,4 +228,23 @@ Traceback (most recent call last):
   File "/Users/yixuanyan/yyx/github/jarvis/venv/lib/python3.8/site-packages/code2flow/python.py", line 18, in get_call_from_func_element
     assert type(func) in (ast.Attribute, ast.Name, ast.Subscript, ast.Call)
 AssertionError
-        1.97 real         1.82 user         0.08 sys
+real 1.95
+user 1.75
+sys 0.08
+            96493568  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               25998  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 160  voluntary context switches
+                1505  involuntary context switches
+         11520154104  instructions retired
+          3578009998  cycles elapsed
+            92321664  peak memory footprint

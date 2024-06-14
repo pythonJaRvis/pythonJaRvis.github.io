@@ -15,5 +15,24 @@ Code2Flow: Found variables ['Segmentation->Segmentation', 'absolute_import->UNKN
 Code2Flow: Skipped processing these calls because the algorithm linked them to multiple function definitions: ['UNKNOWN_VAR.__init__()', 'self.segment()'].
 Code2Flow: Generating output file...
 Code2Flow: Wrote output file '/Users/yixuanyan/yyx/github/jarvis/Jarvis/ps/TextRank4ZH/EA.json' with 20 nodes and 29 edges.
-Code2Flow: Code2flow finished processing in 0.03 seconds.
-        0.13 real         0.10 user         0.02 sys
+Code2Flow: Code2flow finished processing in 0.02 seconds.
+real 0.11
+user 0.09
+sys 0.01
+            14802944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                4938  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                  40  involuntary context switches
+           745396531  instructions retired
+           220264311  cycles elapsed
+            10454208  peak memory footprint

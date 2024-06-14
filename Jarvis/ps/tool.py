@@ -242,6 +242,8 @@ def result(pj):
     
     with open(os.path.join(gtPath,pj,'EA.json'),'r') as f:
         dw_gt = json.load(f)
+    if not os.path.exists(os.path.join(pjPath,pj,'DW.json')):
+        return
     with open(os.path.join(pjPath,pj,'DW.json'),'r') as f:
         dw_data = json.load(f)
     gt_total = 0

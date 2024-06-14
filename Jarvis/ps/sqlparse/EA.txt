@@ -32,5 +32,24 @@ Code2Flow: Found variables ['AlignedIndentFilter->UNKNOWN_MODULE', 'FilterStack-
 Code2Flow: Skipped processing these calls because the algorithm linked them to multiple function definitions: ['UNKNOWN_VAR.__init__()', 'UNKNOWN_VAR.flatten()', 'UNKNOWN_VAR.process()', 'cond.flatten()', 'filter_.process()', 'identifiers.flatten()', 'self.flatten()', 'token._get_repr_name()', 'token.flatten()', 'token.get_real_name()'].
 Code2Flow: Generating output file...
 Code2Flow: Wrote output file '/Users/yixuanyan/yyx/github/jarvis/Jarvis/ps/sqlparse/EA.json' with 128 nodes and 325 edges.
-Code2Flow: Code2flow finished processing in 0.19 seconds.
-        0.30 real         0.25 user         0.03 sys
+Code2Flow: Code2flow finished processing in 0.17 seconds.
+real 0.26
+user 0.23
+sys 0.02
+            19255296  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                6028  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  21  voluntary context switches
+                  53  involuntary context switches
+          2294437680  instructions retired
+           500251987  cycles elapsed
+            14939456  peak memory footprint

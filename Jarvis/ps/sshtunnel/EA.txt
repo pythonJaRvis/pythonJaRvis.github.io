@@ -9,5 +9,24 @@ Code2Flow: Found variables ['SSH_CONFIG_FILE-><Call owner_token=os token=join>',
 Code2Flow: Skipped processing these calls because the algorithm linked them to multiple function definitions: ['_StreamServer.__init__()'].
 Code2Flow: Generating output file...
 Code2Flow: Wrote output file '/Users/yixuanyan/yyx/github/jarvis/Jarvis/ps/sshtunnel/EA.json' with 56 nodes and 91 edges.
-Code2Flow: Code2flow finished processing in 0.08 seconds.
-        0.21 real         0.15 user         0.03 sys
+Code2Flow: Code2flow finished processing in 0.07 seconds.
+real 0.16
+user 0.13
+sys 0.02
+            17268736  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                5535  page reclaims
+                  12  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   4  voluntary context switches
+                  43  involuntary context switches
+          1259111576  instructions retired
+           309910388  cycles elapsed
+            12924096  peak memory footprint

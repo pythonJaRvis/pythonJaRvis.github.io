@@ -13,5 +13,24 @@ Code2Flow: Found variables ['Align->UNKNOWN_MODULE', 'Any->UNKNOWN_MODULE', 'App
 Code2Flow: Skipped processing these calls because the algorithm linked them to multiple function definitions: ['UNKNOWN_VAR.__init__()'].
 Code2Flow: Generating output file...
 Code2Flow: Wrote output file '/Users/yixuanyan/yyx/github/jarvis/Jarvis/ps/rich-cli/EA.json' with 15 nodes and 34 edges.
-Code2Flow: Code2flow finished processing in 0.06 seconds.
-        0.18 real         0.13 user         0.03 sys
+Code2Flow: Code2flow finished processing in 0.04 seconds.
+real 0.13
+user 0.11
+sys 0.01
+            16433152  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                5337  page reclaims
+                   0  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+                  39  involuntary context switches
+           945039674  instructions retired
+           259215875  cycles elapsed
+            12076224  peak memory footprint
