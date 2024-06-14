@@ -242,6 +242,18 @@ The generated results:
 
 ![accuracy](Jarvis/reproducing_RQ2/accuracy.png)
 
+
+
+### Comparing to Code2Flow
+
+Scalability results (RQ1), AE denotes AssertionError:
+
+![scalability](Jarvis/reproducing_RQ1/scalability_code2flow.png)
+
+Accuracy results (RQ2):
+
+![accuracy](Jarvis/reproducing_RQ2/accuracy_code2flow.png)
+
 ### Case Study: Fine-grained Tracking of Vulnerable Dependencies
 
 #### 1. Target projects
@@ -264,6 +276,8 @@ The generated results:
 The CVEs of html , numpy , lxml,psutil don't relate to  Python , we don't care them.
 
 #### 3. Vulnerable projects using dependency analysis
+
+The 43 python projects out of the top 200 Highly-starred projects are listed in [file](Jarvis/reproducing_RQ12_setup/projects_case_study.txt)
 
 ##### sherlock
 
