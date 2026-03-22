@@ -20,7 +20,7 @@ To overcome these drawbacks, we propose a scalable and precise approach for cons
 
 
 
-The paper has been submitted to ICSE 2025. The Jarvis artifact is provided [here](Jarvis.zip).
+The paper has been submitted to TOSEM. The Jarvis artifact is provided [here](Jarvis.zip).
 
 ## Transfer rules
 
