@@ -19,7 +19,6 @@ programs while maintaining high efficiency remains a significant challenge. For 
 scale to large programs. In our preliminary experiments, it ran out of memory or exceeded the time limit for programs exceeding
 2,000 lines of code. This limitation stems from the costly global fixed-point iterations required during analysis. In addition, PyCG is
 flow-insensitive and does not fully support Python’s dynamic features, which further limits its accuracy.
-
     To overcome these drawbacks, we propose a scalable and precise approach for constructing application-centered call graphs for
 Python programs, and implement it as a prototype Jarvis. Jarvis maintains a type graph (i.e., type relations of program identifiers) for
 each function in a program to allow type inference.x Taking one function as an input, Jarvis generates the call graph on-the-fly,
