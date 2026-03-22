@@ -14,9 +14,20 @@
 
 ## ABSTRACT
 
-Call graph construction is the foundation of inter-procedural static analysis. PyCG is the state-of-the-art approach for constructing call graphs for Python programs. Unfortunately, PyCG does not scale to large programs when adapted to whole-program analysis where application and dependent libraries are both analyzed. Moreover, PyCG is flow-insensitive and does not fully support Python’s features, hindering its accuracy.
-
-To overcome these drawbacks, we propose a scalable and precise approach for constructing application-centered call graphs for Python programs, and implement it as a prototype tool JARVIS. JARVIS maintains a type graph (i.e., type relations of program identifiers) for each function in a program to allow type inference. Taking one function as an input, JARVIS generates the call graph on-the-fly, where flow-sensitive intra-procedural analysis and inter-procedural analysis are conducted in turn and strong updates are conducted. Our evaluation on a micro-benchmark of 135 small Python programs and a macro-benchmark of 6 real- world Python applications has demonstrated that JARVIS can significantly improve PYCG by at least 67% faster in time, 84% higher in precision, and at least 20% higher in recall.
+Call graph construction is the foundation of inter-procedural static analysis. However, constructing precise call graphs for Python
+programs while maintaining high efficiency remains a significant challenge. For instance, the state-of-the-art approach, PyCG, fails to
+scale to large programs. In our preliminary experiments, it ran out of memory or exceeded the time limit for programs exceeding
+2,000 lines of code. This limitation stems from the costly global fixed-point iterations required during analysis. In addition, PyCG is
+flow-insensitive and does not fully support Python’s dynamic features, which further limits its accuracy.
+    To overcome these drawbacks, we propose a scalable and precise approach for constructing application-centered call graphs for
+Python programs, and implement it as a prototype Jarvis. Jarvis maintains a type graph (i.e., type relations of program identifiers) for
+each function in a program to allow type inference.x Taking one function as an input, Jarvis generates the call graph on-the-fly,
+where flowsensitive intraprocedural analysis and interprocedural analysis are conducted in turn and strong updates are conducted.
+Unlike traditional whole-program analyses (eg., PyCG) that rely on costly global fixed-point iterations, Jarvis constructs call graphs
+on-the-fly using function-scoped type graphs. By propagating type and call information in a single pass and reusing function-level type
+relations, Jarvis achieves precise, flow-sensitive call graph construction without repeated whole-program iterations. Our evaluation
+on a micro-benchmark of 135 small Python programs and a macro-benchmark of 6 real-world Python applications has demonstrated
+that Jarvis can significantly improve PyCG by at least 67% faster in time, 84% higher in precision, and at least 20% higher in recall
 
 
 
